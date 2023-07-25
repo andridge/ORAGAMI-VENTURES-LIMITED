@@ -1,4 +1,5 @@
-import type { MetaFunction } from "@vercel/remix";
+const { MetaFunction } = require("@vercel/remix");
+import stylesheet from "~/tailwind.css";
 import {
   Links,
   LiveReload,
@@ -7,10 +8,8 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import stylesheet from "~/tailwind.css";
 import { Analytics } from "@vercel/analytics/react";
-
-export const meta: MetaFunction = () => ({
+export const meta = () => ({
   charset: "utf-8",
   title: "New Remix App",
   viewport: "width=device-width,initial-scale=1",
@@ -21,15 +20,16 @@ export const links = () => [
     href: stylesheet,
   },
 ];
-
 export default function App() {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-white">
+      
       <head>
         <Meta />
-        <Links />
+        <Links/>
+         
       </head>
-      <body>
+      <body >
         <Outlet />
         <ScrollRestoration />
         <Scripts />
