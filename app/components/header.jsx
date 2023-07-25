@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import CompanyImage from "../img/favicon copy.jpeg"
 export default function (){
-  const [selectedTab, setSelectedTab] = useState('Collections');
+  const [selectedTab, setSelectedTab] = useState('Home');
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const handleTabClick = (tab) => {
@@ -14,84 +15,88 @@ export default function (){
         <div className="2xl:container 2xl:mx-auto">
         <div className="bg-white rounded shadow-lg py-5 px-7">
           <nav className="flex justify-between">
-            <div className="flex items-center space-x-3 lg:pr-16 pr-6">
-              <svg
-                className="cursor-pointer"
-                width="34"
-                height="34"
-                viewBox="0 0 34 34"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                {/* SVG path content */}
-              </svg>
-              <h2 className="font-normal text-2xl leading-6 text-gray-800">
-                OvonRueden
-              </h2>
-            </div>
+          
             {/* For medium and plus sized devices */}
             <ul className="hidden md:flex flex-auto space-x-2">
               <li
-                onClick={() => handleTabClick('Collections')}
+                onClick={() => handleTabClick('Home')}
                 className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-                  selectedTab === 'Collections'
+                  selectedTab === 'Home'
                     ? 'text-white bg-indigo-600'
                     : 'text-gray-600 border border-white bg-gray-50'
                 } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
               >
-                Collections
+                Home
               </li>
               <li
-                onClick={() => handleTabClick('Arts')}
+                onClick={() => handleTabClick('Page 1')}
                 className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-                  selectedTab === 'Arts'
+                  selectedTab === 'Page 1'
                     ? 'text-white bg-indigo-600'
                     : 'text-gray-600 border border-white bg-gray-50'
                 } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
               >
-                Arts
+                Page 1
               </li>
               <li
-                onClick={() => handleTabClick('Space')}
+                onClick={() => handleTabClick('Page 2')}
                 className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-                  selectedTab === 'Space'
+                  selectedTab === 'Page 2'
                     ? 'text-white bg-indigo-600'
                     : 'text-gray-600 border border-white bg-gray-50'
                 } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
               >
-                Space
+                Page 2
               </li>
               <li
-                onClick={() => handleTabClick('Game')}
+                onClick={() => handleTabClick('Page 3')}
                 className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-                  selectedTab === 'Game'
+                  selectedTab === 'Page 3'
                     ? 'text-white bg-indigo-600'
                     : 'text-gray-600 border border-white bg-gray-50'
                 } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
               >
-                Game
+                Page 3
               </li>
               <li
-                onClick={() => handleTabClick('Utility')}
+                onClick={() => handleTabClick('Page 4')}
                 className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-                  selectedTab === 'Utility'
+                  selectedTab === 'Page 4'
                     ? 'text-white bg-indigo-600'
                     : 'text-gray-600 border border-white bg-gray-50'
                 } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
               >
-                Utility
+                Page 4
               </li>
               <li
-                onClick={() => handleTabClick('Cards')}
+                onClick={() => handleTabClick('About')}
                 className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-                  selectedTab === 'Cards'
+                  selectedTab === 'About'
                     ? 'text-white bg-indigo-600'
                     : 'text-gray-600 border border-white bg-gray-50'
                 } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
               >
-                Cards
+                About
               </li>
             </ul>
+
+            <div className="flex items-center justify-center flex-auto">
+            <svg
+              className="cursor-pointer"
+              width="34"
+              height="34"
+              viewBox="0 0 34 34"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              {/* SVG path content for your logo */}
+             
+            </svg>
+            <h2 className="font-normal text-2xl leading-6 text-red-800">
+            ORIGAMI VENTURES LIMITED
+            </h2>
+          </div>
+
             <div className="flex space-x-5 justify-center items-center pl-2">
               <div
                 onClick={toggleDropdown}
@@ -190,44 +195,44 @@ export default function (){
                 className="font-normal text-base leading-4 absolute top-2 w-full rounded shadow-md"
               >
                 <li
-                  onClick={() => handleTabClick('Arts')}
+                  onClick={() => handleTabClick('Page 1')}
                   className={`px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal ${
-                    selectedTab === 'Arts' ? 'text-white bg-indigo-600' : ''
+                    selectedTab === 'Page 1' ? 'text-white bg-indigo-600' : ''
                   }`}
                 >
-                  Arts
+                  Page 1
                 </li>
                 <li
-                  onClick={() => handleTabClick('Space')}
+                  onClick={() => handleTabClick('Page 2')}
                   className={`px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal ${
-                    selectedTab === 'Space' ? 'text-white bg-indigo-600' : ''
+                    selectedTab === 'Page 2' ? 'text-white bg-indigo-600' : ''
                   }`}
                 >
-                  Space
+                  Page 2
                 </li>
                 <li
-                  onClick={() => handleTabClick('Game')}
+                  onClick={() => handleTabClick('Page 3')}
                   className={`px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal ${
-                    selectedTab === 'Game' ? 'text-white bg-indigo-600' : ''
+                    selectedTab === 'Page 3' ? 'text-white bg-indigo-600' : ''
                   }`}
                 >
-                  Game
+                  Page 3
                 </li>
                 <li
-                  onClick={() => handleTabClick('Utility')}
+                  onClick={() => handleTabClick('Page 4')}
                   className={`px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal ${
-                    selectedTab === 'Utility' ? 'text-white bg-indigo-600' : ''
+                    selectedTab === 'Page 4' ? 'text-white bg-indigo-600' : ''
                   }`}
                 >
-                  Utility
+                  Page 4
                 </li>
                 <li
-                  onClick={() => handleTabClick('Cards')}
+                  onClick={() => handleTabClick('About')}
                   className={`px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal ${
-                    selectedTab === 'Cards' ? 'text-white bg-indigo-600' : ''
+                    selectedTab === 'About' ? 'text-white bg-indigo-600' : ''
                   }`}
                 >
-                  Cards
+                  About
                 </li>
               </ul>
             </div>

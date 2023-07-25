@@ -1218,6 +1218,11 @@
     "picocolors" "^1.0.0"
     "tslib" "^2.6.0"
 
+"@react-leaflet/core@^2.1.0":
+  "integrity" "sha512-Qk7Pfu8BSarKGqILj4x7bCSZ1pjuAPZ+qmRwH5S7mDS91VSbVVsJSrW4qA+GPrro8t69gFYVMWb1Zc4yFmPiVg=="
+  "resolved" "https://registry.npmjs.org/@react-leaflet/core/-/core-2.1.0.tgz"
+  "version" "2.1.0"
+
 "@remix-run/dev@^1.15.0":
   "integrity" "sha512-Piv/neRW1yMscvDpg8RZnyFzEYHT0etr3DYvBbSSe3wOWlXRItUFaXdn8I4ecp4gBkaNJmCni8ueYsk8FeqoBw=="
   "resolved" "https://registry.npmjs.org/@remix-run/dev/-/dev-1.19.1.tgz"
@@ -3876,6 +3881,11 @@
   "resolved" "https://registry.npmjs.org/hast-util-whitespace/-/hast-util-whitespace-2.0.1.tgz"
   "version" "2.0.1"
 
+"heroicons@^2.0.18":
+  "integrity" "sha512-3iaqznaz5GJ8Mox/eDfKHo7tYKuPiZV4vbg6pB6wjJhBa7ZKQlXT1KuUnsjkEiPy/ezyiqppOX6wUqYguMIq8w=="
+  "resolved" "https://registry.npmjs.org/heroicons/-/heroicons-2.0.18.tgz"
+  "version" "2.0.18"
+
 "http-cache-semantics@^4.0.0":
   "integrity" "sha512-er295DKPVsV82j5kw1Gjt+ADA/XYHsajl82cGNQG2eyoPkvgUhX+nDIyelzhIWbbsXP39EHcI6l5tYs2FYqYXQ=="
   "resolved" "https://registry.npmjs.org/http-cache-semantics/-/http-cache-semantics-4.1.1.tgz"
@@ -4457,6 +4467,11 @@
   "version" "1.0.5"
   dependencies:
     "language-subtag-registry" "~0.3.2"
+
+"leaflet@^1.9.0", "leaflet@^1.9.4":
+  "integrity" "sha512-nxS1ynzJOmOlHp+iL3FyWqK89GtNL8U8rvlMOsQdTTssxZwCXh8N2NB3GDQOL+YR3XnWyZAxwQixURb+FA74PA=="
+  "resolved" "https://registry.npmjs.org/leaflet/-/leaflet-1.9.4.tgz"
+  "version" "1.9.4"
 
 "levn@^0.4.1":
   "integrity" "sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ=="
@@ -5884,7 +5899,7 @@
     "iconv-lite" "0.4.24"
     "unpipe" "1.0.0"
 
-"react-dom@*", "react-dom@^18.2.0", "react-dom@>=16.8", "react-dom@>=16.8.0":
+"react-dom@*", "react-dom@^18.0.0", "react-dom@^18.2.0", "react-dom@>=16.8", "react-dom@>=16.8.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -5901,6 +5916,13 @@
   "integrity" "sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w=="
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz"
   "version" "17.0.2"
+
+"react-leaflet@^4.2.1":
+  "integrity" "sha512-p9chkvhcKrWn/H/1FFeVSqLdReGwn2qmiobOQGO3BifX+/vV/39qhY8dGqbdcPh1e6jxh/QHriLXr7a4eLFK4Q=="
+  "resolved" "https://registry.npmjs.org/react-leaflet/-/react-leaflet-4.2.1.tgz"
+  "version" "4.2.1"
+  dependencies:
+    "@react-leaflet/core" "^2.1.0"
 
 "react-refresh@^0.14.0":
   "integrity" "sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ=="
@@ -5922,7 +5944,7 @@
   dependencies:
     "@remix-run/router" "1.7.2"
 
-"react@*", "react@^16.8||^17||^18", "react@^17.0.0 || ^18.0.0", "react@^18.2.0", "react@>=16.8", "react@>=16.8.0":
+"react@*", "react@^16.8||^17||^18", "react@^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.2.0", "react@>=16.8", "react@>=16.8.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
