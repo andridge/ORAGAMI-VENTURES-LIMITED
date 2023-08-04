@@ -1,6 +1,6 @@
 import {
   header_default
-} from "/build/_shared/chunk-LJPOMTQJ.js";
+} from "/build/_shared/chunk-UGYYXXAM.js";
 import "/build/_shared/chunk-M74ZA6GI.js";
 import {
   __toESM,
@@ -310,11 +310,14 @@ function body_default() {
           lineNumber: 101,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("span", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("strong", { className: "font-semibold text-red-600", children: "Crafting and growing unique brands for our clients through strategic positioning " }, void 0, false, {
-          fileName: "app/components/body.jsx",
-          lineNumber: 111,
-          columnNumber: 21
-        }, this) }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("span", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("strong", { className: "font-semibold text-red-600", children: "Crafting and growing unique brands for our clients through strategic positioning " }, void 0, false, {
+            fileName: "app/components/body.jsx",
+            lineNumber: 111,
+            columnNumber: 21
+          }, this),
+          "aligning values, and creating memorable experiences to establish a distinct identity, attracting and retaining guests effectively."
+        ] }, void 0, true, {
           fileName: "app/components/body.jsx",
           lineNumber: 110,
           columnNumber: 19
@@ -596,4 +599,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-VIVBLS4F.js.map
+//# sourceMappingURL=/build/routes/index-524WUBV6.js.map

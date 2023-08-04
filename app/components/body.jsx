@@ -109,6 +109,7 @@ export default function () {
                   {/* CloudArrowUpIcon removed */}
                   <span>
                     <strong className="font-semibold text-red-600">Crafting and growing unique brands for our clients through strategic positioning </strong>
+                    aligning values, and creating memorable experiences to establish a distinct identity, attracting and retaining guests effectively.
                   </span>
                 </li>
               </ul>

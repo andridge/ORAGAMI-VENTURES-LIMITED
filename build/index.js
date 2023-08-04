@@ -380,47 +380,27 @@ function header_default() {
                 viewBox: "0 0 24 24",
                 fill: "none",
                 xmlns: "http://www.w3.org/2000/svg",
-                children: [
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
-                    "path",
-                    {
-                      d: "M21 15C21 15.5304 20.7893 16.0391 20.4142 16.4142C20.0391 16.7893 19.5304 17 19 17H7L3 21V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V15Z",
-                      stroke: "#1F2937",
-                      strokeWidth: "1.5",
-                      strokeLinecap: "round",
-                      strokeLinejoin: "round"
-                    },
-                    void 0,
-                    !1,
-                    {
-                      fileName: "app/components/header.jsx",
-                      lineNumber: 130,
-                      columnNumber: 19
-                    },
-                    this
-                  ),
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
-                    "path",
-                    {
-                      d: "M13.73 21C13.5542 21.3031 13.3019 21.5547 12.9982 21.7295C12.6946 21.9044 12.3504 21.9965 12 21.9965C11.6496 21.9965 11.3054 21.9044 11.0018 21.7295C10.6982 21.5547 10.4458 21.3031 10.27 21",
-                      stroke: "#1F2937",
-                      strokeWidth: "1.5",
-                      strokeLinecap: "round",
-                      strokeLinejoin: "round"
-                    },
-                    void 0,
-                    !1,
-                    {
-                      fileName: "app/components/header.jsx",
-                      lineNumber: 137,
-                      columnNumber: 17
-                    },
-                    this
-                  )
-                ]
+                children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
+                  "path",
+                  {
+                    d: "M21 15C21 15.5304 20.7893 16.0391 20.4142 16.4142C20.0391 16.7893 19.5304 17 19 17H7L3 21V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V15Z",
+                    stroke: "#1F2937",
+                    strokeWidth: "1.5",
+                    strokeLinecap: "round",
+                    strokeLinejoin: "round"
+                  },
+                  void 0,
+                  !1,
+                  {
+                    fileName: "app/components/header.jsx",
+                    lineNumber: 130,
+                    columnNumber: 19
+                  },
+                  this
+                )
               },
               void 0,
-              !0,
+              !1,
               {
                 fileName: "app/components/header.jsx",
                 lineNumber: 122,
@@ -461,7 +441,7 @@ function header_default() {
                 !1,
                 {
                   fileName: "app/components/header.jsx",
-                  lineNumber: 156,
+                  lineNumber: 150,
                   columnNumber: 17
                 },
                 this
@@ -479,7 +459,7 @@ function header_default() {
                 !1,
                 {
                   fileName: "app/components/header.jsx",
-                  lineNumber: 163,
+                  lineNumber: 157,
                   columnNumber: 17
                 },
                 this
@@ -490,7 +470,7 @@ function header_default() {
           !0,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 147,
+            lineNumber: 141,
             columnNumber: 15
           },
           this
@@ -527,7 +507,7 @@ function header_default() {
                 !0,
                 {
                   fileName: "app/components/header.jsx",
-                  lineNumber: 180,
+                  lineNumber: 174,
                   columnNumber: 17
                 },
                 this
@@ -543,14 +523,14 @@ function header_default() {
                 !1,
                 {
                   fileName: "app/components/header.jsx",
-                  lineNumber: 188,
+                  lineNumber: 182,
                   columnNumber: 17
                 },
                 this
               )
             ] }, void 0, !0, {
               fileName: "app/components/header.jsx",
-              lineNumber: 179,
+              lineNumber: 173,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
@@ -568,7 +548,7 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 197,
+                lineNumber: 191,
                 columnNumber: 15
               },
               this
@@ -579,7 +559,7 @@ function header_default() {
         !0,
         {
           fileName: "app/components/header.jsx",
-          lineNumber: 175,
+          lineNumber: 169,
           columnNumber: 13
         },
         this
@@ -601,13 +581,13 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 215,
+                lineNumber: 209,
                 columnNumber: 15
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 214,
+              lineNumber: 208,
               columnNumber: 17
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react_router_dom.Link, { to: "/service", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
@@ -621,13 +601,13 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 228,
+                lineNumber: 222,
                 columnNumber: 15
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 227,
+              lineNumber: 221,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react_router_dom.Link, { to: "/blog", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
@@ -641,13 +621,13 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 241,
+                lineNumber: 235,
                 columnNumber: 15
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 240,
+              lineNumber: 234,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react_router_dom.Link, { to: "/aboutus", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
@@ -661,13 +641,13 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 254,
+                lineNumber: 248,
                 columnNumber: 15
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 253,
+              lineNumber: 247,
               columnNumber: 15
             }, this)
           ]
@@ -676,18 +656,18 @@ function header_default() {
         !0,
         {
           fileName: "app/components/header.jsx",
-          lineNumber: 210,
+          lineNumber: 204,
           columnNumber: 15
         },
         this
       ) }, void 0, !1, {
         fileName: "app/components/header.jsx",
-        lineNumber: 209,
+        lineNumber: 203,
         columnNumber: 13
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/header.jsx",
-      lineNumber: 174,
+      lineNumber: 168,
       columnNumber: 11
     }, this)
   ] }, void 0, !0, {
@@ -1042,11 +1022,14 @@ function body_default() {
           lineNumber: 101,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("span", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("strong", { className: "font-semibold text-red-600", children: "Crafting and growing unique brands for our clients through strategic positioning " }, void 0, !1, {
-          fileName: "app/components/body.jsx",
-          lineNumber: 111,
-          columnNumber: 21
-        }, this) }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("span", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("strong", { className: "font-semibold text-red-600", children: "Crafting and growing unique brands for our clients through strategic positioning " }, void 0, !1, {
+            fileName: "app/components/body.jsx",
+            lineNumber: 111,
+            columnNumber: 21
+          }, this),
+          "aligning values, and creating memorable experiences to establish a distinct identity, attracting and retaining guests effectively."
+        ] }, void 0, !0, {
           fileName: "app/components/body.jsx",
           lineNumber: 110,
           columnNumber: 19
@@ -1363,7 +1346,7 @@ function Edge() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-KLVZUYXN.js", imports: ["/build/_shared/chunk-AXARUPOK.js", "/build/_shared/chunk-M74ZA6GI.js", "/build/_shared/chunk-FCC3XGIV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-UD7T2HQS.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aboutus": { id: "routes/aboutus", parentId: "root", path: "aboutus", index: void 0, caseSensitive: void 0, module: "/build/routes/aboutus-G5T6YDBV.js", imports: ["/build/_shared/chunk-LJPOMTQJ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog": { id: "routes/blog", parentId: "root", path: "blog", index: void 0, caseSensitive: void 0, module: "/build/routes/blog-YUYBMOCD.js", imports: ["/build/_shared/chunk-LJPOMTQJ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/edge": { id: "routes/edge", parentId: "root", path: "edge", index: void 0, caseSensitive: void 0, module: "/build/routes/edge-AX5KFZEP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-VIVBLS4F.js", imports: ["/build/_shared/chunk-LJPOMTQJ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service": { id: "routes/service", parentId: "root", path: "service", index: void 0, caseSensitive: void 0, module: "/build/routes/service-IRHKBLEB.js", imports: ["/build/_shared/chunk-LJPOMTQJ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "93c5a3ed", hmr: void 0, url: "/build/manifest-93C5A3ED.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-KLVZUYXN.js", imports: ["/build/_shared/chunk-AXARUPOK.js", "/build/_shared/chunk-M74ZA6GI.js", "/build/_shared/chunk-FCC3XGIV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-UD7T2HQS.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aboutus": { id: "routes/aboutus", parentId: "root", path: "aboutus", index: void 0, caseSensitive: void 0, module: "/build/routes/aboutus-Q6ZS327A.js", imports: ["/build/_shared/chunk-UGYYXXAM.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog": { id: "routes/blog", parentId: "root", path: "blog", index: void 0, caseSensitive: void 0, module: "/build/routes/blog-LLTEB6K4.js", imports: ["/build/_shared/chunk-UGYYXXAM.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/edge": { id: "routes/edge", parentId: "root", path: "edge", index: void 0, caseSensitive: void 0, module: "/build/routes/edge-AX5KFZEP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-524WUBV6.js", imports: ["/build/_shared/chunk-UGYYXXAM.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service": { id: "routes/service", parentId: "root", path: "service", index: void 0, caseSensitive: void 0, module: "/build/routes/service-KX47QYTM.js", imports: ["/build/_shared/chunk-UGYYXXAM.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "0724e07a", hmr: void 0, url: "/build/manifest-0724E07A.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_react_stream_exports }, routes = {

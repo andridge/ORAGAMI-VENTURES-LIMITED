@@ -1,6 +1,6 @@
 import {
   header_default
-} from "/build/_shared/chunk-LJPOMTQJ.js";
+} from "/build/_shared/chunk-UGYYXXAM.js";
 import "/build/_shared/chunk-M74ZA6GI.js";
 import {
   __toESM,
@@ -23,4 +23,4 @@ function Blog() {
 export {
   Blog as default
 };
-//# sourceMappingURL=/build/routes/blog-YUYBMOCD.js.map
+//# sourceMappingURL=/build/routes/blog-LLTEB6K4.js.map
