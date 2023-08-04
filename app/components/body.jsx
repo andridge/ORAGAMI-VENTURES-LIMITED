@@ -1,5 +1,5 @@
 import BannerImage from "../img/banner-home.jpeg";
-
+import CompanyImage from "../img/favicon copy.jpeg"
 export default function () {
   return (
     <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
@@ -33,11 +33,7 @@ export default function () {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
-              <p className="text-base font-semibold leading-7 text-indigo-600">Hospitality,Consultancy & Training</p>
-              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A Great Comfort</h1>
-              <p>
-              We will help you, your hotel and your team improve operations, increase bookings, and build loyalty with proven strategies, techniques and provides numerous training opportunities through both public and company-specific, on-site courses. Our insights and trainings have helped numerous clients achieve an increase in gross revenue, future bookings, traffic, and rates. 
-              </p>
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-red-600 sm:text-4xl">Our comprehensive range of services includes:</h1>
             </div>
           </div>
         </div>
@@ -50,31 +46,74 @@ export default function () {
         </div>
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
-            <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
-              <ul role="list" className="mt-8 space-y-8 text-gray-600">
+            <div className="max-w-xl text-base leading-7 text-black lg:max-w-lg">
+           
+              <ul role="list" className="mt-8 space-y-8 text-black ">
                 <li className="flex gap-x-3">
                   {/* CloudArrowUpIcon removed */}
                   <span>
-                    <strong className="font-semibold text-gray-900">Training </strong>
-                    Includes high-quality, interactive training designed to help you implement programs using proven techniques in the areas of marketing, customer service, team building, and much more. After attending our courses, attendees can implement practices immediately and put the information learned into action. Our course attendees will not only learn how to apply the techniques but can take the knowledge gained beyond the classroom and use it in everyday work situations.
+                    <strong className="font-semibold text-red-600">Strategic positioning and planning </strong>
+                     involving strategic placement and foresight to maximize competitive advantage and guest satisfaction.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   {/* CloudArrowUpIcon removed */}
                   <span>
-                    <strong className="font-semibold text-gray-900">Training </strong>
-                    Includes high-quality, interactive training designed to help you implement programs using proven techniques in the areas of marketing, customer service, team building, and much more. After attending our courses, attendees can implement practices immediately and put the information learned into action. Our course attendees will not only learn how to apply the techniques but can take the knowledge gained beyond the classroom and use it in everyday work situations.
+                    <strong className="font-semibold text-red-600">Training </strong>
+                    programs tailored to specific needs, emphasizing continuous improvement to include but not limited to health and safety, food and beverage training, customer service, team building
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   {/* CloudArrowUpIcon removed */}
                   <span>
-                    <strong className="font-semibold text-gray-900">Training </strong>
-                    Includes high-quality, interactive training designed to help you implement programs using proven techniques in the areas of marketing, customer service, team building, and much more. After attending our courses, attendees can implement practices immediately and put the information learned into action. Our course attendees will not only learn how to apply the techniques but can take the knowledge gained beyond the classroom and use it in everyday work situations.
+                    <strong className="font-semibold text-red-600">Finance management </strong>
+                    entailing budgeting, cost control, and revenue optimization to ensure efficient operations, profitability, and sustainable growth within the industry's unique financial dynamics.
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                  {/* CloudArrowUpIcon removed */}
+                  <span>
+                    <strong className="font-semibold text-red-600">Human Resource advisory level </strong>
+                    offers expert guidance on workforce planning, recruitment, training, and compliance to optimize staff performance, engagement, and overall organizational success within the dynamic hospitality sector.
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                  {/* CloudArrowUpIcon removed */}
+                  <span>
+                    <strong className="font-semibold text-red-600">Event management </strong>
+                    involving orchestrating seamless events, from planning to execution, considering logistics, coordination, and guest experiences, ensuring memorable and successful gatherings within the hospitality industry.
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                  {/* CloudArrowUpIcon removed */}
+                  <span>
+                    <strong className="font-semibold text-red-600">Pre opening </strong>
+                    preparatory phase before a new establishment's launch, encompassing staff training, operational setup, marketing strategies, and final touches to ensure a successful opening.
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                  {/* CloudArrowUpIcon removed */}
+                  <span>
+                    <strong className="font-semibold text-red-600">Sustainable practices and circular economy </strong>
+                    emphasizing eco-friendly operations, resource efficiency, waste reduction, and recycling, fostering environmental responsibility and long-term viability while minimizing negative impacts on the ecosystem.
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                  {/* CloudArrowUpIcon removed */}
+                  <span>
+                    <strong className="font-semibold text-red-600">Promoting equity and diversity within the hospitality industry </strong>
+                    fostering inclusive workplaces, embracing varied backgrounds, cultures, and perspectives, ensuring equal opportunities, and enriching the industry's innovation and growth.
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                  {/* CloudArrowUpIcon removed */}
+                  <span>
+                    <strong className="font-semibold text-red-600">Crafting and growing unique brands for our clients through strategic positioning </strong>
                   </span>
                 </li>
               </ul>
             </div>
+
           </div>
         </div>
       </div>

@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import CompanyImage from "../img/favicon copy.jpeg"
+import {useLocation } from 'react-router-dom';
+import {useEffect } from 'react';
 export default function (){
+  const location = useLocation();
   const [selectedTab, setSelectedTab] = useState('Home');
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -8,76 +12,89 @@ export default function (){
     setSelectedTab(tab);
   };
 
+  useEffect(() => {
+    // Get the path from the current location and set the corresponding tab as selected
+    switch (location.pathname) {
+      case '/':
+        setSelectedTab('Home');
+        break;
+      case '/service':
+        setSelectedTab('Services');
+        break;
+      case '/blog':
+        setSelectedTab('Blog');
+        break;
+      case '/aboutus':
+        setSelectedTab('About Us');
+        break;
+      default:
+        setSelectedTab('Home');
+        break;
+    }
+  }, [location]);
+
   const toggleDropdown = () => {
     setIsDropdownOpen((prevState) => !prevState);
   };
     return(
-        <div className="2xl:container 2xl:mx-auto">
+        <div className="w-full 2xl:container 2xl:mx-auto">
         <div className="bg-white rounded shadow-lg py-5 px-7">
           <nav className="flex justify-between">
           
             {/* For medium and plus sized devices */}
             <ul className="hidden md:flex flex-auto space-x-2">
+            <Link to="/" onClick={() => handleTabClick('Services')}>
               <li
                 onClick={() => handleTabClick('Home')}
                 className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
                   selectedTab === 'Home'
-                    ? 'text-white bg-indigo-600'
+                    ? 'text-white bg-black'
                     : 'text-gray-600 border border-white bg-gray-50'
                 } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
               >
                 Home
+
               </li>
+              </Link>
+              <Link to="/service" onClick={() => handleTabClick('Services')}>
               <li
-                onClick={() => handleTabClick('Page 1')}
+                onClick={() => handleTabClick('Services')}
                 className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-                  selectedTab === 'Page 1'
-                    ? 'text-white bg-indigo-600'
+                  selectedTab === 'Services'
+                    ? 'text-white bg-black'
                     : 'text-gray-600 border border-white bg-gray-50'
                 } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
               >
-                Page 1
+               Services
+              
               </li>
+              </Link>
+              <Link to="/blog" onClick={() => handleTabClick('Services')}>
               <li
-                onClick={() => handleTabClick('Page 2')}
+                onClick={() => handleTabClick('Blog')}
                 className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-                  selectedTab === 'Page 2'
-                    ? 'text-white bg-indigo-600'
+                  selectedTab === 'Blog'
+                    ? 'text-white bg-black'
                     : 'text-gray-600 border border-white bg-gray-50'
                 } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
               >
-                Page 2
+                Blog
+                
               </li>
+              </Link>
+              <Link to="/aboutus" onClick={() => handleTabClick('Services')}>
               <li
-                onClick={() => handleTabClick('Page 3')}
+                onClick={() => handleTabClick('About Us')}
                 className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-                  selectedTab === 'Page 3'
-                    ? 'text-white bg-indigo-600'
+                  selectedTab === 'About Us'
+                    ? 'text-white bg-black'
                     : 'text-gray-600 border border-white bg-gray-50'
                 } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
               >
-                Page 3
+                About Us
+                
               </li>
-              <li
-                onClick={() => handleTabClick('Page 4')}
-                className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-                  selectedTab === 'Page 4'
-                    ? 'text-white bg-indigo-600'
-                    : 'text-gray-600 border border-white bg-gray-50'
-                } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
-              >
-                Page 4
-              </li>
-              <li
-                onClick={() => handleTabClick('About')}
-                className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-                  selectedTab === 'About'
-                    ? 'text-white bg-indigo-600'
-                    : 'text-gray-600 border border-white bg-gray-50'
-                } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
-              >
-                About
-              </li>
+              </Link>
             </ul>
 
             <div className="flex items-center justify-center flex-auto">
@@ -92,11 +109,11 @@ export default function (){
               {/* SVG path content for your logo */}
              
             </svg>
-            <h2 className="font-normal text-2xl leading-6 text-red-800">
+            <h2 className="font-bold text-2xl leading-6 text-black">
             ORIGAMI VENTURES LIMITED
             </h2>
           </div>
-
+          
             <div className="flex space-x-5 justify-center items-center pl-2">
               <div
                 onClick={toggleDropdown}
@@ -157,7 +174,7 @@ export default function (){
           <div className="block md:hidden w-full mt-5">
             <div
               onClick={toggleDropdown}
-              className="cursor-pointer px-4 py-3 text-white bg-indigo-600 rounded flex justify-between items-center w-full"
+              className="cursor-pointer px-4 py-3 text-white bg-black rounded flex justify-between items-center w-full"
             >
               <div className="flex space-x-2">
                 <span
@@ -194,46 +211,58 @@ export default function (){
                 id="list"
                 className="font-normal text-base leading-4 absolute top-2 w-full rounded shadow-md"
               >
-                <li
-                  onClick={() => handleTabClick('Page 1')}
-                  className={`px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal ${
-                    selectedTab === 'Page 1' ? 'text-white bg-indigo-600' : ''
-                  }`}
-                >
-                  Page 1
-                </li>
-                <li
-                  onClick={() => handleTabClick('Page 2')}
-                  className={`px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal ${
-                    selectedTab === 'Page 2' ? 'text-white bg-indigo-600' : ''
-                  }`}
-                >
-                  Page 2
-                </li>
-                <li
-                  onClick={() => handleTabClick('Page 3')}
-                  className={`px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal ${
-                    selectedTab === 'Page 3' ? 'text-white bg-indigo-600' : ''
-                  }`}
-                >
-                  Page 3
-                </li>
-                <li
-                  onClick={() => handleTabClick('Page 4')}
-                  className={`px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal ${
-                    selectedTab === 'Page 4' ? 'text-white bg-indigo-600' : ''
-                  }`}
-                >
-                  Page 4
-                </li>
-                <li
-                  onClick={() => handleTabClick('About')}
-                  className={`px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal ${
-                    selectedTab === 'About' ? 'text-white bg-indigo-600' : ''
-                  }`}
-                >
-                  About
-                </li>
+                <Link to="/" onClick={() => handleTabClick('Services')}>
+              <li
+                onClick={() => handleTabClick('Home')}
+                className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
+                  selectedTab === 'Home'
+                    ? 'text-white bg-black'
+                    : 'text-gray-600 border border-white bg-gray-50'
+                } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
+              >
+                Home
+
+              </li>
+              </Link>
+              <Link to="/service" onClick={() => handleTabClick('Services')}>
+              <li
+                onClick={() => handleTabClick('Services')}
+                className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
+                  selectedTab === 'Services'
+                    ? 'text-white bg-black'
+                    : 'text-gray-600 border border-white bg-gray-50'
+                } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
+              >
+               Services
+              
+              </li>
+              </Link>
+              <Link to="/blog" onClick={() => handleTabClick('Services')}>
+              <li
+                onClick={() => handleTabClick('Blog')}
+                className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
+                  selectedTab === 'Blog'
+                    ? 'text-white bg-black'
+                    : 'text-gray-600 border border-white bg-gray-50'
+                } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
+              >
+                Blog
+                
+              </li>
+              </Link>
+              <Link to="/aboutus" onClick={() => handleTabClick('Services')}>
+              <li
+                onClick={() => handleTabClick('About Us')}
+                className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
+                  selectedTab === 'About Us'
+                    ? 'text-white bg-black'
+                    : 'text-gray-600 border border-white bg-gray-50'
+                } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
+              >
+                About Us
+                
+              </li>
+              </Link>
               </ul>
             </div>
           </div>
