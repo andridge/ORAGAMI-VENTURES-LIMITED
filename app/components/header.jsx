@@ -1,4 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, Fragment } from 'react'
+import { Menu, Transition } from '@headlessui/react'
+import { ChevronDownIcon } from '@heroicons/react/20/solid'
+
 import { Link } from 'react-router-dom';
 import CompanyImage from "../img/favicon copy.jpeg"
 import {useLocation } from 'react-router-dom';
@@ -11,7 +14,6 @@ export default function (){
   const handleTabClick = (tab) => {
     setSelectedTab(tab);
   };
-
   useEffect(() => {
     // Get the path from the current location and set the corresponding tab as selected
     switch (location.pathname) {
@@ -65,8 +67,7 @@ export default function (){
                     : 'text-gray-600 border border-white bg-gray-50'
                 } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
               >
-               Services
-              
+            Services
               </li>
               </Link>
               <Link to="/blog" onClick={() => handleTabClick('Services')}>
