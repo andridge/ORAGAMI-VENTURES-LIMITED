@@ -1611,416 +1611,52 @@ function grid_default() {
 
 // app/components/footer.jsx
 var import_react13 = require("react"), import_solid5 = require("@heroicons/react/20/solid"), import_react14 = require("@headlessui/react"), import_jsx_dev_runtime12 = require("react/jsx-dev-runtime");
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
 function footer_default() {
   let [agreed, setAgreed] = (0, import_react13.useState)(!1);
   return /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("footer", { className: "relative bg-blueGray-200 pt-8 pb-6", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "container mx-auto", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("form", { action: "mailto:venturesorigami@gmail.com", method: "POST", encType: "text/plain", className: "mx-auto mt-16 max-w-xl sm:mt-20", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("label", { htmlFor: "first-name", className: "block text-sm font-semibold leading-6 text-gray-900", children: "First name" }, void 0, !1, {
-              fileName: "app/components/footer.jsx",
-              lineNumber: 18,
-              columnNumber: 13
-            }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "mt-2.5", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
-              "input",
-              {
-                type: "text",
-                name: "first-name",
-                id: "first-name",
-                autoComplete: "given-name",
-                className: "block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-red-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"
-              },
-              void 0,
-              !1,
-              {
-                fileName: "app/components/footer.jsx",
-                lineNumber: 22,
-                columnNumber: 15
-              },
-              this
-            ) }, void 0, !1, {
-              fileName: "app/components/footer.jsx",
-              lineNumber: 21,
-              columnNumber: 13
-            }, this)
-          ] }, void 0, !0, {
-            fileName: "app/components/footer.jsx",
-            lineNumber: 17,
-            columnNumber: 11
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("label", { htmlFor: "last-name", className: "block text-sm font-semibold leading-6 text-gray-900", children: "Last name" }, void 0, !1, {
-              fileName: "app/components/footer.jsx",
-              lineNumber: 32,
-              columnNumber: 13
-            }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "mt-2.5", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
-              "input",
-              {
-                type: "text",
-                name: "last-name",
-                id: "last-name",
-                autoComplete: "family-name",
-                className: "block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-red-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"
-              },
-              void 0,
-              !1,
-              {
-                fileName: "app/components/footer.jsx",
-                lineNumber: 36,
-                columnNumber: 15
-              },
-              this
-            ) }, void 0, !1, {
-              fileName: "app/components/footer.jsx",
-              lineNumber: 35,
-              columnNumber: 13
-            }, this)
-          ] }, void 0, !0, {
-            fileName: "app/components/footer.jsx",
-            lineNumber: 31,
-            columnNumber: 11
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "sm:col-span-2", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("label", { htmlFor: "company", className: "block text-sm font-semibold leading-6 text-gray-900", children: "Company" }, void 0, !1, {
-              fileName: "app/components/footer.jsx",
-              lineNumber: 46,
-              columnNumber: 13
-            }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "mt-2.5", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
-              "input",
-              {
-                type: "text",
-                name: "company",
-                id: "company",
-                autoComplete: "organization",
-                className: "block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-red-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"
-              },
-              void 0,
-              !1,
-              {
-                fileName: "app/components/footer.jsx",
-                lineNumber: 50,
-                columnNumber: 15
-              },
-              this
-            ) }, void 0, !1, {
-              fileName: "app/components/footer.jsx",
-              lineNumber: 49,
-              columnNumber: 13
-            }, this)
-          ] }, void 0, !0, {
-            fileName: "app/components/footer.jsx",
-            lineNumber: 45,
-            columnNumber: 11
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "sm:col-span-2", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("label", { htmlFor: "email", className: "block text-sm font-semibold leading-6 text-gray-900", children: "Email" }, void 0, !1, {
-              fileName: "app/components/footer.jsx",
-              lineNumber: 60,
-              columnNumber: 13
-            }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "mt-2.5", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
-              "input",
-              {
-                type: "email",
-                name: "email",
-                id: "email",
-                autoComplete: "email",
-                className: "block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-red-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"
-              },
-              void 0,
-              !1,
-              {
-                fileName: "app/components/footer.jsx",
-                lineNumber: 64,
-                columnNumber: 15
-              },
-              this
-            ) }, void 0, !1, {
-              fileName: "app/components/footer.jsx",
-              lineNumber: 63,
-              columnNumber: 13
-            }, this)
-          ] }, void 0, !0, {
-            fileName: "app/components/footer.jsx",
-            lineNumber: 59,
-            columnNumber: 11
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "sm:col-span-2", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("label", { htmlFor: "phone-number", className: "block text-sm font-semibold leading-6 text-gray-900", children: "Phone number" }, void 0, !1, {
-              fileName: "app/components/footer.jsx",
-              lineNumber: 74,
-              columnNumber: 13
-            }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "relative mt-2.5", children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "absolute inset-y-0 left-0 flex items-center", children: [
-                /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("label", { htmlFor: "country", className: "sr-only", children: "Country" }, void 0, !1, {
-                  fileName: "app/components/footer.jsx",
-                  lineNumber: 79,
-                  columnNumber: 17
-                }, this),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
-                  "select",
-                  {
-                    id: "country",
-                    name: "country",
-                    className: "h-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-9 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black sm:text-sm",
-                    children: [
-                      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("option", { children: "KENYA" }, void 0, !1, {
-                        fileName: "app/components/footer.jsx",
-                        lineNumber: 87,
-                        columnNumber: 19
-                      }, this),
-                      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("option", { children: "UGANDA" }, void 0, !1, {
-                        fileName: "app/components/footer.jsx",
-                        lineNumber: 88,
-                        columnNumber: 19
-                      }, this),
-                      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("option", { children: "TANZANIA" }, void 0, !1, {
-                        fileName: "app/components/footer.jsx",
-                        lineNumber: 89,
-                        columnNumber: 19
-                      }, this)
-                    ]
-                  },
-                  void 0,
-                  !0,
-                  {
-                    fileName: "app/components/footer.jsx",
-                    lineNumber: 82,
-                    columnNumber: 17
-                  },
-                  this
-                ),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
-                  import_solid5.ChevronDownIcon,
-                  {
-                    className: "pointer-events-none absolute right-3 top-0 h-full w-5 text-gray-400",
-                    "aria-hidden": "true"
-                  },
-                  void 0,
-                  !1,
-                  {
-                    fileName: "app/components/footer.jsx",
-                    lineNumber: 91,
-                    columnNumber: 17
-                  },
-                  this
-                )
-              ] }, void 0, !0, {
-                fileName: "app/components/footer.jsx",
-                lineNumber: 78,
-                columnNumber: 15
-              }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
-                "input",
-                {
-                  type: "tel",
-                  name: "phone-number",
-                  id: "phone-number",
-                  autoComplete: "tel",
-                  className: "block w-full rounded-md border-0 px-3.5 py-2 pl-20 text-gray-900 shadow-sm ring-1 ring-inset ring-red-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"
-                },
-                void 0,
-                !1,
-                {
-                  fileName: "app/components/footer.jsx",
-                  lineNumber: 96,
-                  columnNumber: 15
-                },
-                this
-              )
-            ] }, void 0, !0, {
-              fileName: "app/components/footer.jsx",
-              lineNumber: 77,
-              columnNumber: 13
-            }, this)
-          ] }, void 0, !0, {
-            fileName: "app/components/footer.jsx",
-            lineNumber: 73,
-            columnNumber: 11
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "sm:col-span-2", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("label", { htmlFor: "message", className: "block text-sm font-semibold leading-6 text-gray-900", children: "Message" }, void 0, !1, {
-              fileName: "app/components/footer.jsx",
-              lineNumber: 106,
-              columnNumber: 13
-            }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "mt-2.5", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
-              "textarea",
-              {
-                name: "message",
-                id: "message",
-                rows: 4,
-                className: "block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-red-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black sm:text-sm sm:leading-6",
-                defaultValue: ""
-              },
-              void 0,
-              !1,
-              {
-                fileName: "app/components/footer.jsx",
-                lineNumber: 110,
-                columnNumber: 15
-              },
-              this
-            ) }, void 0, !1, {
-              fileName: "app/components/footer.jsx",
-              lineNumber: 109,
-              columnNumber: 13
-            }, this)
-          ] }, void 0, !0, {
-            fileName: "app/components/footer.jsx",
-            lineNumber: 105,
-            columnNumber: 11
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_react14.Switch.Group, { as: "div", className: "flex gap-x-4 sm:col-span-2", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "flex h-6 items-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
-              import_react14.Switch,
-              {
-                checked: agreed,
-                onChange: setAgreed,
-                className: classNames(
-                  agreed ? "bg-red-600" : "bg-gray-200",
-                  "flex w-8 flex-none cursor-pointer rounded-full p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                ),
-                children: [
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { className: "sr-only", children: "Agree to policies" }, void 0, !1, {
-                    fileName: "app/components/footer.jsx",
-                    lineNumber: 129,
-                    columnNumber: 17
-                  }, this),
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
-                    "span",
-                    {
-                      "aria-hidden": "true",
-                      className: classNames(
-                        agreed ? "translate-x-3.5" : "translate-x-0",
-                        "h-4 w-4 transform rounded-full bg-white shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out"
-                      )
-                    },
-                    void 0,
-                    !1,
-                    {
-                      fileName: "app/components/footer.jsx",
-                      lineNumber: 130,
-                      columnNumber: 17
-                    },
-                    this
-                  )
-                ]
-              },
-              void 0,
-              !0,
-              {
-                fileName: "app/components/footer.jsx",
-                lineNumber: 121,
-                columnNumber: 15
-              },
-              this
-            ) }, void 0, !1, {
-              fileName: "app/components/footer.jsx",
-              lineNumber: 120,
-              columnNumber: 13
-            }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_react14.Switch.Label, { className: "text-sm leading-6 text-gray-600", children: [
-              "By selecting this, you agree to our company's ",
-              " ",
-              /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("a", { href: "#", className: "font-semibold text-red-600", children: "privacy\xA0policy" }, void 0, !1, {
-                fileName: "app/components/footer.jsx",
-                lineNumber: 141,
-                columnNumber: 15
-              }, this),
-              "."
-            ] }, void 0, !0, {
-              fileName: "app/components/footer.jsx",
-              lineNumber: 139,
-              columnNumber: 13
-            }, this)
-          ] }, void 0, !0, {
-            fileName: "app/components/footer.jsx",
-            lineNumber: 119,
-            columnNumber: 11
-          }, this)
-        ] }, void 0, !0, {
-          fileName: "app/components/footer.jsx",
-          lineNumber: 16,
-          columnNumber: 9
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "mt-10", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
-          "button",
-          {
-            type: "submit",
-            className: "block w-full rounded-md bg-red-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600",
-            children: "Let's talk"
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/components/footer.jsx",
-            lineNumber: 149,
-            columnNumber: 11
-          },
-          this
-        ) }, void 0, !1, {
-          fileName: "app/components/footer.jsx",
-          lineNumber: 148,
-          columnNumber: 9
-        }, this)
-      ] }, void 0, !0, {
-        fileName: "app/components/footer.jsx",
-        lineNumber: 15,
-        columnNumber: 7
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("h5", { className: "text-lg mt-0 mb-2 text-blueGray-600", children: "We are dedicated to helping our clients achieve success, focusing on their specific needs and goals while upholding the highest standards of quality and professionalism. Origami Ventures is ready to embark on a journey with you, providing expert guidance and support to maximize your potential in the dynamic and ever-evolving hospitality industry." }, void 0, !1, {
-        fileName: "app/components/footer.jsx",
-        lineNumber: 163,
-        columnNumber: 13
-      }, this)
-    ] }, void 0, !0, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "container mx-auto", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("h5", { className: "text-lg mt-0 mb-2 text-blueGray-600", children: "We are dedicated to helping our clients achieve success, focusing on their specific needs and goals while upholding the highest standards of quality and professionalism. Origami Ventures is ready to embark on a journey with you, providing expert guidance and support to maximize your potential in the dynamic and ever-evolving hospitality industry." }, void 0, !1, {
+      fileName: "app/components/footer.jsx",
+      lineNumber: 164,
+      columnNumber: 13
+    }, this) }, void 0, !1, {
       fileName: "app/components/footer.jsx",
       lineNumber: 14,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("hr", { className: "my-6 border-blueGray-300" }, void 0, !1, {
       fileName: "app/components/footer.jsx",
-      lineNumber: 168,
+      lineNumber: 169,
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "flex flex-wrap items-center md:justify-between justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "w-full md:w-4/12 px-4 mx-auto text-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "text-sm text-blueGray-500 font-semibold py-1", children: [
       "Copyright \xA9 ",
       /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { id: "get-current-year", children: "2023" }, void 0, !1, {
         fileName: "app/components/footer.jsx",
-        lineNumber: 172,
+        lineNumber: 173,
         columnNumber: 27
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("a", { href: "https://www.creative-tim.com/product/notus-js", className: "text-blueGray-500 hover:text-gray-800", target: "_blank", children: " by " }, void 0, !1, {
         fileName: "app/components/footer.jsx",
-        lineNumber: 173,
+        lineNumber: 174,
         columnNumber: 15
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("a", { href: "https://www.creative-tim.com?ref=njs-profile", className: "text-blueGray-500 hover:text-blueGray-800", children: "OPENSEASONS" }, void 0, !1, {
         fileName: "app/components/footer.jsx",
-        lineNumber: 174,
+        lineNumber: 175,
         columnNumber: 15
       }, this),
       "."
     ] }, void 0, !0, {
       fileName: "app/components/footer.jsx",
-      lineNumber: 171,
+      lineNumber: 172,
       columnNumber: 13
     }, this) }, void 0, !1, {
       fileName: "app/components/footer.jsx",
-      lineNumber: 170,
+      lineNumber: 171,
       columnNumber: 11
     }, this) }, void 0, !1, {
       fileName: "app/components/footer.jsx",
-      lineNumber: 169,
+      lineNumber: 170,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
@@ -2191,7 +1827,7 @@ function Edge() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-KLVZUYXN.js", imports: ["/build/_shared/chunk-AXARUPOK.js", "/build/_shared/chunk-M74ZA6GI.js", "/build/_shared/chunk-FCC3XGIV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-JOWSE5JF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aboutus": { id: "routes/aboutus", parentId: "root", path: "aboutus", index: void 0, caseSensitive: void 0, module: "/build/routes/aboutus-T5PKZVK3.js", imports: ["/build/_shared/chunk-L6X4SF5O.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog": { id: "routes/blog", parentId: "root", path: "blog", index: void 0, caseSensitive: void 0, module: "/build/routes/blog-4M2WXJDM.js", imports: ["/build/_shared/chunk-L6X4SF5O.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/edge": { id: "routes/edge", parentId: "root", path: "edge", index: void 0, caseSensitive: void 0, module: "/build/routes/edge-AX5KFZEP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-ALJRDELI.js", imports: ["/build/_shared/chunk-L6X4SF5O.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service": { id: "routes/service", parentId: "root", path: "service", index: void 0, caseSensitive: void 0, module: "/build/routes/service-VT6DBTU3.js", imports: ["/build/_shared/chunk-L6X4SF5O.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "b85575e3", hmr: void 0, url: "/build/manifest-B85575E3.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-KLVZUYXN.js", imports: ["/build/_shared/chunk-AXARUPOK.js", "/build/_shared/chunk-M74ZA6GI.js", "/build/_shared/chunk-FCC3XGIV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-JOWSE5JF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aboutus": { id: "routes/aboutus", parentId: "root", path: "aboutus", index: void 0, caseSensitive: void 0, module: "/build/routes/aboutus-VWNFHCSP.js", imports: ["/build/_shared/chunk-QHXENOSS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog": { id: "routes/blog", parentId: "root", path: "blog", index: void 0, caseSensitive: void 0, module: "/build/routes/blog-GJKTNNDG.js", imports: ["/build/_shared/chunk-QHXENOSS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/edge": { id: "routes/edge", parentId: "root", path: "edge", index: void 0, caseSensitive: void 0, module: "/build/routes/edge-AX5KFZEP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-T3HDPW6G.js", imports: ["/build/_shared/chunk-QHXENOSS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service": { id: "routes/service", parentId: "root", path: "service", index: void 0, caseSensitive: void 0, module: "/build/routes/service-RDIE5KQY.js", imports: ["/build/_shared/chunk-QHXENOSS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "e0bb51d3", hmr: void 0, url: "/build/manifest-E0BB51D3.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_react_stream_exports }, routes = {

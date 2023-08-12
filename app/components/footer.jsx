@@ -12,6 +12,7 @@ export default function(){
     return (
       <footer className="relative bg-blueGray-200 pt-8 pb-6">
       <div className="container mx-auto">
+      {/** 
       <form action="mailto:venturesorigami@gmail.com" method="POST" encType="text/plain" className="mx-auto mt-16 max-w-xl sm:mt-20">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
@@ -154,7 +155,7 @@ export default function(){
           </button>
         </div>
       </form>
-
+      */}
 
 
 

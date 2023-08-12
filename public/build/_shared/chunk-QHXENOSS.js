@@ -37,31 +37,6 @@ function CheckIcon({
 var ForwardRef = React.forwardRef(CheckIcon);
 var CheckIcon_default = ForwardRef;
 
-// node_modules/@heroicons/react/20/solid/esm/ChevronDownIcon.js
-var React2 = __toESM(require_react(), 1);
-function ChevronDownIcon({
-  title,
-  titleId,
-  ...props
-}, svgRef) {
-  return /* @__PURE__ */ React2.createElement("svg", Object.assign({
-    xmlns: "http://www.w3.org/2000/svg",
-    viewBox: "0 0 20 20",
-    fill: "currentColor",
-    "aria-hidden": "true",
-    ref: svgRef,
-    "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React2.createElement("title", {
-    id: titleId
-  }, title) : null, /* @__PURE__ */ React2.createElement("path", {
-    fillRule: "evenodd",
-    d: "M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z",
-    clipRule: "evenodd"
-  }));
-}
-var ForwardRef2 = React2.forwardRef(ChevronDownIcon);
-var ChevronDownIcon_default = ForwardRef2;
-
 // app/components/header.jsx
 init_dist();
 init_dist();
@@ -531,7 +506,6 @@ function header_default() {
 
 export {
   CheckIcon_default,
-  ChevronDownIcon_default,
   header_default
 };
-//# sourceMappingURL=/build/_shared/chunk-L6X4SF5O.js.map
+//# sourceMappingURL=/build/_shared/chunk-QHXENOSS.js.map
