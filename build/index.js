@@ -1807,7 +1807,7 @@ __export(blog_exports, {
 });
 
 // app/components/blog-section.jsx
-var import_jsx_dev_runtime15 = require("react/jsx-dev-runtime"), posts = [
+var import_react_twitter_embed = require("react-twitter-embed"), import_jsx_dev_runtime15 = require("react/jsx-dev-runtime"), posts = [
   {
     id: 1,
     title: "Nurturing Connections: The Heartbeat of Hospitality \u{1F3E8}",
@@ -1860,128 +1860,148 @@ function blog_section_default() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "mx-auto max-w-2xl lg:mx-0", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("h2", { className: "text-3xl font-bold tracking-tight text-red-600 sm:text-4xl", children: "From the blog" }, void 0, !1, {
         fileName: "app/components/blog-section.jsx",
-        lineNumber: 62,
+        lineNumber: 68,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("p", { className: "mt-2 text-lg leading-8 text-gray-600", children: "Learn how to grow your business with our expert consultancy advice." }, void 0, !1, {
         fileName: "app/components/blog-section.jsx",
-        lineNumber: 63,
+        lineNumber: 69,
         columnNumber: 11
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/blog-section.jsx",
-      lineNumber: 61,
+      lineNumber: 67,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3", children: posts.map((post) => /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("article", { className: "flex max-w-xl flex-col items-start justify-between", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "flex items-center gap-x-4 text-xs", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("time", { dateTime: post.datetime, className: "text-gray-500", children: post.date }, void 0, !1, {
-          fileName: "app/components/blog-section.jsx",
-          lineNumber: 71,
-          columnNumber: 17
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
-          "a",
-          {
-            href: post.category.href,
-            className: "relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-red-600 hover:bg-gray-100",
-            children: post.category.title
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/components/blog-section.jsx",
-            lineNumber: 74,
-            columnNumber: 17
-          },
-          this
-        )
-      ] }, void 0, !0, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_react_twitter_embed.TwitterTweetEmbed, { tweetId: "1690982594865741827" }, void 0, !1, {
         fileName: "app/components/blog-section.jsx",
-        lineNumber: 70,
-        columnNumber: 15
+        lineNumber: 77,
+        columnNumber: 7
+      }, this) }, void 0, !1, {
+        fileName: "app/components/blog-section.jsx",
+        lineNumber: 76,
+        columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "group relative", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("h3", { className: "mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("a", { href: post.href, children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("span", { className: "absolute inset-0 " }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_react_twitter_embed.TwitterTweetEmbed, { tweetId: "1690970414611132416" }, void 0, !1, {
+        fileName: "app/components/blog-section.jsx",
+        lineNumber: 80,
+        columnNumber: 7
+      }, this) }, void 0, !1, {
+        fileName: "app/components/blog-section.jsx",
+        lineNumber: 79,
+        columnNumber: 5
+      }, this),
+      posts.map((post) => /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("article", { className: "flex max-w-xl flex-col items-start justify-between", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "flex items-center gap-x-4 text-xs", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("time", { dateTime: post.datetime, className: "text-gray-500", children: post.date }, void 0, !1, {
             fileName: "app/components/blog-section.jsx",
-            lineNumber: 84,
-            columnNumber: 21
+            lineNumber: 86,
+            columnNumber: 17
           }, this),
-          post.title
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
+            "a",
+            {
+              href: post.category.href,
+              className: "relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-red-600 hover:bg-gray-100",
+              children: post.category.title
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/components/blog-section.jsx",
+              lineNumber: 89,
+              columnNumber: 17
+            },
+            this
+          )
         ] }, void 0, !0, {
           fileName: "app/components/blog-section.jsx",
-          lineNumber: 83,
-          columnNumber: 19
-        }, this) }, void 0, !1, {
-          fileName: "app/components/blog-section.jsx",
-          lineNumber: 82,
-          columnNumber: 17
+          lineNumber: 85,
+          columnNumber: 15
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("p", { className: "mt-5 line-clamp-3 text-sm leading-6 text-gray-600", children: post.description }, void 0, !1, {
-          fileName: "app/components/blog-section.jsx",
-          lineNumber: 88,
-          columnNumber: 17
-        }, this)
-      ] }, void 0, !0, {
-        fileName: "app/components/blog-section.jsx",
-        lineNumber: 81,
-        columnNumber: 15
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "relative mt-8 flex items-center gap-x-4", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("img", { src: post.author.imageUrl, alt: "", className: "h-10 w-10 rounded-full bg-gray-50" }, void 0, !1, {
-          fileName: "app/components/blog-section.jsx",
-          lineNumber: 91,
-          columnNumber: 17
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "text-sm leading-6", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("p", { className: "font-semibold text-gray-900", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("a", { href: post.author.href, children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("span", { className: "absolute inset-0" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "group relative", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("h3", { className: "mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("a", { href: post.href, children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("span", { className: "absolute inset-0 " }, void 0, !1, {
               fileName: "app/components/blog-section.jsx",
-              lineNumber: 95,
-              columnNumber: 23
+              lineNumber: 99,
+              columnNumber: 21
             }, this),
-            post.author.name
+            post.title
           ] }, void 0, !0, {
             fileName: "app/components/blog-section.jsx",
-            lineNumber: 94,
-            columnNumber: 21
+            lineNumber: 98,
+            columnNumber: 19
           }, this) }, void 0, !1, {
             fileName: "app/components/blog-section.jsx",
-            lineNumber: 93,
-            columnNumber: 19
+            lineNumber: 97,
+            columnNumber: 17
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("p", { className: "text-red-600", children: post.author.role }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("p", { className: "mt-5 line-clamp-3 text-sm leading-6 text-gray-600", children: post.description }, void 0, !1, {
             fileName: "app/components/blog-section.jsx",
-            lineNumber: 99,
-            columnNumber: 19
+            lineNumber: 103,
+            columnNumber: 17
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/blog-section.jsx",
-          lineNumber: 92,
-          columnNumber: 17
+          lineNumber: 96,
+          columnNumber: 15
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "relative mt-8 flex items-center gap-x-4", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("img", { src: post.author.imageUrl, alt: "", className: "h-10 w-10 rounded-full bg-gray-50" }, void 0, !1, {
+            fileName: "app/components/blog-section.jsx",
+            lineNumber: 106,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "text-sm leading-6", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("p", { className: "font-semibold text-gray-900", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("a", { href: post.author.href, children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("span", { className: "absolute inset-0" }, void 0, !1, {
+                fileName: "app/components/blog-section.jsx",
+                lineNumber: 110,
+                columnNumber: 23
+              }, this),
+              post.author.name
+            ] }, void 0, !0, {
+              fileName: "app/components/blog-section.jsx",
+              lineNumber: 109,
+              columnNumber: 21
+            }, this) }, void 0, !1, {
+              fileName: "app/components/blog-section.jsx",
+              lineNumber: 108,
+              columnNumber: 19
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("p", { className: "text-red-600", children: post.author.role }, void 0, !1, {
+              fileName: "app/components/blog-section.jsx",
+              lineNumber: 114,
+              columnNumber: 19
+            }, this)
+          ] }, void 0, !0, {
+            fileName: "app/components/blog-section.jsx",
+            lineNumber: 107,
+            columnNumber: 17
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/components/blog-section.jsx",
+          lineNumber: 105,
+          columnNumber: 15
         }, this)
-      ] }, void 0, !0, {
+      ] }, post.id, !0, {
         fileName: "app/components/blog-section.jsx",
-        lineNumber: 90,
-        columnNumber: 15
-      }, this)
-    ] }, post.id, !0, {
+        lineNumber: 84,
+        columnNumber: 13
+      }, this))
+    ] }, void 0, !0, {
       fileName: "app/components/blog-section.jsx",
-      lineNumber: 69,
-      columnNumber: 13
-    }, this)) }, void 0, !1, {
-      fileName: "app/components/blog-section.jsx",
-      lineNumber: 67,
+      lineNumber: 73,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/blog-section.jsx",
-    lineNumber: 60,
+    lineNumber: 65,
     columnNumber: 7
   }, this) }, void 0, !1, {
     fileName: "app/components/blog-section.jsx",
-    lineNumber: 59,
+    lineNumber: 64,
     columnNumber: 9
   }, this);
 }
@@ -2027,7 +2047,7 @@ function Edge() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-KLVZUYXN.js", imports: ["/build/_shared/chunk-AXARUPOK.js", "/build/_shared/chunk-M74ZA6GI.js", "/build/_shared/chunk-FCC3XGIV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-BEZNFMUU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aboutus": { id: "routes/aboutus", parentId: "root", path: "aboutus", index: void 0, caseSensitive: void 0, module: "/build/routes/aboutus-VWNFHCSP.js", imports: ["/build/_shared/chunk-QHXENOSS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog": { id: "routes/blog", parentId: "root", path: "blog", index: void 0, caseSensitive: void 0, module: "/build/routes/blog-72FXUNQC.js", imports: ["/build/_shared/chunk-QHXENOSS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/edge": { id: "routes/edge", parentId: "root", path: "edge", index: void 0, caseSensitive: void 0, module: "/build/routes/edge-AX5KFZEP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-G5VXVLSY.js", imports: ["/build/_shared/chunk-QHXENOSS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service": { id: "routes/service", parentId: "root", path: "service", index: void 0, caseSensitive: void 0, module: "/build/routes/service-RDIE5KQY.js", imports: ["/build/_shared/chunk-QHXENOSS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "004a47f8", hmr: void 0, url: "/build/manifest-004A47F8.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-KLVZUYXN.js", imports: ["/build/_shared/chunk-AXARUPOK.js", "/build/_shared/chunk-M74ZA6GI.js", "/build/_shared/chunk-FCC3XGIV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-BEZNFMUU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aboutus": { id: "routes/aboutus", parentId: "root", path: "aboutus", index: void 0, caseSensitive: void 0, module: "/build/routes/aboutus-VWNFHCSP.js", imports: ["/build/_shared/chunk-QHXENOSS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog": { id: "routes/blog", parentId: "root", path: "blog", index: void 0, caseSensitive: void 0, module: "/build/routes/blog-QZPNJV6Q.js", imports: ["/build/_shared/chunk-QHXENOSS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/edge": { id: "routes/edge", parentId: "root", path: "edge", index: void 0, caseSensitive: void 0, module: "/build/routes/edge-AX5KFZEP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-G5VXVLSY.js", imports: ["/build/_shared/chunk-QHXENOSS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service": { id: "routes/service", parentId: "root", path: "service", index: void 0, caseSensitive: void 0, module: "/build/routes/service-RDIE5KQY.js", imports: ["/build/_shared/chunk-QHXENOSS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "44ace603", hmr: void 0, url: "/build/manifest-44ACE603.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_react_stream_exports }, routes = {
