@@ -67,6 +67,9 @@ function hero_default() {
   }, this);
 }
 
+// app/img/Swahili-Beach-Resort.jpeg
+var Swahili_Beach_Resort_default = "/build/_assets/Swahili-Beach-Resort-5ULHTIBC.jpeg";
+
 // app/components/body.jsx
 var import_jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime());
 function body_default() {
@@ -88,7 +91,7 @@ function body_default() {
               patternUnits: "userSpaceOnUse",
               children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("path", { d: "M100 200V.5M.5 .5H200", fill: "none" }, void 0, false, {
                 fileName: "app/components/body.jsx",
-                lineNumber: 20,
+                lineNumber: 21,
                 columnNumber: 15
               }, this)
             },
@@ -96,13 +99,13 @@ function body_default() {
             false,
             {
               fileName: "app/components/body.jsx",
-              lineNumber: 12,
+              lineNumber: 13,
               columnNumber: 13
             },
             this
           ) }, void 0, false, {
             fileName: "app/components/body.jsx",
-            lineNumber: 11,
+            lineNumber: 12,
             columnNumber: 11
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("svg", { x: "50%", y: -1, className: "overflow-visible fill-gray-50", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(
@@ -115,18 +118,18 @@ function body_default() {
             false,
             {
               fileName: "app/components/body.jsx",
-              lineNumber: 24,
+              lineNumber: 25,
               columnNumber: 13
             },
             this
           ) }, void 0, false, {
             fileName: "app/components/body.jsx",
-            lineNumber: 23,
+            lineNumber: 24,
             columnNumber: 11
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("rect", { width: "100%", height: "100%", strokeWidth: 0, fill: "url(#e813992c-7d03-4cc4-a2bd-151760b470a0)" }, void 0, false, {
             fileName: "app/components/body.jsx",
-            lineNumber: 29,
+            lineNumber: 30,
             columnNumber: 11
           }, this)
         ]
@@ -135,274 +138,282 @@ function body_default() {
       true,
       {
         fileName: "app/components/body.jsx",
-        lineNumber: 7,
+        lineNumber: 8,
         columnNumber: 9
       },
       this
     ) }, void 0, false, {
       fileName: "app/components/body.jsx",
-      lineNumber: 6,
+      lineNumber: 7,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "lg:pr-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "lg:max-w-lg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h1", { className: "mt-2 text-3xl font-bold tracking-tight text-red-600 sm:text-4xl", children: "Our comprehensive range of services includes:" }, void 0, false, {
         fileName: "app/components/body.jsx",
-        lineNumber: 36,
+        lineNumber: 37,
         columnNumber: 15
       }, this) }, void 0, false, {
         fileName: "app/components/body.jsx",
-        lineNumber: 35,
+        lineNumber: 36,
         columnNumber: 13
       }, this) }, void 0, false, {
         fileName: "app/components/body.jsx",
-        lineNumber: 34,
+        lineNumber: 35,
         columnNumber: 11
       }, this) }, void 0, false, {
         fileName: "app/components/body.jsx",
-        lineNumber: 33,
+        lineNumber: 34,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(
         "img",
         {
           className: "w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]",
-          src: banner_home_default,
+          src: Swahili_Beach_Resort_default,
           alt: ""
         },
         void 0,
         false,
         {
           fileName: "app/components/body.jsx",
-          lineNumber: 41,
+          lineNumber: 42,
           columnNumber: 11
         },
         this
       ) }, void 0, false, {
         fileName: "app/components/body.jsx",
-        lineNumber: 40,
+        lineNumber: 41,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "lg:pr-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "max-w-xl text-base leading-7 text-black lg:max-w-lg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("ul", { role: "list", className: "mt-8 space-y-8 text-black ", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("span", { children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("strong", { className: "font-semibold text-red-600", children: "Strategic positioning and planning " }, void 0, false, {
             fileName: "app/components/body.jsx",
-            lineNumber: 55,
+            lineNumber: 56,
             columnNumber: 21
           }, this),
           "involving strategic placement and foresight to maximize competitive advantage and guest satisfaction."
         ] }, void 0, true, {
           fileName: "app/components/body.jsx",
-          lineNumber: 54,
+          lineNumber: 55,
           columnNumber: 19
         }, this) }, void 0, false, {
           fileName: "app/components/body.jsx",
-          lineNumber: 52,
+          lineNumber: 53,
           columnNumber: 17
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("span", { children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("strong", { className: "font-semibold text-red-600", children: "Training " }, void 0, false, {
             fileName: "app/components/body.jsx",
-            lineNumber: 62,
+            lineNumber: 63,
             columnNumber: 21
           }, this),
           "programs tailored to specific needs, emphasizing continuous improvement to include but not limited to health and safety, food and beverage training, customer service, team building"
         ] }, void 0, true, {
           fileName: "app/components/body.jsx",
-          lineNumber: 61,
+          lineNumber: 62,
           columnNumber: 19
         }, this) }, void 0, false, {
           fileName: "app/components/body.jsx",
-          lineNumber: 59,
+          lineNumber: 60,
           columnNumber: 17
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("span", { children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("strong", { className: "font-semibold text-red-600", children: "Finance management " }, void 0, false, {
             fileName: "app/components/body.jsx",
-            lineNumber: 69,
+            lineNumber: 70,
             columnNumber: 21
           }, this),
           "entailing budgeting, cost control, and revenue optimization to ensure efficient operations, profitability, and sustainable growth within the industry's unique financial dynamics."
         ] }, void 0, true, {
           fileName: "app/components/body.jsx",
-          lineNumber: 68,
+          lineNumber: 69,
           columnNumber: 19
         }, this) }, void 0, false, {
           fileName: "app/components/body.jsx",
-          lineNumber: 66,
+          lineNumber: 67,
           columnNumber: 17
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("span", { children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("strong", { className: "font-semibold text-red-600", children: "Human Resource advisory level " }, void 0, false, {
             fileName: "app/components/body.jsx",
-            lineNumber: 76,
+            lineNumber: 77,
             columnNumber: 21
           }, this),
           "offers expert guidance on workforce planning, recruitment, training, and compliance to optimize staff performance, engagement, and overall organizational success within the dynamic hospitality sector."
         ] }, void 0, true, {
           fileName: "app/components/body.jsx",
-          lineNumber: 75,
+          lineNumber: 76,
           columnNumber: 19
         }, this) }, void 0, false, {
           fileName: "app/components/body.jsx",
-          lineNumber: 73,
+          lineNumber: 74,
           columnNumber: 17
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("span", { children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("strong", { className: "font-semibold text-red-600", children: "Event management " }, void 0, false, {
             fileName: "app/components/body.jsx",
-            lineNumber: 83,
+            lineNumber: 84,
             columnNumber: 21
           }, this),
           "involving orchestrating seamless events, from planning to execution, considering logistics, coordination, and guest experiences, ensuring memorable and successful gatherings within the hospitality industry."
         ] }, void 0, true, {
           fileName: "app/components/body.jsx",
-          lineNumber: 82,
+          lineNumber: 83,
           columnNumber: 19
         }, this) }, void 0, false, {
           fileName: "app/components/body.jsx",
-          lineNumber: 80,
+          lineNumber: 81,
           columnNumber: 17
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("span", { children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("strong", { className: "font-semibold text-red-600", children: "Pre opening " }, void 0, false, {
             fileName: "app/components/body.jsx",
-            lineNumber: 90,
+            lineNumber: 91,
             columnNumber: 21
           }, this),
           "preparatory phase before a new establishment's launch, encompassing staff training, operational setup, marketing strategies, and final touches to ensure a successful opening."
         ] }, void 0, true, {
           fileName: "app/components/body.jsx",
-          lineNumber: 89,
+          lineNumber: 90,
           columnNumber: 19
         }, this) }, void 0, false, {
           fileName: "app/components/body.jsx",
-          lineNumber: 87,
+          lineNumber: 88,
           columnNumber: 17
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("span", { children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("strong", { className: "font-semibold text-red-600", children: "Sustainable practices and circular economy " }, void 0, false, {
             fileName: "app/components/body.jsx",
-            lineNumber: 97,
+            lineNumber: 98,
             columnNumber: 21
           }, this),
           "emphasizing eco-friendly operations, resource efficiency, waste reduction, and recycling, fostering environmental responsibility and long-term viability while minimizing negative impacts on the ecosystem."
         ] }, void 0, true, {
           fileName: "app/components/body.jsx",
-          lineNumber: 96,
+          lineNumber: 97,
           columnNumber: 19
         }, this) }, void 0, false, {
           fileName: "app/components/body.jsx",
-          lineNumber: 94,
+          lineNumber: 95,
           columnNumber: 17
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("span", { children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("strong", { className: "font-semibold text-red-600", children: "Promoting equity and diversity within the hospitality industry " }, void 0, false, {
             fileName: "app/components/body.jsx",
-            lineNumber: 104,
+            lineNumber: 105,
             columnNumber: 21
           }, this),
           "fostering inclusive workplaces, embracing varied backgrounds, cultures, and perspectives, ensuring equal opportunities, and enriching the industry's innovation and growth."
         ] }, void 0, true, {
           fileName: "app/components/body.jsx",
-          lineNumber: 103,
+          lineNumber: 104,
           columnNumber: 19
         }, this) }, void 0, false, {
           fileName: "app/components/body.jsx",
-          lineNumber: 101,
+          lineNumber: 102,
           columnNumber: 17
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("span", { children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("strong", { className: "font-semibold text-red-600", children: "Crafting and growing unique brands for our clients through strategic positioning " }, void 0, false, {
             fileName: "app/components/body.jsx",
-            lineNumber: 111,
+            lineNumber: 112,
             columnNumber: 21
           }, this),
           "aligning values, and creating memorable experiences to establish a distinct identity, attracting and retaining guests effectively."
         ] }, void 0, true, {
           fileName: "app/components/body.jsx",
-          lineNumber: 110,
+          lineNumber: 111,
           columnNumber: 19
         }, this) }, void 0, false, {
           fileName: "app/components/body.jsx",
-          lineNumber: 108,
+          lineNumber: 109,
           columnNumber: 17
         }, this)
       ] }, void 0, true, {
         fileName: "app/components/body.jsx",
-        lineNumber: 51,
+        lineNumber: 52,
         columnNumber: 15
       }, this) }, void 0, false, {
         fileName: "app/components/body.jsx",
-        lineNumber: 49,
+        lineNumber: 50,
         columnNumber: 13
       }, this) }, void 0, false, {
         fileName: "app/components/body.jsx",
-        lineNumber: 48,
+        lineNumber: 49,
         columnNumber: 11
       }, this) }, void 0, false, {
         fileName: "app/components/body.jsx",
-        lineNumber: 47,
+        lineNumber: 48,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/body.jsx",
-      lineNumber: 32,
+      lineNumber: 33,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/components/body.jsx",
-    lineNumber: 5,
+    lineNumber: 6,
     columnNumber: 5
   }, this);
 }
+
+// app/img/Fairmont-Mount-Kenya-Safari-Club3.jpg
+var Fairmont_Mount_Kenya_Safari_Club3_default = "/build/_assets/Fairmont-Mount-Kenya-Safari-Club3-YMJANCI2.jpg";
+
+// app/img/maasai-mara3.jpeg
+var maasai_mara3_default = "/build/_assets/maasai-mara3-GXJXOEW6.jpeg";
+
+// app/img/masai-mara.jpg
+var masai_mara_default = "/build/_assets/masai-mara-K5JJLBKI.jpg";
+
+// app/img/samburu2.jpeg
+var samburu2_default = "/build/_assets/samburu2-KO76T7SK.jpeg";
+
+// app/img/The-Majlis-Hotel-Resort-Manda-Island-Lamu-Pool.jpg
+var The_Majlis_Hotel_Resort_Manda_Island_Lamu_Pool_default = "/build/_assets/The-Majlis-Hotel-Resort-Manda-Island-Lamu-Pool-QTU2ZZ6Q.jpg";
+
+// app/img/breakfastwithgiraffe.jpg
+var breakfastwithgiraffe_default = "/build/_assets/breakfastwithgiraffe-DENUJ4W2.jpg";
 
 // app/components/grid.jsx
 var import_jsx_dev_runtime3 = __toESM(require_jsx_dev_runtime());
 function grid_default() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { class: "grid grid-cols-2 gap-2", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: banner_home_default }, void 0, false, {
-      fileName: "app/components/grid.jsx",
-      lineNumber: 6,
-      columnNumber: 9
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: banner_home_default }, void 0, false, {
-      fileName: "app/components/grid.jsx",
-      lineNumber: 7,
-      columnNumber: 9
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: banner_home_default }, void 0, false, {
-      fileName: "app/components/grid.jsx",
-      lineNumber: 8,
-      columnNumber: 9
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: banner_home_default }, void 0, false, {
-      fileName: "app/components/grid.jsx",
-      lineNumber: 9,
-      columnNumber: 9
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: banner_home_default }, void 0, false, {
-      fileName: "app/components/grid.jsx",
-      lineNumber: 10,
-      columnNumber: 9
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: banner_home_default }, void 0, false, {
-      fileName: "app/components/grid.jsx",
-      lineNumber: 11,
-      columnNumber: 9
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: banner_home_default }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: Fairmont_Mount_Kenya_Safari_Club3_default }, void 0, false, {
       fileName: "app/components/grid.jsx",
       lineNumber: 12,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: banner_home_default }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: maasai_mara3_default }, void 0, false, {
       fileName: "app/components/grid.jsx",
       lineNumber: 13,
+      columnNumber: 9
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: masai_mara_default }, void 0, false, {
+      fileName: "app/components/grid.jsx",
+      lineNumber: 14,
+      columnNumber: 9
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: samburu2_default }, void 0, false, {
+      fileName: "app/components/grid.jsx",
+      lineNumber: 15,
+      columnNumber: 9
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: The_Majlis_Hotel_Resort_Manda_Island_Lamu_Pool_default }, void 0, false, {
+      fileName: "app/components/grid.jsx",
+      lineNumber: 16,
+      columnNumber: 9
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: breakfastwithgiraffe_default }, void 0, false, {
+      fileName: "app/components/grid.jsx",
+      lineNumber: 17,
       columnNumber: 9
     }, this)
   ] }, void 0, true, {
     fileName: "app/components/grid.jsx",
-    lineNumber: 5,
+    lineNumber: 11,
     columnNumber: 7
   }, this);
 }
@@ -591,4 +602,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-T3HDPW6G.js.map
+//# sourceMappingURL=/build/routes/index-G5VXVLSY.js.map
