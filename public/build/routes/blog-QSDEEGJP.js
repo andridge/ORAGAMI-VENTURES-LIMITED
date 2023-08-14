@@ -243,11 +243,20 @@ function blog_section_default() {
         lineNumber: 79,
         columnNumber: 5
       }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(TwitterTweetEmbed, { tweetId: "1691001319488618496" }, void 0, false, {
+        fileName: "app/components/blog-section.jsx",
+        lineNumber: 83,
+        columnNumber: 7
+      }, this) }, void 0, false, {
+        fileName: "app/components/blog-section.jsx",
+        lineNumber: 82,
+        columnNumber: 5
+      }, this),
       posts.map((post) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("article", { className: "flex max-w-xl flex-col items-start justify-between", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex items-center gap-x-4 text-xs", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("time", { dateTime: post.datetime, className: "text-gray-500", children: post.date }, void 0, false, {
             fileName: "app/components/blog-section.jsx",
-            lineNumber: 86,
+            lineNumber: 89,
             columnNumber: 17
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -261,84 +270,84 @@ function blog_section_default() {
             false,
             {
               fileName: "app/components/blog-section.jsx",
-              lineNumber: 89,
+              lineNumber: 92,
               columnNumber: 17
             },
             this
           )
         ] }, void 0, true, {
           fileName: "app/components/blog-section.jsx",
-          lineNumber: 85,
+          lineNumber: 88,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "group relative", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h3", { className: "mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: post.href, children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { className: "absolute inset-0 " }, void 0, false, {
               fileName: "app/components/blog-section.jsx",
-              lineNumber: 99,
+              lineNumber: 102,
               columnNumber: 21
             }, this),
             post.title
           ] }, void 0, true, {
             fileName: "app/components/blog-section.jsx",
-            lineNumber: 98,
+            lineNumber: 101,
             columnNumber: 19
           }, this) }, void 0, false, {
             fileName: "app/components/blog-section.jsx",
-            lineNumber: 97,
+            lineNumber: 100,
             columnNumber: 17
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "mt-5 line-clamp-3 text-sm leading-6 text-gray-600", children: post.description }, void 0, false, {
             fileName: "app/components/blog-section.jsx",
-            lineNumber: 103,
+            lineNumber: 106,
             columnNumber: 17
           }, this)
         ] }, void 0, true, {
           fileName: "app/components/blog-section.jsx",
-          lineNumber: 96,
+          lineNumber: 99,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "relative mt-8 flex items-center gap-x-4", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: post.author.imageUrl, alt: "", className: "h-10 w-10 rounded-full bg-gray-50" }, void 0, false, {
             fileName: "app/components/blog-section.jsx",
-            lineNumber: 106,
+            lineNumber: 109,
             columnNumber: 17
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "text-sm leading-6", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "font-semibold text-gray-900", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: post.author.href, children: [
               /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { className: "absolute inset-0" }, void 0, false, {
                 fileName: "app/components/blog-section.jsx",
-                lineNumber: 110,
+                lineNumber: 113,
                 columnNumber: 23
               }, this),
               post.author.name
             ] }, void 0, true, {
               fileName: "app/components/blog-section.jsx",
-              lineNumber: 109,
+              lineNumber: 112,
               columnNumber: 21
             }, this) }, void 0, false, {
               fileName: "app/components/blog-section.jsx",
-              lineNumber: 108,
+              lineNumber: 111,
               columnNumber: 19
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "text-red-600", children: post.author.role }, void 0, false, {
               fileName: "app/components/blog-section.jsx",
-              lineNumber: 114,
+              lineNumber: 117,
               columnNumber: 19
             }, this)
           ] }, void 0, true, {
             fileName: "app/components/blog-section.jsx",
-            lineNumber: 107,
+            lineNumber: 110,
             columnNumber: 17
           }, this)
         ] }, void 0, true, {
           fileName: "app/components/blog-section.jsx",
-          lineNumber: 105,
+          lineNumber: 108,
           columnNumber: 15
         }, this)
       ] }, post.id, true, {
         fileName: "app/components/blog-section.jsx",
-        lineNumber: 84,
+        lineNumber: 87,
         columnNumber: 13
       }, this))
     ] }, void 0, true, {
@@ -389,4 +398,4 @@ scriptjs/dist/script.js:
     * (c) Dustin Diaz 2014 | License MIT
     *)
 */
-//# sourceMappingURL=/build/routes/blog-QZPNJV6Q.js.map
+//# sourceMappingURL=/build/routes/blog-QSDEEGJP.js.map

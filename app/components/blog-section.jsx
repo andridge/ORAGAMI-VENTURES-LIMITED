@@ -79,6 +79,9 @@ export default function (){
     <div>
       <TwitterTweetEmbed tweetId="1690970414611132416" />
     </div>
+    <div>
+      <TwitterTweetEmbed tweetId="1691001319488618496" />
+    </div>
     
           {posts.map((post) => (
             <article key={post.id} className="flex max-w-xl flex-col items-start justify-between">

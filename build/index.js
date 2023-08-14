@@ -1892,11 +1892,20 @@ function blog_section_default() {
         lineNumber: 79,
         columnNumber: 5
       }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_react_twitter_embed.TwitterTweetEmbed, { tweetId: "1691001319488618496" }, void 0, !1, {
+        fileName: "app/components/blog-section.jsx",
+        lineNumber: 83,
+        columnNumber: 7
+      }, this) }, void 0, !1, {
+        fileName: "app/components/blog-section.jsx",
+        lineNumber: 82,
+        columnNumber: 5
+      }, this),
       posts.map((post) => /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("article", { className: "flex max-w-xl flex-col items-start justify-between", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "flex items-center gap-x-4 text-xs", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("time", { dateTime: post.datetime, className: "text-gray-500", children: post.date }, void 0, !1, {
             fileName: "app/components/blog-section.jsx",
-            lineNumber: 86,
+            lineNumber: 89,
             columnNumber: 17
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
@@ -1910,84 +1919,84 @@ function blog_section_default() {
             !1,
             {
               fileName: "app/components/blog-section.jsx",
-              lineNumber: 89,
+              lineNumber: 92,
               columnNumber: 17
             },
             this
           )
         ] }, void 0, !0, {
           fileName: "app/components/blog-section.jsx",
-          lineNumber: 85,
+          lineNumber: 88,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "group relative", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("h3", { className: "mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("a", { href: post.href, children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("span", { className: "absolute inset-0 " }, void 0, !1, {
               fileName: "app/components/blog-section.jsx",
-              lineNumber: 99,
+              lineNumber: 102,
               columnNumber: 21
             }, this),
             post.title
           ] }, void 0, !0, {
             fileName: "app/components/blog-section.jsx",
-            lineNumber: 98,
+            lineNumber: 101,
             columnNumber: 19
           }, this) }, void 0, !1, {
             fileName: "app/components/blog-section.jsx",
-            lineNumber: 97,
+            lineNumber: 100,
             columnNumber: 17
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("p", { className: "mt-5 line-clamp-3 text-sm leading-6 text-gray-600", children: post.description }, void 0, !1, {
             fileName: "app/components/blog-section.jsx",
-            lineNumber: 103,
+            lineNumber: 106,
             columnNumber: 17
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/blog-section.jsx",
-          lineNumber: 96,
+          lineNumber: 99,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "relative mt-8 flex items-center gap-x-4", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("img", { src: post.author.imageUrl, alt: "", className: "h-10 w-10 rounded-full bg-gray-50" }, void 0, !1, {
             fileName: "app/components/blog-section.jsx",
-            lineNumber: 106,
+            lineNumber: 109,
             columnNumber: 17
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "text-sm leading-6", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("p", { className: "font-semibold text-gray-900", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("a", { href: post.author.href, children: [
               /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("span", { className: "absolute inset-0" }, void 0, !1, {
                 fileName: "app/components/blog-section.jsx",
-                lineNumber: 110,
+                lineNumber: 113,
                 columnNumber: 23
               }, this),
               post.author.name
             ] }, void 0, !0, {
               fileName: "app/components/blog-section.jsx",
-              lineNumber: 109,
+              lineNumber: 112,
               columnNumber: 21
             }, this) }, void 0, !1, {
               fileName: "app/components/blog-section.jsx",
-              lineNumber: 108,
+              lineNumber: 111,
               columnNumber: 19
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("p", { className: "text-red-600", children: post.author.role }, void 0, !1, {
               fileName: "app/components/blog-section.jsx",
-              lineNumber: 114,
+              lineNumber: 117,
               columnNumber: 19
             }, this)
           ] }, void 0, !0, {
             fileName: "app/components/blog-section.jsx",
-            lineNumber: 107,
+            lineNumber: 110,
             columnNumber: 17
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/blog-section.jsx",
-          lineNumber: 105,
+          lineNumber: 108,
           columnNumber: 15
         }, this)
       ] }, post.id, !0, {
         fileName: "app/components/blog-section.jsx",
-        lineNumber: 84,
+        lineNumber: 87,
         columnNumber: 13
       }, this))
     ] }, void 0, !0, {
@@ -2047,7 +2056,7 @@ function Edge() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-KLVZUYXN.js", imports: ["/build/_shared/chunk-AXARUPOK.js", "/build/_shared/chunk-M74ZA6GI.js", "/build/_shared/chunk-FCC3XGIV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-BEZNFMUU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aboutus": { id: "routes/aboutus", parentId: "root", path: "aboutus", index: void 0, caseSensitive: void 0, module: "/build/routes/aboutus-VWNFHCSP.js", imports: ["/build/_shared/chunk-QHXENOSS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog": { id: "routes/blog", parentId: "root", path: "blog", index: void 0, caseSensitive: void 0, module: "/build/routes/blog-QZPNJV6Q.js", imports: ["/build/_shared/chunk-QHXENOSS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/edge": { id: "routes/edge", parentId: "root", path: "edge", index: void 0, caseSensitive: void 0, module: "/build/routes/edge-AX5KFZEP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-G5VXVLSY.js", imports: ["/build/_shared/chunk-QHXENOSS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service": { id: "routes/service", parentId: "root", path: "service", index: void 0, caseSensitive: void 0, module: "/build/routes/service-RDIE5KQY.js", imports: ["/build/_shared/chunk-QHXENOSS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "44ace603", hmr: void 0, url: "/build/manifest-44ACE603.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-KLVZUYXN.js", imports: ["/build/_shared/chunk-AXARUPOK.js", "/build/_shared/chunk-M74ZA6GI.js", "/build/_shared/chunk-FCC3XGIV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-BEZNFMUU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aboutus": { id: "routes/aboutus", parentId: "root", path: "aboutus", index: void 0, caseSensitive: void 0, module: "/build/routes/aboutus-VWNFHCSP.js", imports: ["/build/_shared/chunk-QHXENOSS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog": { id: "routes/blog", parentId: "root", path: "blog", index: void 0, caseSensitive: void 0, module: "/build/routes/blog-QSDEEGJP.js", imports: ["/build/_shared/chunk-QHXENOSS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/edge": { id: "routes/edge", parentId: "root", path: "edge", index: void 0, caseSensitive: void 0, module: "/build/routes/edge-AX5KFZEP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-G5VXVLSY.js", imports: ["/build/_shared/chunk-QHXENOSS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service": { id: "routes/service", parentId: "root", path: "service", index: void 0, caseSensitive: void 0, module: "/build/routes/service-RDIE5KQY.js", imports: ["/build/_shared/chunk-QHXENOSS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "6fab6273", hmr: void 0, url: "/build/manifest-6FAB6273.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_react_stream_exports }, routes = {
