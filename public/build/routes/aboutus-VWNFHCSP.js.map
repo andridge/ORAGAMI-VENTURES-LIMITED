@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/routes/aboutus.jsx"],
-  "sourcesContent": ["import Header from \"../components/header\";\nexport default function Aboutus (){\nreturn(\n    <div style={{ fontFamily: \"system-ui, sans-serif\", lineHeight: \"1.4\" }}>\n    <Header/>\n    </div>\n);\n}"],
-  "mappings": ";;;;;;;;;;AAII;AAHW,SAAR,UAA2B;AAClC,SACI,mDAAC,SAAI,OAAO,EAAE,YAAY,yBAAyB,YAAY,MAAM,GACrE,6DAAC,oBAAD;AAAA;AAAA;AAAA;AAAA,SAAO,KADP;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;",
-  "names": []
-}
