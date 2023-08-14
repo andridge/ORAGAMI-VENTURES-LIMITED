@@ -1,5 +1,6 @@
 import { TwitterTweetEmbed } from 'react-twitter-embed';
 const posts = [
+     {/*
     {
       id: 1,
       title: 'Nurturing Connections: The Heartbeat of Hospitality 🏨',
@@ -52,6 +53,7 @@ const posts = [
         },
       },
     // More posts...
+    */}
   ]
   
 export default function (){
@@ -82,7 +84,7 @@ export default function (){
     <div>
       <TwitterTweetEmbed tweetId="1691001319488618496" />
     </div>
-    
+    {/** 
           {posts.map((post) => (
             <article key={post.id} className="flex max-w-xl flex-col items-start justify-between">
               <div className="flex items-center gap-x-4 text-xs">
@@ -119,6 +121,7 @@ export default function (){
               </div>
             </article>
           ))}
+          */}
         </div>
       </div>
     </div>
