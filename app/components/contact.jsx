@@ -45,7 +45,7 @@ export default function (){
         <h2 class="mb-4 text-xl font-bold leading-9 text-gray-700 md:text-2xl dark:text-black">
         Office</h2>
         <a href="#" class="text-base font-medium text-gray-500 md:text-lg dark:text-black">
-        Sukedhara, Kathmandu</a>
+        Nairobi, Kiambu Rd</a>
         </div>
         </div>
         <div class="w-full px-4 sm:w-1/2">

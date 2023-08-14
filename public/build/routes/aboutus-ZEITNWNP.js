@@ -114,7 +114,7 @@ function contact_default() {
             lineNumber: 45,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "#", class: "text-base font-medium text-gray-500 md:text-lg dark:text-black", children: "Sukedhara, Kathmandu" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "#", class: "text-base font-medium text-gray-500 md:text-lg dark:text-black", children: "Nairobi, Kiambu Rd" }, void 0, false, {
             fileName: "app/components/contact.jsx",
             lineNumber: 47,
             columnNumber: 9
@@ -306,4 +306,4 @@ function Aboutus() {
 export {
   Aboutus as default
 };
-//# sourceMappingURL=/build/routes/aboutus-QQOCENV2.js.map
+//# sourceMappingURL=/build/routes/aboutus-ZEITNWNP.js.map
