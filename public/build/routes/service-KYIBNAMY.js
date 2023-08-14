@@ -123,7 +123,7 @@ function training_default() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
           "a",
           {
-            href: "#",
+            href: "mailto:venturesorigami@gmail.com",
             className: "mt-10 block w-full rounded-md bg-red-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-red-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600",
             children: "Contact Us"
           },
@@ -283,7 +283,7 @@ function consultation_default() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(
           "a",
           {
-            href: "#",
+            href: "mailto:venturesorigami@gmail.com",
             className: "mt-10 block w-full rounded-md bg-red-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-red-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600",
             children: "Contact Us"
           },
@@ -443,7 +443,7 @@ function hospitality_default() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
           "a",
           {
-            href: "#",
+            href: "mailto:venturesorigami@gmail.com",
             className: "mt-10 block w-full rounded-md bg-red-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-red-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600",
             children: "Contact Us"
           },
@@ -523,4 +523,4 @@ function Service() {
 export {
   Service as default
 };
-//# sourceMappingURL=/build/routes/service-RDIE5KQY.js.map
+//# sourceMappingURL=/build/routes/service-KYIBNAMY.js.map
