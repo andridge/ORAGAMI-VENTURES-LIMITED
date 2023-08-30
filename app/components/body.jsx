@@ -1,6 +1,6 @@
 import BannerImage from "../img/banner-home.jpeg";
-import CompanyImage from "../img/favicon copy.jpeg"
-import BodyImage from "../img/Swahili-Beach-Resort.jpeg"
+import CompanyImage from "../img/favicon copy.jpeg";
+import BodyImage from "../img/body.jpeg";
 export default function () {
   return (
     <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
@@ -53,64 +53,55 @@ export default function () {
                 <li className="flex gap-x-3">
                   {/* CloudArrowUpIcon removed */}
                   <span>
-                    <strong className="font-semibold text-red-600">Strategic positioning and planning </strong>
-                     involving strategic placement and foresight to maximize competitive advantage and guest satisfaction.
+                    <strong className="font-semibold text-black"> ~ Strategic positioning and planning </strong>
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   {/* CloudArrowUpIcon removed */}
                   <span>
-                    <strong className="font-semibold text-red-600">Training </strong>
-                    programs tailored to specific needs, emphasizing continuous improvement to include but not limited to health and safety, food and beverage training, customer service, team building
+                    <strong className="font-semibold text-black"> ~ Training </strong>
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   {/* CloudArrowUpIcon removed */}
                   <span>
-                    <strong className="font-semibold text-red-600">Finance management </strong>
-                    entailing budgeting, cost control, and revenue optimization to ensure efficient operations, profitability, and sustainable growth within the industry's unique financial dynamics.
+                    <strong className="font-semibold text-black"> ~ Finance management </strong>
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   {/* CloudArrowUpIcon removed */}
                   <span>
-                    <strong className="font-semibold text-red-600">Human Resource advisory level </strong>
-                    offers expert guidance on workforce planning, recruitment, training, and compliance to optimize staff performance, engagement, and overall organizational success within the dynamic hospitality sector.
+                    <strong className="font-semibold text-black"> ~ Human Resource advisory level </strong>
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   {/* CloudArrowUpIcon removed */}
                   <span>
-                    <strong className="font-semibold text-red-600">Event management </strong>
-                    involving orchestrating seamless events, from planning to execution, considering logistics, coordination, and guest experiences, ensuring memorable and successful gatherings within the hospitality industry.
+                    <strong className="font-semibold text-black"> ~ Event management </strong>
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   {/* CloudArrowUpIcon removed */}
                   <span>
-                    <strong className="font-semibold text-red-600">Pre opening </strong>
-                    preparatory phase before a new establishment's launch, encompassing staff training, operational setup, marketing strategies, and final touches to ensure a successful opening.
+                    <strong className="font-semibold text-black"> ~ Pre opening </strong>
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   {/* CloudArrowUpIcon removed */}
                   <span>
-                    <strong className="font-semibold text-red-600">Sustainable practices and circular economy </strong>
-                    emphasizing eco-friendly operations, resource efficiency, waste reduction, and recycling, fostering environmental responsibility and long-term viability while minimizing negative impacts on the ecosystem.
+                    <strong className="font-semibold text-black"> ~ Sustainable practices and circular economy </strong>
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   {/* CloudArrowUpIcon removed */}
                   <span>
-                    <strong className="font-semibold text-red-600">Promoting equity and diversity within the hospitality industry </strong>
-                    fostering inclusive workplaces, embracing varied backgrounds, cultures, and perspectives, ensuring equal opportunities, and enriching the industry's innovation and growth.
+                    <strong className="font-semibold text-black"> ~ Promoting equity and diversity within the hospitality industry </strong>
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   {/* CloudArrowUpIcon removed */}
                   <span>
-                    <strong className="font-semibold text-red-600">Crafting and growing unique brands for our clients through strategic positioning </strong>
-                    aligning values, and creating memorable experiences to establish a distinct identity, attracting and retaining guests effectively.
+                    <strong className="font-semibold text-black"> ~ Crafting and growing unique brands for our clients through strategic positioning </strong>
                   </span>
                 </li>
               </ul>

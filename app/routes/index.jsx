@@ -4,6 +4,7 @@ import Body from "../components/body";
 import Grid from "../components/grid";
 import Footer from "../components/footer";
 import Teamsections from "../components/teamsections";
+import Contact from "../components/contact";
 export default function Index() {
   return (
     <div  style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
@@ -11,7 +12,7 @@ export default function Index() {
      <Hero/>
      <Body/>
      <Grid/>
-    <Teamsections/>
+     <Contact/>
      <Footer/>
     </div>
   );

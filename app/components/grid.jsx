@@ -1,20 +1,44 @@
+import { Link } from '@remix-run/react';
+import Simba from "../img/simba.jpeg";
+import Ndovu from "../img/ndovu.jpeg";
+import Flamingo from "../img/flamingo.jpeg";
+import Chui from "../img/chui.jpeg";
 
-import BannerImage from "../img/banner-home.jpeg";
-import MountKenya from "../img/Fairmont-Mount-Kenya-Safari-Club3.jpg";
-import Mara3Kenya from "../img/maasai-mara3.jpeg";
-import Mara2Kenya from "../img/masai-mara.jpg";
-import Samburu2Kenya from "../img/samburu2.jpeg";
-import LamuKenya from "../img/The-Majlis-Hotel-Resort-Manda-Island-Lamu-Pool.jpg";
-import GirafeCenter from "../img/breakfastwithgiraffe.jpg";
-export default function (){
+export default function () {
     return (
-      <div class="grid grid-cols-2 gap-2" >
-        <img src={MountKenya}></img>
-        <img src={Mara3Kenya}></img>
-        <img src={Mara2Kenya}></img>
-        <img src={Samburu2Kenya}></img>
-        <img src={LamuKenya}></img>
-        <img src={GirafeCenter}></img>
-</div>
+        <div className="grid grid-cols-2 gap-2">
+            <div className="relative group">
+                <Link to="/service">
+                    <img className="w-full h-auto transition-opacity group-hover:opacity-75" src={Simba} alt="Simba" />
+                </Link>
+                <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 group-hover:text-2xl">
+                    <span>Simba Package</span>
+                </div>
+            </div>
+            <div className="relative group">
+                <Link to="/service">
+                    <img className="w-full h-auto transition-opacity group-hover:opacity-75" src={Ndovu} alt="Ndovu" />
+                </Link>
+                <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 group-hover:text-xl">
+                    <span>Ndovu Package</span>
+                </div>
+            </div>
+            <div className="relative group">
+                <Link to="/service">
+                    <img className="w-full h-auto transition-opacity group-hover:opacity-75" src={Flamingo} alt="Flamingo" />
+                </Link>
+                <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 group-hover:text-xl">
+                    <span>Flamingo Package</span>
+                </div>
+            </div>
+            <div className="relative group">
+                <Link to="/service">
+                    <img className="w-full h-auto transition-opacity group-hover:opacity-75" src={Chui} alt="Chui" />
+                </Link>
+                <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 group-hover:text-xl">
+                    <span>Chui Package</span>
+                </div>
+            </div>
+        </div>
     );
 }
