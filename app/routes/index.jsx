@@ -5,6 +5,8 @@ import Grid from "../components/grid";
 import Footer from "../components/footer";
 import Teamsections from "../components/teamsections";
 import Contact from "../components/contact";
+import Testimony from "../components/testimony";
+import Sir from "../components/sir";
 export default function Index() {
   return (
     <div  style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
@@ -12,6 +14,9 @@ export default function Index() {
      <Hero/>
      <Body/>
      <Grid/>
+     <Testimony/>
+     <br></br>
+     <Sir/>
      <Contact/>
      <Footer/>
     </div>

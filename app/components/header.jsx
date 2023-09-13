@@ -16,9 +16,15 @@ export default function (){
       case '/':
         setSelectedTab('Home');
         break;
-      case '/service':
-        setSelectedTab('Services');
+      case '/hospitality':
+        setSelectedTab('Hospitality');
         break;
+      case '/training':
+        setSelectedTab('Training');
+        break;
+      case '/consultation':
+          setSelectedTab('Consultation');
+          break;
       case '/blog':
         setSelectedTab('Blog');
         break;
@@ -54,16 +60,40 @@ export default function (){
 
               </li>
               </Link>
-              <Link to="/service" onClick={() => handleTabClick('Services')}>
+              <Link to="/hospitality" onClick={() => handleTabClick('Services')}>
               <li
-                onClick={() => handleTabClick('Services')}
+                onClick={() => handleTabClick('Hospitality')}
                 className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-                  selectedTab === 'Services'
+                  selectedTab === 'Hospitality'
                     ? 'text-white bg-black'
                     : 'text-gray-600 border border-white bg-gray-50'
                 } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
               >
-            Services
+            Hospitality
+              </li>
+              </Link>
+              <Link to="/training" onClick={() => handleTabClick('Services')}>
+              <li
+                onClick={() => handleTabClick('Training')}
+                className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
+                  selectedTab === 'Training'
+                    ? 'text-white bg-black'
+                    : 'text-gray-600 border border-white bg-gray-50'
+                } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
+              >
+            Training
+              </li>
+              </Link>
+              <Link to="/consultation" onClick={() => handleTabClick('Services')}>
+              <li
+                onClick={() => handleTabClick('Consultation')}
+                className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
+                  selectedTab === 'Consultation'
+                    ? 'text-white bg-black'
+                    : 'text-gray-600 border border-white bg-gray-50'
+                } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
+              >
+                Consultation
               </li>
               </Link>
               <Link to="/blog" onClick={() => handleTabClick('Services')}>
@@ -106,7 +136,7 @@ export default function (){
               {/* SVG path content for your logo */}
              
             </svg>
-            <h2 className="font-bold text-4xl leading-6 text-black">
+            <h2 className="font-bold text-2xl leading-6 text-black">
             ORIGAMI VENTURES LIMITED
             </h2>
           </div>
@@ -165,16 +195,16 @@ export default function (){
 
               </li>
               </Link>
-              <Link to="/service" onClick={() => handleTabClick('Services')}>
+              <Link to="/hospitality" onClick={() => handleTabClick('Services')}>
               <li
-                onClick={() => handleTabClick('Services')}
+                onClick={() => handleTabClick('Hospitality')}
                 className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-                  selectedTab === 'Services'
+                  selectedTab === 'Hospitality'
                     ? 'text-white bg-black'
                     : 'text-gray-600 border border-white bg-gray-50'
                 } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
               >
-               Services
+               Hospitality
               
               </li>
               </Link>
