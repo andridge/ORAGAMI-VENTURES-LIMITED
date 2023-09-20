@@ -1,3 +1,6 @@
+import kentwood from "../img/kentwood.jpeg";
+import meggawatt from "../img/meggawatt.jpeg";
+import infinity from "../img/infinity.jpeg";
 export default function (){
     return (
         <div class="mb-32 text-center">
@@ -6,16 +9,15 @@ export default function (){
         <div class="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
           <div class="mb-12 md:mb-0">
             <div class="mb-6 flex justify-center">
-              <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg"
+              <img src={kentwood}
                 class="w-32 rounded-full shadow-lg dark:shadow-black/20" />
             </div>
-            <h5 class="mb-2 text-lg font-bold">Maria Smantha</h5>
+            <h5 class="mb-2 text-lg font-bold">Kentwood </h5>
             <h6 class="mb-4 font-medium text-primary dark:text-primary-400">
-              Web Developer
+             Kenya,Nairobi
             </h6>
             <p class="mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos
-              id officiis hic tenetur quae quaerat ad velit ab hic.
+            Origami Ventures' strategic positioning and planning services have been a game-changer for our business. Their team's insightful strategies and meticulous planning have helped us not only identify our unique market niche but also leverage it for growth. With their guidance, we've seen a significant increase in our market share and profitability. Their expertise in this area is truly unmatched.
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="inline-block w-6">
                 <path fill="currentColor"
                   d="M580 556h160V396H580v160Zm-360 0h160V396H220v160Zm406 220 80-160H520V336h280v288l-76 152h-98Zm-360 0 80-160H160V336h280v288l-76 152h-98Zm34-300Zm360 0Z" />
@@ -56,16 +58,15 @@ export default function (){
           </div>
           <div class="mb-12 md:mb-0">
             <div class="mb-6 flex justify-center">
-              <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpg"
+              <img src={meggawatt}
                 class="w-32 rounded-full shadow-lg dark:shadow-black/20" />
             </div>
-            <h5 class="mb-2 text-lg font-bold">Lisa Cudrow</h5>
+            <h5 class="mb-2 text-lg font-bold">Meggawatt restaurant</h5>
             <h6 class="mb-4 font-medium text-primary dark:text-primary-400">
-              Graphic Designer
+              Kenya,Nairobi
             </h6>
             <p class="mb-4">
-              Ut enim ad minima veniam, quis nostrum exercitationem ullam
-              corporis suscipit laboriosam, nisi ut aliquid commodi.
+            Origami Ventures has been instrumental in optimizing our financial management. Their attention to detail and data-driven approach have resulted in improved financial stability and profitability for our company. Their team's ability to provide clear and actionable financial insights has been a game-changer for us. We now feel more confident in our financial decisions, thanks to their expert guidance.
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="inline-block w-6">
                 <path fill="currentColor"
                   d="M580 556h160V396H580v160Zm-360 0h160V396H220v160Zm406 220 80-160H520V336h280v288l-76 152h-98Zm-360 0 80-160H160V336h280v288l-76 152h-98Zm34-300Zm360 0Z" />
@@ -106,16 +107,15 @@ export default function (){
           </div>
           <div class="mb-0">
             <div class="mb-6 flex justify-center">
-              <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).jpg"
+              <img src={infinity}
                 class="w-32 rounded-full shadow-lg dark:shadow-black/20" />
             </div>
-            <h5 class="mb-2 text-lg font-bold">John Smith</h5>
+            <h5 class="mb-2 text-lg font-bold">Infinity Sport Bar DMS Urbanable</h5>
             <h6 class="mb-4 font-medium text-primary dark:text-primary-400">
-              Marketing Specialist
+              United States
             </h6>
             <p class="mb-4">
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui
-              blanditiis praesentium voluptatum deleniti atque corrupti.
+            Origami Ventures' human resource advisory services have been a lifeline for our organization. Their expert team helped us streamline our HR processes, implement best practices, and foster a positive workplace culture. Their support has not only improved employee satisfaction but also reduced turnover rates. We can't thank them enough for their invaluable guidance and expertise.
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="inline-block w-6">
                 <path fill="currentColor"
                   d="M580 556h160V396H580v160Zm-360 0h160V396H220v160Zm406 220 80-160H520V336h280v288l-76 152h-98Zm-360 0 80-160H160V336h280v288l-76 152h-98Zm34-300Zm360 0Z" />

@@ -2475,13 +2475,22 @@ function footer_default() {
   }, this);
 }
 
+// app/img/kentwood.jpeg
+var kentwood_default = "/build/_assets/kentwood-X37BYEDP.jpeg";
+
+// app/img/meggawatt.jpeg
+var meggawatt_default = "/build/_assets/meggawatt-45EYTBZQ.jpeg";
+
+// app/img/infinity.jpeg
+var infinity_default = "/build/_assets/infinity-5A33YU2B.jpeg";
+
 // app/components/testimony.jsx
 var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime");
 function testimony_default() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { class: "mb-32 text-center", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("h2", { class: "mb-12 text-3xl font-bold", children: "Testimonials" }, void 0, !1, {
       fileName: "app/components/testimony.jsx",
-      lineNumber: 4,
+      lineNumber: 7,
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { class: "grid gap-x-6 md:grid-cols-3 lg:gap-x-12", children: [
@@ -2489,34 +2498,34 @@ function testimony_default() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { class: "mb-6 flex justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
           "img",
           {
-            src: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg",
+            src: kentwood_default,
             class: "w-32 rounded-full shadow-lg dark:shadow-black/20"
           },
           void 0,
           !1,
           {
             fileName: "app/components/testimony.jsx",
-            lineNumber: 9,
+            lineNumber: 12,
             columnNumber: 15
           },
           this
         ) }, void 0, !1, {
           fileName: "app/components/testimony.jsx",
-          lineNumber: 8,
+          lineNumber: 11,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("h5", { class: "mb-2 text-lg font-bold", children: "Maria Smantha" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("h5", { class: "mb-2 text-lg font-bold", children: "Kentwood " }, void 0, !1, {
           fileName: "app/components/testimony.jsx",
-          lineNumber: 12,
+          lineNumber: 15,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("h6", { class: "mb-4 font-medium text-primary dark:text-primary-400", children: "Web Developer" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("h6", { class: "mb-4 font-medium text-primary dark:text-primary-400", children: "Kenya,Nairobi" }, void 0, !1, {
           fileName: "app/components/testimony.jsx",
-          lineNumber: 13,
+          lineNumber: 16,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("p", { class: "mb-4", children: [
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic.",
+          "Origami Ventures' strategic positioning and planning services have been a game-changer for our business. Their team's insightful strategies and meticulous planning have helped us not only identify our unique market niche but also leverage it for growth. With their guidance, we've seen a significant increase in our market share and profitability. Their expertise in this area is truly unmatched.",
           /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "inline-block w-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
             "path",
             {
@@ -2527,18 +2536,18 @@ function testimony_default() {
             !1,
             {
               fileName: "app/components/testimony.jsx",
-              lineNumber: 20,
+              lineNumber: 22,
               columnNumber: 17
             },
             this
           ) }, void 0, !1, {
             fileName: "app/components/testimony.jsx",
-            lineNumber: 19,
+            lineNumber: 21,
             columnNumber: 15
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/testimony.jsx",
-          lineNumber: 16,
+          lineNumber: 19,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("ul", { class: "mb-0 flex justify-center", children: [
@@ -2552,17 +2561,17 @@ function testimony_default() {
             !1,
             {
               fileName: "app/components/testimony.jsx",
-              lineNumber: 27,
+              lineNumber: 29,
               columnNumber: 19
             },
             this
           ) }, void 0, !1, {
             fileName: "app/components/testimony.jsx",
-            lineNumber: 26,
+            lineNumber: 28,
             columnNumber: 17
           }, this) }, void 0, !1, {
             fileName: "app/components/testimony.jsx",
-            lineNumber: 25,
+            lineNumber: 27,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
@@ -2575,17 +2584,17 @@ function testimony_default() {
             !1,
             {
               fileName: "app/components/testimony.jsx",
-              lineNumber: 33,
+              lineNumber: 35,
               columnNumber: 19
             },
             this
           ) }, void 0, !1, {
             fileName: "app/components/testimony.jsx",
-            lineNumber: 32,
+            lineNumber: 34,
             columnNumber: 17
           }, this) }, void 0, !1, {
             fileName: "app/components/testimony.jsx",
-            lineNumber: 31,
+            lineNumber: 33,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
@@ -2598,17 +2607,17 @@ function testimony_default() {
             !1,
             {
               fileName: "app/components/testimony.jsx",
-              lineNumber: 39,
+              lineNumber: 41,
               columnNumber: 19
             },
             this
           ) }, void 0, !1, {
             fileName: "app/components/testimony.jsx",
-            lineNumber: 38,
+            lineNumber: 40,
             columnNumber: 17
           }, this) }, void 0, !1, {
             fileName: "app/components/testimony.jsx",
-            lineNumber: 37,
+            lineNumber: 39,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
@@ -2621,17 +2630,17 @@ function testimony_default() {
             !1,
             {
               fileName: "app/components/testimony.jsx",
-              lineNumber: 45,
+              lineNumber: 47,
               columnNumber: 19
             },
             this
           ) }, void 0, !1, {
             fileName: "app/components/testimony.jsx",
-            lineNumber: 44,
+            lineNumber: 46,
             columnNumber: 17
           }, this) }, void 0, !1, {
             fileName: "app/components/testimony.jsx",
-            lineNumber: 43,
+            lineNumber: 45,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
@@ -2644,61 +2653,61 @@ function testimony_default() {
             !1,
             {
               fileName: "app/components/testimony.jsx",
-              lineNumber: 51,
+              lineNumber: 53,
               columnNumber: 19
             },
             this
           ) }, void 0, !1, {
             fileName: "app/components/testimony.jsx",
-            lineNumber: 50,
+            lineNumber: 52,
             columnNumber: 17
           }, this) }, void 0, !1, {
             fileName: "app/components/testimony.jsx",
-            lineNumber: 49,
+            lineNumber: 51,
             columnNumber: 15
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/testimony.jsx",
-          lineNumber: 24,
+          lineNumber: 26,
           columnNumber: 13
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/testimony.jsx",
-        lineNumber: 7,
+        lineNumber: 10,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { class: "mb-12 md:mb-0", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { class: "mb-6 flex justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
           "img",
           {
-            src: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpg",
+            src: meggawatt_default,
             class: "w-32 rounded-full shadow-lg dark:shadow-black/20"
           },
           void 0,
           !1,
           {
             fileName: "app/components/testimony.jsx",
-            lineNumber: 59,
+            lineNumber: 61,
             columnNumber: 15
           },
           this
         ) }, void 0, !1, {
           fileName: "app/components/testimony.jsx",
-          lineNumber: 58,
+          lineNumber: 60,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("h5", { class: "mb-2 text-lg font-bold", children: "Lisa Cudrow" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("h5", { class: "mb-2 text-lg font-bold", children: "Meggawatt restaurant" }, void 0, !1, {
           fileName: "app/components/testimony.jsx",
-          lineNumber: 62,
+          lineNumber: 64,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("h6", { class: "mb-4 font-medium text-primary dark:text-primary-400", children: "Graphic Designer" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("h6", { class: "mb-4 font-medium text-primary dark:text-primary-400", children: "Kenya,Nairobi" }, void 0, !1, {
           fileName: "app/components/testimony.jsx",
-          lineNumber: 63,
+          lineNumber: 65,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("p", { class: "mb-4", children: [
-          "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi.",
+          "Origami Ventures has been instrumental in optimizing our financial management. Their attention to detail and data-driven approach have resulted in improved financial stability and profitability for our company. Their team's ability to provide clear and actionable financial insights has been a game-changer for us. We now feel more confident in our financial decisions, thanks to their expert guidance.",
           /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "inline-block w-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
             "path",
             {
@@ -2709,18 +2718,18 @@ function testimony_default() {
             !1,
             {
               fileName: "app/components/testimony.jsx",
-              lineNumber: 70,
+              lineNumber: 71,
               columnNumber: 17
             },
             this
           ) }, void 0, !1, {
             fileName: "app/components/testimony.jsx",
-            lineNumber: 69,
+            lineNumber: 70,
             columnNumber: 15
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/testimony.jsx",
-          lineNumber: 66,
+          lineNumber: 68,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("ul", { class: "mb-0 flex justify-center", children: [
@@ -2734,17 +2743,17 @@ function testimony_default() {
             !1,
             {
               fileName: "app/components/testimony.jsx",
-              lineNumber: 77,
+              lineNumber: 78,
               columnNumber: 19
             },
             this
           ) }, void 0, !1, {
+            fileName: "app/components/testimony.jsx",
+            lineNumber: 77,
+            columnNumber: 17
+          }, this) }, void 0, !1, {
             fileName: "app/components/testimony.jsx",
             lineNumber: 76,
-            columnNumber: 17
-          }, this) }, void 0, !1, {
-            fileName: "app/components/testimony.jsx",
-            lineNumber: 75,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
@@ -2757,17 +2766,17 @@ function testimony_default() {
             !1,
             {
               fileName: "app/components/testimony.jsx",
-              lineNumber: 83,
+              lineNumber: 84,
               columnNumber: 19
             },
             this
           ) }, void 0, !1, {
+            fileName: "app/components/testimony.jsx",
+            lineNumber: 83,
+            columnNumber: 17
+          }, this) }, void 0, !1, {
             fileName: "app/components/testimony.jsx",
             lineNumber: 82,
-            columnNumber: 17
-          }, this) }, void 0, !1, {
-            fileName: "app/components/testimony.jsx",
-            lineNumber: 81,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
@@ -2780,17 +2789,17 @@ function testimony_default() {
             !1,
             {
               fileName: "app/components/testimony.jsx",
-              lineNumber: 89,
+              lineNumber: 90,
               columnNumber: 19
             },
             this
           ) }, void 0, !1, {
+            fileName: "app/components/testimony.jsx",
+            lineNumber: 89,
+            columnNumber: 17
+          }, this) }, void 0, !1, {
             fileName: "app/components/testimony.jsx",
             lineNumber: 88,
-            columnNumber: 17
-          }, this) }, void 0, !1, {
-            fileName: "app/components/testimony.jsx",
-            lineNumber: 87,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
@@ -2803,17 +2812,17 @@ function testimony_default() {
             !1,
             {
               fileName: "app/components/testimony.jsx",
-              lineNumber: 95,
+              lineNumber: 96,
               columnNumber: 19
             },
             this
           ) }, void 0, !1, {
+            fileName: "app/components/testimony.jsx",
+            lineNumber: 95,
+            columnNumber: 17
+          }, this) }, void 0, !1, {
             fileName: "app/components/testimony.jsx",
             lineNumber: 94,
-            columnNumber: 17
-          }, this) }, void 0, !1, {
-            fileName: "app/components/testimony.jsx",
-            lineNumber: 93,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
@@ -2826,61 +2835,61 @@ function testimony_default() {
             !1,
             {
               fileName: "app/components/testimony.jsx",
-              lineNumber: 101,
+              lineNumber: 102,
               columnNumber: 19
             },
             this
           ) }, void 0, !1, {
             fileName: "app/components/testimony.jsx",
-            lineNumber: 100,
+            lineNumber: 101,
             columnNumber: 17
           }, this) }, void 0, !1, {
             fileName: "app/components/testimony.jsx",
-            lineNumber: 99,
+            lineNumber: 100,
             columnNumber: 15
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/testimony.jsx",
-          lineNumber: 74,
+          lineNumber: 75,
           columnNumber: 13
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/testimony.jsx",
-        lineNumber: 57,
+        lineNumber: 59,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { class: "mb-0", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { class: "mb-6 flex justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
           "img",
           {
-            src: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).jpg",
+            src: infinity_default,
             class: "w-32 rounded-full shadow-lg dark:shadow-black/20"
           },
           void 0,
           !1,
           {
             fileName: "app/components/testimony.jsx",
-            lineNumber: 109,
+            lineNumber: 110,
             columnNumber: 15
           },
           this
         ) }, void 0, !1, {
           fileName: "app/components/testimony.jsx",
-          lineNumber: 108,
+          lineNumber: 109,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("h5", { class: "mb-2 text-lg font-bold", children: "John Smith" }, void 0, !1, {
-          fileName: "app/components/testimony.jsx",
-          lineNumber: 112,
-          columnNumber: 13
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("h6", { class: "mb-4 font-medium text-primary dark:text-primary-400", children: "Marketing Specialist" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("h5", { class: "mb-2 text-lg font-bold", children: "Infinity Sport Bar DMS Urbanable" }, void 0, !1, {
           fileName: "app/components/testimony.jsx",
           lineNumber: 113,
           columnNumber: 13
         }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("h6", { class: "mb-4 font-medium text-primary dark:text-primary-400", children: "United States" }, void 0, !1, {
+          fileName: "app/components/testimony.jsx",
+          lineNumber: 114,
+          columnNumber: 13
+        }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("p", { class: "mb-4", children: [
-          "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.",
+          "Origami Ventures' human resource advisory services have been a lifeline for our organization. Their expert team helped us streamline our HR processes, implement best practices, and foster a positive workplace culture. Their support has not only improved employee satisfaction but also reduced turnover rates. We can't thank them enough for their invaluable guidance and expertise.",
           /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "inline-block w-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
             "path",
             {
@@ -2902,7 +2911,7 @@ function testimony_default() {
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/testimony.jsx",
-          lineNumber: 116,
+          lineNumber: 117,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("ul", { class: "mb-0 flex justify-center", children: [
@@ -3028,17 +3037,17 @@ function testimony_default() {
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/testimony.jsx",
-        lineNumber: 107,
+        lineNumber: 108,
         columnNumber: 11
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/testimony.jsx",
-      lineNumber: 6,
+      lineNumber: 9,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/testimony.jsx",
-    lineNumber: 3,
+    lineNumber: 6,
     columnNumber: 9
   }, this);
 }
@@ -3275,7 +3284,7 @@ function Edge() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-IDAOXEZQ.js", imports: ["/build/_shared/chunk-ZHQLR6A3.js", "/build/_shared/chunk-M74ZA6GI.js", "/build/_shared/chunk-FCC3XGIV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-FDXGUTKI.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aboutus": { id: "routes/aboutus", parentId: "root", path: "aboutus", index: void 0, caseSensitive: void 0, module: "/build/routes/aboutus-JL45NGTV.js", imports: ["/build/_shared/chunk-YUPLUBKE.js", "/build/_shared/chunk-QLXKXMGY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog": { id: "routes/blog", parentId: "root", path: "blog", index: void 0, caseSensitive: void 0, module: "/build/routes/blog-QFNEERGC.js", imports: ["/build/_shared/chunk-QLXKXMGY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/consultation": { id: "routes/consultation", parentId: "root", path: "consultation", index: void 0, caseSensitive: void 0, module: "/build/routes/consultation-7OKEDGTU.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-QLXKXMGY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/edge": { id: "routes/edge", parentId: "root", path: "edge", index: void 0, caseSensitive: void 0, module: "/build/routes/edge-AX5KFZEP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/hospitality": { id: "routes/hospitality", parentId: "root", path: "hospitality", index: void 0, caseSensitive: void 0, module: "/build/routes/hospitality-INBLX6X5.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-QLXKXMGY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-JXUOGWAQ.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-YUPLUBKE.js", "/build/_shared/chunk-QLXKXMGY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/training": { id: "routes/training", parentId: "root", path: "training", index: void 0, caseSensitive: void 0, module: "/build/routes/training-3DGFS6QS.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-QLXKXMGY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "8cddeb42", hmr: void 0, url: "/build/manifest-8CDDEB42.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-IDAOXEZQ.js", imports: ["/build/_shared/chunk-ZHQLR6A3.js", "/build/_shared/chunk-M74ZA6GI.js", "/build/_shared/chunk-FCC3XGIV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-FDXGUTKI.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aboutus": { id: "routes/aboutus", parentId: "root", path: "aboutus", index: void 0, caseSensitive: void 0, module: "/build/routes/aboutus-JL45NGTV.js", imports: ["/build/_shared/chunk-YUPLUBKE.js", "/build/_shared/chunk-QLXKXMGY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog": { id: "routes/blog", parentId: "root", path: "blog", index: void 0, caseSensitive: void 0, module: "/build/routes/blog-QFNEERGC.js", imports: ["/build/_shared/chunk-QLXKXMGY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/consultation": { id: "routes/consultation", parentId: "root", path: "consultation", index: void 0, caseSensitive: void 0, module: "/build/routes/consultation-7OKEDGTU.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-QLXKXMGY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/edge": { id: "routes/edge", parentId: "root", path: "edge", index: void 0, caseSensitive: void 0, module: "/build/routes/edge-AX5KFZEP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/hospitality": { id: "routes/hospitality", parentId: "root", path: "hospitality", index: void 0, caseSensitive: void 0, module: "/build/routes/hospitality-INBLX6X5.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-QLXKXMGY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-MTKK4H75.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-YUPLUBKE.js", "/build/_shared/chunk-QLXKXMGY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/training": { id: "routes/training", parentId: "root", path: "training", index: void 0, caseSensitive: void 0, module: "/build/routes/training-3DGFS6QS.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-QLXKXMGY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "f59d2166", hmr: void 0, url: "/build/manifest-F59D2166.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_react_stream_exports }, routes = {
