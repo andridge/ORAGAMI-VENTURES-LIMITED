@@ -338,12 +338,12 @@ function header_default() {
               lineNumber: 198,
               columnNumber: 15
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/blog", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/training", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
               "li",
               {
-                onClick: () => handleTabClick("Blog"),
-                className: `focus:outline-none focus:ring-2 focus:ring-offset-2 ${selectedTab === "Blog" ? "text-white bg-black" : "text-gray-600 border border-white bg-gray-50"} cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`,
-                children: "Blog"
+                onClick: () => handleTabClick("Hospitality"),
+                className: `focus:outline-none focus:ring-2 focus:ring-offset-2 ${selectedTab === "Hospitality" ? "text-white bg-black" : "text-gray-600 border border-white bg-gray-50"} cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`,
+                children: "Training"
               },
               void 0,
               false,
@@ -358,12 +358,12 @@ function header_default() {
               lineNumber: 211,
               columnNumber: 15
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/aboutus", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/consultation", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
               "li",
               {
-                onClick: () => handleTabClick("About Us"),
-                className: `focus:outline-none focus:ring-2 focus:ring-offset-2 ${selectedTab === "About Us" ? "text-white bg-black" : "text-gray-600 border border-white bg-gray-50"} cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`,
-                children: "About Us"
+                onClick: () => handleTabClick("Hospitality"),
+                className: `focus:outline-none focus:ring-2 focus:ring-offset-2 ${selectedTab === "Hospitality" ? "text-white bg-black" : "text-gray-600 border border-white bg-gray-50"} cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`,
+                children: "Consultation"
               },
               void 0,
               false,
@@ -376,6 +376,46 @@ function header_default() {
             ) }, void 0, false, {
               fileName: "app/components/header.jsx",
               lineNumber: 224,
+              columnNumber: 15
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/blog", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
+              "li",
+              {
+                onClick: () => handleTabClick("Blog"),
+                className: `focus:outline-none focus:ring-2 focus:ring-offset-2 ${selectedTab === "Blog" ? "text-white bg-black" : "text-gray-600 border border-white bg-gray-50"} cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`,
+                children: "Blog"
+              },
+              void 0,
+              false,
+              {
+                fileName: "app/components/header.jsx",
+                lineNumber: 238,
+                columnNumber: 15
+              },
+              this
+            ) }, void 0, false, {
+              fileName: "app/components/header.jsx",
+              lineNumber: 237,
+              columnNumber: 15
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/aboutus", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
+              "li",
+              {
+                onClick: () => handleTabClick("About Us"),
+                className: `focus:outline-none focus:ring-2 focus:ring-offset-2 ${selectedTab === "About Us" ? "text-white bg-black" : "text-gray-600 border border-white bg-gray-50"} cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`,
+                children: "About Us"
+              },
+              void 0,
+              false,
+              {
+                fileName: "app/components/header.jsx",
+                lineNumber: 251,
+                columnNumber: 15
+              },
+              this
+            ) }, void 0, false, {
+              fileName: "app/components/header.jsx",
+              lineNumber: 250,
               columnNumber: 15
             }, this)
           ]
@@ -412,4 +452,4 @@ function header_default() {
 export {
   header_default
 };
-//# sourceMappingURL=/build/_shared/chunk-EC5R3RKA.js.map
+//# sourceMappingURL=/build/_shared/chunk-QLXKXMGY.js.map

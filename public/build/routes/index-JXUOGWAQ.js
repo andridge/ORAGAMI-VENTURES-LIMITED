@@ -7,7 +7,7 @@ import {
 } from "/build/_shared/chunk-YUPLUBKE.js";
 import {
   header_default
-} from "/build/_shared/chunk-EC5R3RKA.js";
+} from "/build/_shared/chunk-QLXKXMGY.js";
 import {
   Link,
   init_dist
@@ -1227,4 +1227,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-VPBVTCPY.js.map
+//# sourceMappingURL=/build/routes/index-JXUOGWAQ.js.map
