@@ -535,8 +535,8 @@ function footer_default() {
   }, this);
 }
 
-// app/img/kentwood.jpeg
-var kentwood_default = "/build/_assets/kentwood-X37BYEDP.jpeg";
+// app/img/Kentwood.jpeg
+var Kentwood_default = "/build/_assets/Kentwood-X37BYEDP.jpeg";
 
 // app/img/meggawatt.jpeg
 var meggawatt_default = "/build/_assets/meggawatt-45EYTBZQ.jpeg";
@@ -558,7 +558,7 @@ function testimony_default() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { class: "mb-6 flex justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
           "img",
           {
-            src: kentwood_default,
+            src: Kentwood_default,
             class: "w-32 rounded-full shadow-lg dark:shadow-black/20"
           },
           void 0,
@@ -1236,4 +1236,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-MTKK4H75.js.map
+//# sourceMappingURL=/build/routes/index-VCRFMTBK.js.map

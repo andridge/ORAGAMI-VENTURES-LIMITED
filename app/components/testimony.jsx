@@ -1,4 +1,4 @@
-import kentwood from "../img/kentwood.jpeg";
+import kentwood from "../img/Kentwood.jpeg";
 import meggawatt from "../img/meggawatt.jpeg";
 import infinity from "../img/infinity.jpeg";
 export default function (){
