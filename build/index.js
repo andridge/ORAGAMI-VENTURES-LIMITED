@@ -149,7 +149,7 @@ var tailwind_default = "/build/_assets/tailwind-6XRBADIX.css";
 // app/root.jsx
 var import_react2 = require("@remix-run/react"), import_react3 = require("@vercel/analytics/react"), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), { MetaFunction } = require("@vercel/remix"), meta = () => ({
   charset: "utf-8",
-  title: "New Remix App",
+  title: "Origami Ventures Limited",
   viewport: "width=device-width,initial-scale=1"
 }), links = () => [
   {
@@ -384,7 +384,7 @@ function header_default() {
         setSelectedTab("Home");
         break;
     }
-  }, [location]), /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "w-full 2xl:container 2xl:mx-auto", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "bg-white rounded shadow-lg py-5 px-7", children: [
+  }, [location]), /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "w-full 4xl:container 2xl:mx-auto", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { style: { backgroundColor: "#BB2000" }, className: " shadow-lg py-5 px-7", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("nav", { className: "flex justify-between", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("ul", { className: "hidden md:flex flex-auto space-x-5", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -398,13 +398,13 @@ function header_default() {
           !1,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 51,
+            lineNumber: 55,
             columnNumber: 15
           },
           this
         ) }, void 0, !1, {
           fileName: "app/components/header.jsx",
-          lineNumber: 50,
+          lineNumber: 54,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/hospitality", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -418,13 +418,13 @@ function header_default() {
           !1,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 64,
+            lineNumber: 68,
             columnNumber: 15
           },
           this
         ) }, void 0, !1, {
           fileName: "app/components/header.jsx",
-          lineNumber: 63,
+          lineNumber: 67,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/training", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -438,13 +438,13 @@ function header_default() {
           !1,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 76,
+            lineNumber: 80,
             columnNumber: 15
           },
           this
         ) }, void 0, !1, {
           fileName: "app/components/header.jsx",
-          lineNumber: 75,
+          lineNumber: 79,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/consultation", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -458,13 +458,13 @@ function header_default() {
           !1,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 88,
+            lineNumber: 92,
             columnNumber: 15
           },
           this
         ) }, void 0, !1, {
           fileName: "app/components/header.jsx",
-          lineNumber: 87,
+          lineNumber: 91,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/blog", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -478,13 +478,13 @@ function header_default() {
           !1,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 100,
+            lineNumber: 104,
             columnNumber: 15
           },
           this
         ) }, void 0, !1, {
           fileName: "app/components/header.jsx",
-          lineNumber: 99,
+          lineNumber: 103,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/aboutus", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -498,18 +498,18 @@ function header_default() {
           !1,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 113,
+            lineNumber: 117,
             columnNumber: 15
           },
           this
         ) }, void 0, !1, {
           fileName: "app/components/header.jsx",
-          lineNumber: 112,
+          lineNumber: 116,
           columnNumber: 15
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/header.jsx",
-        lineNumber: 49,
+        lineNumber: 53,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "flex items-center justify-center flex-auto", children: [
@@ -527,24 +527,24 @@ function header_default() {
           !1,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 128,
+            lineNumber: 132,
             columnNumber: 13
           },
           this
         ),
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("h2", { className: "font-bold text-2xl leading-6 text-black", children: "ORIGAMI VENTURES LIMITED" }, void 0, !1, {
           fileName: "app/components/header.jsx",
-          lineNumber: 139,
+          lineNumber: 143,
           columnNumber: 13
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/header.jsx",
-        lineNumber: 127,
+        lineNumber: 131,
         columnNumber: 13
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/header.jsx",
-      lineNumber: 46,
+      lineNumber: 50,
       columnNumber: 11
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "block md:hidden w-full mt-5", children: [
@@ -571,7 +571,7 @@ function header_default() {
                 !0,
                 {
                   fileName: "app/components/header.jsx",
-                  lineNumber: 151,
+                  lineNumber: 155,
                   columnNumber: 17
                 },
                 this
@@ -587,14 +587,14 @@ function header_default() {
                 !1,
                 {
                   fileName: "app/components/header.jsx",
-                  lineNumber: 159,
+                  lineNumber: 163,
                   columnNumber: 17
                 },
                 this
               )
             ] }, void 0, !0, {
               fileName: "app/components/header.jsx",
-              lineNumber: 150,
+              lineNumber: 154,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -612,7 +612,7 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 168,
+                lineNumber: 172,
                 columnNumber: 15
               },
               this
@@ -623,7 +623,7 @@ function header_default() {
         !0,
         {
           fileName: "app/components/header.jsx",
-          lineNumber: 146,
+          lineNumber: 150,
           columnNumber: 13
         },
         this
@@ -645,13 +645,13 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 186,
+                lineNumber: 190,
                 columnNumber: 15
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 185,
+              lineNumber: 189,
               columnNumber: 17
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/hospitality", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -665,13 +665,13 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 199,
+                lineNumber: 203,
                 columnNumber: 15
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 198,
+              lineNumber: 202,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/training", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -685,13 +685,13 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 212,
+                lineNumber: 216,
                 columnNumber: 15
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 211,
+              lineNumber: 215,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/consultation", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -705,13 +705,13 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 225,
+                lineNumber: 229,
                 columnNumber: 15
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 224,
+              lineNumber: 228,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/blog", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -725,13 +725,13 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 238,
+                lineNumber: 242,
                 columnNumber: 15
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 237,
+              lineNumber: 241,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/aboutus", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -745,13 +745,13 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 251,
+                lineNumber: 255,
                 columnNumber: 15
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 250,
+              lineNumber: 254,
               columnNumber: 15
             }, this)
           ]
@@ -760,27 +760,27 @@ function header_default() {
         !0,
         {
           fileName: "app/components/header.jsx",
-          lineNumber: 181,
+          lineNumber: 185,
           columnNumber: 15
         },
         this
       ) }, void 0, !1, {
         fileName: "app/components/header.jsx",
-        lineNumber: 180,
+        lineNumber: 184,
         columnNumber: 13
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/header.jsx",
-      lineNumber: 145,
+      lineNumber: 149,
       columnNumber: 11
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/header.jsx",
-    lineNumber: 45,
-    columnNumber: 9
+    lineNumber: 48,
+    columnNumber: 7
   }, this) }, void 0, !1, {
     fileName: "app/components/header.jsx",
-    lineNumber: 44,
+    lineNumber: 47,
     columnNumber: 9
   }, this);
 }
@@ -1970,24 +1970,24 @@ function hero_default2() {
       children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "container mx-auto text-left text-white opacity-105", children: [
         " ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "flex items-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "w-1/2", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h1", { className: "text-5xl  mb-6 text-red-600 font-bold", children: "WELCOME TO ORIGAMI VENTURES LIMITED" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h1", { style: { color: "#200064" }, className: "text-5xl mb-6 font-bold", children: "WELCOME TO ORIGAMI VENTURES LIMITED" }, void 0, !1, {
             fileName: "app/components/hero.jsx",
             lineNumber: 14,
-            columnNumber: 15
+            columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
             fileName: "app/components/hero.jsx",
-            lineNumber: 15,
+            lineNumber: 17,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("p", { className: "text-3xl mb-12 text-black ", children: "Consultancy , Training & Hospitality" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("p", { className: "text-3xl mb-12 text-black ", children: "We Take You there ! !" }, void 0, !1, {
             fileName: "app/components/hero.jsx",
-            lineNumber: 16,
+            lineNumber: 18,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("a", { href: "/aboutus", className: "bg-red-600 text-white py-4 px-12 rounded-full hover:bg-black", children: "Read More" }, void 0, !1, {
             fileName: "app/components/hero.jsx",
-            lineNumber: 19,
+            lineNumber: 21,
             columnNumber: 15
           }, this)
         ] }, void 0, !0, {
@@ -3284,7 +3284,7 @@ function Edge() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-IDAOXEZQ.js", imports: ["/build/_shared/chunk-ZHQLR6A3.js", "/build/_shared/chunk-M74ZA6GI.js", "/build/_shared/chunk-FCC3XGIV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-FDXGUTKI.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aboutus": { id: "routes/aboutus", parentId: "root", path: "aboutus", index: void 0, caseSensitive: void 0, module: "/build/routes/aboutus-JL45NGTV.js", imports: ["/build/_shared/chunk-YUPLUBKE.js", "/build/_shared/chunk-QLXKXMGY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog": { id: "routes/blog", parentId: "root", path: "blog", index: void 0, caseSensitive: void 0, module: "/build/routes/blog-QFNEERGC.js", imports: ["/build/_shared/chunk-QLXKXMGY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/consultation": { id: "routes/consultation", parentId: "root", path: "consultation", index: void 0, caseSensitive: void 0, module: "/build/routes/consultation-7OKEDGTU.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-QLXKXMGY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/edge": { id: "routes/edge", parentId: "root", path: "edge", index: void 0, caseSensitive: void 0, module: "/build/routes/edge-AX5KFZEP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/hospitality": { id: "routes/hospitality", parentId: "root", path: "hospitality", index: void 0, caseSensitive: void 0, module: "/build/routes/hospitality-INBLX6X5.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-QLXKXMGY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-VCRFMTBK.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-YUPLUBKE.js", "/build/_shared/chunk-QLXKXMGY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/training": { id: "routes/training", parentId: "root", path: "training", index: void 0, caseSensitive: void 0, module: "/build/routes/training-3DGFS6QS.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-QLXKXMGY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "45c941f2", hmr: void 0, url: "/build/manifest-45C941F2.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-IDAOXEZQ.js", imports: ["/build/_shared/chunk-ZHQLR6A3.js", "/build/_shared/chunk-M74ZA6GI.js", "/build/_shared/chunk-FCC3XGIV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-NTVODRES.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aboutus": { id: "routes/aboutus", parentId: "root", path: "aboutus", index: void 0, caseSensitive: void 0, module: "/build/routes/aboutus-MDOENE6R.js", imports: ["/build/_shared/chunk-YUPLUBKE.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog": { id: "routes/blog", parentId: "root", path: "blog", index: void 0, caseSensitive: void 0, module: "/build/routes/blog-BOO2JKF5.js", imports: ["/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/consultation": { id: "routes/consultation", parentId: "root", path: "consultation", index: void 0, caseSensitive: void 0, module: "/build/routes/consultation-UE4EPT6A.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/edge": { id: "routes/edge", parentId: "root", path: "edge", index: void 0, caseSensitive: void 0, module: "/build/routes/edge-AX5KFZEP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/hospitality": { id: "routes/hospitality", parentId: "root", path: "hospitality", index: void 0, caseSensitive: void 0, module: "/build/routes/hospitality-V6THZKMS.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-OO3H2M3V.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-YUPLUBKE.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/training": { id: "routes/training", parentId: "root", path: "training", index: void 0, caseSensitive: void 0, module: "/build/routes/training-CMQ3BKNX.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "219edd98", hmr: void 0, url: "/build/manifest-219EDD98.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_react_stream_exports }, routes = {

@@ -50,7 +50,7 @@ function header_default() {
   const toggleDropdown = () => {
     setIsDropdownOpen((prevState) => !prevState);
   };
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "w-full 2xl:container 2xl:mx-auto", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "bg-white rounded shadow-lg py-5 px-7", children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "w-full 4xl:container 2xl:mx-auto", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { style: { backgroundColor: "#BB2000" }, className: " shadow-lg py-5 px-7", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("nav", { className: "flex justify-between", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("ul", { className: "hidden md:flex flex-auto space-x-5", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -64,13 +64,13 @@ function header_default() {
           false,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 51,
+            lineNumber: 55,
             columnNumber: 15
           },
           this
         ) }, void 0, false, {
           fileName: "app/components/header.jsx",
-          lineNumber: 50,
+          lineNumber: 54,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/hospitality", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -84,13 +84,13 @@ function header_default() {
           false,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 64,
+            lineNumber: 68,
             columnNumber: 15
           },
           this
         ) }, void 0, false, {
           fileName: "app/components/header.jsx",
-          lineNumber: 63,
+          lineNumber: 67,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/training", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -104,13 +104,13 @@ function header_default() {
           false,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 76,
+            lineNumber: 80,
             columnNumber: 15
           },
           this
         ) }, void 0, false, {
           fileName: "app/components/header.jsx",
-          lineNumber: 75,
+          lineNumber: 79,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/consultation", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -124,13 +124,13 @@ function header_default() {
           false,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 88,
+            lineNumber: 92,
             columnNumber: 15
           },
           this
         ) }, void 0, false, {
           fileName: "app/components/header.jsx",
-          lineNumber: 87,
+          lineNumber: 91,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/blog", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -144,13 +144,13 @@ function header_default() {
           false,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 100,
+            lineNumber: 104,
             columnNumber: 15
           },
           this
         ) }, void 0, false, {
           fileName: "app/components/header.jsx",
-          lineNumber: 99,
+          lineNumber: 103,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/aboutus", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -164,18 +164,18 @@ function header_default() {
           false,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 113,
+            lineNumber: 117,
             columnNumber: 15
           },
           this
         ) }, void 0, false, {
           fileName: "app/components/header.jsx",
-          lineNumber: 112,
+          lineNumber: 116,
           columnNumber: 15
         }, this)
       ] }, void 0, true, {
         fileName: "app/components/header.jsx",
-        lineNumber: 49,
+        lineNumber: 53,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex items-center justify-center flex-auto", children: [
@@ -193,24 +193,24 @@ function header_default() {
           false,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 128,
+            lineNumber: 132,
             columnNumber: 13
           },
           this
         ),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { className: "font-bold text-2xl leading-6 text-black", children: "ORIGAMI VENTURES LIMITED" }, void 0, false, {
           fileName: "app/components/header.jsx",
-          lineNumber: 139,
+          lineNumber: 143,
           columnNumber: 13
         }, this)
       ] }, void 0, true, {
         fileName: "app/components/header.jsx",
-        lineNumber: 127,
+        lineNumber: 131,
         columnNumber: 13
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/header.jsx",
-      lineNumber: 46,
+      lineNumber: 50,
       columnNumber: 11
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "block md:hidden w-full mt-5", children: [
@@ -235,7 +235,7 @@ function header_default() {
                 true,
                 {
                   fileName: "app/components/header.jsx",
-                  lineNumber: 151,
+                  lineNumber: 155,
                   columnNumber: 17
                 },
                 this
@@ -251,14 +251,14 @@ function header_default() {
                 false,
                 {
                   fileName: "app/components/header.jsx",
-                  lineNumber: 159,
+                  lineNumber: 163,
                   columnNumber: 17
                 },
                 this
               )
             ] }, void 0, true, {
               fileName: "app/components/header.jsx",
-              lineNumber: 150,
+              lineNumber: 154,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -276,7 +276,7 @@ function header_default() {
               false,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 168,
+                lineNumber: 172,
                 columnNumber: 15
               },
               this
@@ -287,7 +287,7 @@ function header_default() {
         true,
         {
           fileName: "app/components/header.jsx",
-          lineNumber: 146,
+          lineNumber: 150,
           columnNumber: 13
         },
         this
@@ -309,13 +309,13 @@ function header_default() {
               false,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 186,
+                lineNumber: 190,
                 columnNumber: 15
               },
               this
             ) }, void 0, false, {
               fileName: "app/components/header.jsx",
-              lineNumber: 185,
+              lineNumber: 189,
               columnNumber: 17
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/hospitality", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -329,13 +329,13 @@ function header_default() {
               false,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 199,
+                lineNumber: 203,
                 columnNumber: 15
               },
               this
             ) }, void 0, false, {
               fileName: "app/components/header.jsx",
-              lineNumber: 198,
+              lineNumber: 202,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/training", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -349,13 +349,13 @@ function header_default() {
               false,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 212,
+                lineNumber: 216,
                 columnNumber: 15
               },
               this
             ) }, void 0, false, {
               fileName: "app/components/header.jsx",
-              lineNumber: 211,
+              lineNumber: 215,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/consultation", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -369,13 +369,13 @@ function header_default() {
               false,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 225,
+                lineNumber: 229,
                 columnNumber: 15
               },
               this
             ) }, void 0, false, {
               fileName: "app/components/header.jsx",
-              lineNumber: 224,
+              lineNumber: 228,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/blog", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -389,13 +389,13 @@ function header_default() {
               false,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 238,
+                lineNumber: 242,
                 columnNumber: 15
               },
               this
             ) }, void 0, false, {
               fileName: "app/components/header.jsx",
-              lineNumber: 237,
+              lineNumber: 241,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/aboutus", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -409,13 +409,13 @@ function header_default() {
               false,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 251,
+                lineNumber: 255,
                 columnNumber: 15
               },
               this
             ) }, void 0, false, {
               fileName: "app/components/header.jsx",
-              lineNumber: 250,
+              lineNumber: 254,
               columnNumber: 15
             }, this)
           ]
@@ -424,27 +424,27 @@ function header_default() {
         true,
         {
           fileName: "app/components/header.jsx",
-          lineNumber: 181,
+          lineNumber: 185,
           columnNumber: 15
         },
         this
       ) }, void 0, false, {
         fileName: "app/components/header.jsx",
-        lineNumber: 180,
+        lineNumber: 184,
         columnNumber: 13
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/header.jsx",
-      lineNumber: 145,
+      lineNumber: 149,
       columnNumber: 11
     }, this)
   ] }, void 0, true, {
     fileName: "app/components/header.jsx",
-    lineNumber: 45,
-    columnNumber: 9
+    lineNumber: 48,
+    columnNumber: 7
   }, this) }, void 0, false, {
     fileName: "app/components/header.jsx",
-    lineNumber: 44,
+    lineNumber: 47,
     columnNumber: 9
   }, this);
 }
@@ -452,4 +452,4 @@ function header_default() {
 export {
   header_default
 };
-//# sourceMappingURL=/build/_shared/chunk-QLXKXMGY.js.map
+//# sourceMappingURL=/build/_shared/chunk-UDQA3A3L.js.map

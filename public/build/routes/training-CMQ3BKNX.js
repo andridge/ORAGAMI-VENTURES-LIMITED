@@ -3,7 +3,7 @@ import {
 } from "/build/_shared/chunk-S75WHIHW.js";
 import {
   header_default
-} from "/build/_shared/chunk-QLXKXMGY.js";
+} from "/build/_shared/chunk-UDQA3A3L.js";
 import "/build/_shared/chunk-M74ZA6GI.js";
 import {
   __toESM,
@@ -172,4 +172,4 @@ function Training() {
 export {
   Training as default
 };
-//# sourceMappingURL=/build/routes/training-3DGFS6QS.js.map
+//# sourceMappingURL=/build/routes/training-CMQ3BKNX.js.map

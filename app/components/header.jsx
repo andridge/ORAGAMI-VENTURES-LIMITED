@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import {useLocation } from 'react-router-dom';
 import {useEffect } from 'react';
 export default function (){
+  
   const location = useLocation();
   const [selectedTab, setSelectedTab] = useState('Home');
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -40,9 +41,12 @@ export default function (){
   const toggleDropdown = () => {
     setIsDropdownOpen((prevState) => !prevState);
   };
+  
     return(
-        <div className="w-full 2xl:container 2xl:mx-auto">
-        <div className="bg-white rounded shadow-lg py-5 px-7">
+
+        <div className="w-full 4xl:container 2xl:mx-auto">
+      <div style={{ backgroundColor: '#BB2000' }} className=" shadow-lg py-5 px-7">
+
           <nav className="flex justify-between">
           
             {/* For medium and plus sized devices */}

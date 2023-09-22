@@ -11,10 +11,12 @@ export default function (){
         <div className="container mx-auto text-left text-white opacity-105"> {/* Change text color to black */}
           <div className="flex items-center">
             <div className="w-1/2">
-              <h1 className="text-5xl  mb-6 text-red-600 font-bold">WELCOME TO ORIGAMI VENTURES LIMITED</h1>
+            <h1 style={{ color:'#200064' }}  className="text-5xl mb-6 font-bold">
+              WELCOME TO ORIGAMI VENTURES LIMITED
+              </h1>
               <br></br>
               <p className="text-3xl mb-12 text-black ">
-             Consultancy , Training & Hospitality
+             We Take You there ! !
               </p>
               <a href="/aboutus" className="bg-red-600 text-white py-4 px-12 rounded-full hover:bg-black">
                 Read More

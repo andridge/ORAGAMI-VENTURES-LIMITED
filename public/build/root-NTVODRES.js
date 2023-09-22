@@ -14758,7 +14758,7 @@ var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
 var { MetaFunction } = require_edge();
 var meta = () => ({
   charset: "utf-8",
-  title: "New Remix App",
+  title: "Origami Ventures Limited",
   viewport: "width=device-width,initial-scale=1"
 });
 var links = () => [
@@ -15195,4 +15195,4 @@ react-dom/cjs/react-dom-server.browser.development.js:
    * @license MIT
    *)
 */
-//# sourceMappingURL=/build/root-FDXGUTKI.js.map
+//# sourceMappingURL=/build/root-NTVODRES.js.map

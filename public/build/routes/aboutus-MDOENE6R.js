@@ -3,7 +3,7 @@ import {
 } from "/build/_shared/chunk-YUPLUBKE.js";
 import {
   header_default
-} from "/build/_shared/chunk-QLXKXMGY.js";
+} from "/build/_shared/chunk-UDQA3A3L.js";
 import "/build/_shared/chunk-M74ZA6GI.js";
 import {
   __toESM,
@@ -33,4 +33,4 @@ function Aboutus() {
 export {
   Aboutus as default
 };
-//# sourceMappingURL=/build/routes/aboutus-JL45NGTV.js.map
+//# sourceMappingURL=/build/routes/aboutus-MDOENE6R.js.map

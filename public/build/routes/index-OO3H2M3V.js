@@ -7,7 +7,7 @@ import {
 } from "/build/_shared/chunk-YUPLUBKE.js";
 import {
   header_default
-} from "/build/_shared/chunk-QLXKXMGY.js";
+} from "/build/_shared/chunk-UDQA3A3L.js";
 import {
   Link,
   init_dist
@@ -32,24 +32,24 @@ function hero_default2() {
       children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "container mx-auto text-left text-white opacity-105", children: [
         " ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex items-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "w-1/2", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { className: "text-5xl  mb-6 text-red-600 font-bold", children: "WELCOME TO ORIGAMI VENTURES LIMITED" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { style: { color: "#200064" }, className: "text-5xl mb-6 font-bold", children: "WELCOME TO ORIGAMI VENTURES LIMITED" }, void 0, false, {
             fileName: "app/components/hero.jsx",
             lineNumber: 14,
-            columnNumber: 15
+            columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
             fileName: "app/components/hero.jsx",
-            lineNumber: 15,
+            lineNumber: 17,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "text-3xl mb-12 text-black ", children: "Consultancy , Training & Hospitality" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "text-3xl mb-12 text-black ", children: "We Take You there ! !" }, void 0, false, {
             fileName: "app/components/hero.jsx",
-            lineNumber: 16,
+            lineNumber: 18,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "/aboutus", className: "bg-red-600 text-white py-4 px-12 rounded-full hover:bg-black", children: "Read More" }, void 0, false, {
             fileName: "app/components/hero.jsx",
-            lineNumber: 19,
+            lineNumber: 21,
             columnNumber: 15
           }, this)
         ] }, void 0, true, {
@@ -1236,4 +1236,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-VCRFMTBK.js.map
+//# sourceMappingURL=/build/routes/index-OO3H2M3V.js.map
