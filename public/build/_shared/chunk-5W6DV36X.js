@@ -279,6 +279,15 @@ function contact_default() {
   }, this);
 }
 
+// app/img/dir2.jpg
+var dir2_default = "/build/_assets/dir2-A4EWXRVJ.jpg";
+
+// app/img/dir1.jpg
+var dir1_default = "/build/_assets/dir1-KC2S3JMT.jpg";
+
+// app/img/dir3.jpg
+var dir3_default = "/build/_assets/dir3-TJRLD6DD.jpg";
+
 // app/components/teamsections.jsx
 var import_jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime());
 function teamsections_default() {
@@ -286,78 +295,80 @@ function teamsections_default() {
     {
       name: "Jovita Ateya",
       role: "Co-Founder",
-      imageUrl: "URL_TO_JOVITA_IMAGE"
+      imageUrl: dir2_default
     },
     {
       name: "Nosiku Small",
       role: "Co-Founder",
-      imageUrl: "URL_TO_NOSIKU_IMAGE"
+      imageUrl: dir1_default
     },
     {
       name: "Esau Odeny",
       role: "Co-Founder",
-      imageUrl: "URL_TO_ESAU_IMAGE"
+      imageUrl: dir3_default
     }
   ];
   return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "bg-white py-24 sm:py-32", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "max-w-2xl", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h2", { className: "text-3xl font-bold tracking-tight text-red-600 ", children: "Meet our leadership" }, void 0, false, {
         fileName: "app/components/teamsections.jsx",
-        lineNumber: 24,
+        lineNumber: 27,
         columnNumber: 15
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { className: "mt-6 text-lg leading-8 text-black", children: "Origami Ventures Ltd was founded in 2022. Our training team consists of experienced hospitality trainers who possess in-depth knowledge and practical expertise in various aspects of hotel operations, customer service, and organizational excellence. They are skilled at creating dynamic and engaging learning environments, ensuring that participants gain valuable insights and skills aligned with Origami Ventures' vision and mission." }, void 0, false, {
         fileName: "app/components/teamsections.jsx",
-        lineNumber: 25,
+        lineNumber: 28,
         columnNumber: 15
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/teamsections.jsx",
-      lineNumber: 23,
+      lineNumber: 26,
       columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("ul", { role: "list", className: "grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2", children: people.map((person) => /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "flex items-center gap-x-6", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { className: "h-16 w-16 rounded-full", src: person.imageUrl, alt: `${person.name}'s Image` }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { style: {
+        objectFit: "cover"
+      }, className: "h-20 w-16 rounded-full", src: person.imageUrl, alt: `${person.name}'s Image` }, void 0, false, {
         fileName: "app/components/teamsections.jsx",
-        lineNumber: 37,
+        lineNumber: 40,
         columnNumber: 21
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h3", { className: "text-base font-semibold leading-7 tracking-tight text-gray-900", children: person.name }, void 0, false, {
           fileName: "app/components/teamsections.jsx",
-          lineNumber: 39,
+          lineNumber: 43,
           columnNumber: 23
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { className: "text-sm font-semibold leading-6 text-indigo-600", children: person.role }, void 0, false, {
           fileName: "app/components/teamsections.jsx",
-          lineNumber: 40,
+          lineNumber: 44,
           columnNumber: 23
         }, this)
       ] }, void 0, true, {
         fileName: "app/components/teamsections.jsx",
-        lineNumber: 38,
+        lineNumber: 42,
         columnNumber: 21
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/teamsections.jsx",
-      lineNumber: 36,
+      lineNumber: 39,
       columnNumber: 19
     }, this) }, person.name, false, {
       fileName: "app/components/teamsections.jsx",
-      lineNumber: 35,
+      lineNumber: 38,
       columnNumber: 17
     }, this)) }, void 0, false, {
       fileName: "app/components/teamsections.jsx",
-      lineNumber: 33,
+      lineNumber: 36,
       columnNumber: 13
     }, this)
   ] }, void 0, true, {
     fileName: "app/components/teamsections.jsx",
-    lineNumber: 22,
+    lineNumber: 25,
     columnNumber: 11
   }, this) }, void 0, false, {
     fileName: "app/components/teamsections.jsx",
-    lineNumber: 21,
+    lineNumber: 24,
     columnNumber: 9
   }, this);
 }
@@ -366,4 +377,4 @@ export {
   contact_default,
   teamsections_default
 };
-//# sourceMappingURL=/build/_shared/chunk-YUPLUBKE.js.map
+//# sourceMappingURL=/build/_shared/chunk-5W6DV36X.js.map

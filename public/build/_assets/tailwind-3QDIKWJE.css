@@ -693,6 +693,9 @@ select {
 .h-screen {
   height: 100vh;
 }
+.h-20 {
+  height: 5rem;
+}
 .w-1\/2 {
   width: 50%;
 }
@@ -1727,4 +1730,4 @@ select {
     margin-right: auto;
   }
 }
-/*# sourceMappingURL=/build/_assets/tailwind-JVAKNK6P.css.map */
+/*# sourceMappingURL=/build/_assets/tailwind-QWU43ZWE.css.map */

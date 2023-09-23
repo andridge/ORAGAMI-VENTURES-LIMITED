@@ -1,19 +1,22 @@
+import Jovita from "../img/dir2.jpg"
+import Nosiku from "../img/dir1.jpg"
+import Esau from "../img/dir3.jpg"
 export default function (){
     const people = [
         {
           name: 'Jovita Ateya',
           role: 'Co-Founder',
-          imageUrl: 'URL_TO_JOVITA_IMAGE',
+          imageUrl:Jovita,
         },
         {
           name: 'Nosiku Small',
           role: 'Co-Founder',
-          imageUrl: 'URL_TO_NOSIKU_IMAGE',
+          imageUrl:Nosiku,
         },
         {
           name: 'Esau Odeny',
           role: 'Co-Founder',
-          imageUrl: 'URL_TO_ESAU_IMAGE',
+          imageUrl: Esau,
         },
       ];
     
@@ -34,7 +37,8 @@ export default function (){
               {people.map((person) => (
                 <li key={person.name}>
                   <div className="flex items-center gap-x-6">
-                    <img className="h-16 w-16 rounded-full" src={person.imageUrl} alt={`${person.name}'s Image`} />
+                    <img style={{
+    objectFit: 'cover'}}className="h-20 w-16 rounded-full" src={person.imageUrl} alt={`${person.name}'s Image`} />
                     <div>
                       <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
                       <p className="text-sm font-semibold leading-6 text-indigo-600">{person.role}</p>

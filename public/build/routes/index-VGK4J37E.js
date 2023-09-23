@@ -4,7 +4,7 @@ import {
 import "/build/_shared/chunk-S75WHIHW.js";
 import {
   contact_default
-} from "/build/_shared/chunk-YUPLUBKE.js";
+} from "/build/_shared/chunk-5W6DV36X.js";
 import {
   header_default
 } from "/build/_shared/chunk-UDQA3A3L.js";
@@ -32,38 +32,38 @@ function hero_default2() {
       children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "container mx-auto text-left text-white opacity-105", children: [
         " ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex items-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "w-1/2", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { style: { color: "#200064" }, className: "text-5xl mb-6 font-bold", children: "WELCOME TO ORIGAMI VENTURES LIMITED" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { style: { color: "#BB2000" }, className: "text-5xl mb-6 font-bold", children: "WELCOME TO ORIGAMI VENTURES LIMITED" }, void 0, false, {
             fileName: "app/components/hero.jsx",
-            lineNumber: 14,
+            lineNumber: 15,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
             fileName: "app/components/hero.jsx",
-            lineNumber: 17,
+            lineNumber: 18,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "text-3xl mb-12 text-black ", children: "We Take You there ! !" }, void 0, false, {
             fileName: "app/components/hero.jsx",
-            lineNumber: 18,
+            lineNumber: 19,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "/aboutus", className: "bg-red-600 text-white py-4 px-12 rounded-full hover:bg-black", children: "Read More" }, void 0, false, {
             fileName: "app/components/hero.jsx",
-            lineNumber: 21,
+            lineNumber: 22,
             columnNumber: 15
           }, this)
         ] }, void 0, true, {
           fileName: "app/components/hero.jsx",
-          lineNumber: 13,
+          lineNumber: 14,
           columnNumber: 13
         }, this) }, void 0, false, {
           fileName: "app/components/hero.jsx",
-          lineNumber: 12,
+          lineNumber: 13,
           columnNumber: 11
         }, this)
       ] }, void 0, true, {
         fileName: "app/components/hero.jsx",
-        lineNumber: 11,
+        lineNumber: 12,
         columnNumber: 9
       }, this)
     },
@@ -71,13 +71,13 @@ function hero_default2() {
     false,
     {
       fileName: "app/components/hero.jsx",
-      lineNumber: 7,
+      lineNumber: 8,
       columnNumber: 7
     },
     this
   ) }, void 0, false, {
     fileName: "app/components/hero.jsx",
-    lineNumber: 6,
+    lineNumber: 7,
     columnNumber: 1
   }, this);
 }
@@ -1236,4 +1236,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-OO3H2M3V.js.map
+//# sourceMappingURL=/build/routes/index-VGK4J37E.js.map

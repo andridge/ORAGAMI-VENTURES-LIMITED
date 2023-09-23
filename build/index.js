@@ -144,7 +144,7 @@ __export(root_exports, {
 });
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-6XRBADIX.css";
+var tailwind_default = "/build/_assets/tailwind-3QDIKWJE.css";
 
 // app/root.jsx
 var import_react2 = require("@remix-run/react"), import_react3 = require("@vercel/analytics/react"), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), { MetaFunction } = require("@vercel/remix"), meta = () => ({
@@ -1847,6 +1847,15 @@ function contact_default() {
   }, this);
 }
 
+// app/img/dir2.jpg
+var dir2_default = "/build/_assets/dir2-A4EWXRVJ.jpg";
+
+// app/img/dir1.jpg
+var dir1_default = "/build/_assets/dir1-KC2S3JMT.jpg";
+
+// app/img/dir3.jpg
+var dir3_default = "/build/_assets/dir3-TJRLD6DD.jpg";
+
 // app/components/teamsections.jsx
 var import_jsx_dev_runtime14 = require("react/jsx-dev-runtime");
 function teamsections_default() {
@@ -1854,77 +1863,79 @@ function teamsections_default() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "max-w-2xl", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h2", { className: "text-3xl font-bold tracking-tight text-red-600 ", children: "Meet our leadership" }, void 0, !1, {
         fileName: "app/components/teamsections.jsx",
-        lineNumber: 24,
+        lineNumber: 27,
         columnNumber: 15
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { className: "mt-6 text-lg leading-8 text-black", children: "Origami Ventures Ltd was founded in 2022. Our training team consists of experienced hospitality trainers who possess in-depth knowledge and practical expertise in various aspects of hotel operations, customer service, and organizational excellence. They are skilled at creating dynamic and engaging learning environments, ensuring that participants gain valuable insights and skills aligned with Origami Ventures' vision and mission." }, void 0, !1, {
         fileName: "app/components/teamsections.jsx",
-        lineNumber: 25,
+        lineNumber: 28,
         columnNumber: 15
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/teamsections.jsx",
-      lineNumber: 23,
+      lineNumber: 26,
       columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("ul", { role: "list", className: "grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2", children: [
       {
         name: "Jovita Ateya",
         role: "Co-Founder",
-        imageUrl: "URL_TO_JOVITA_IMAGE"
+        imageUrl: dir2_default
       },
       {
         name: "Nosiku Small",
         role: "Co-Founder",
-        imageUrl: "URL_TO_NOSIKU_IMAGE"
+        imageUrl: dir1_default
       },
       {
         name: "Esau Odeny",
         role: "Co-Founder",
-        imageUrl: "URL_TO_ESAU_IMAGE"
+        imageUrl: dir3_default
       }
     ].map((person) => /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex items-center gap-x-6", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("img", { className: "h-16 w-16 rounded-full", src: person.imageUrl, alt: `${person.name}'s Image` }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("img", { style: {
+        objectFit: "cover"
+      }, className: "h-20 w-16 rounded-full", src: person.imageUrl, alt: `${person.name}'s Image` }, void 0, !1, {
         fileName: "app/components/teamsections.jsx",
-        lineNumber: 37,
+        lineNumber: 40,
         columnNumber: 21
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h3", { className: "text-base font-semibold leading-7 tracking-tight text-gray-900", children: person.name }, void 0, !1, {
           fileName: "app/components/teamsections.jsx",
-          lineNumber: 39,
+          lineNumber: 43,
           columnNumber: 23
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { className: "text-sm font-semibold leading-6 text-indigo-600", children: person.role }, void 0, !1, {
           fileName: "app/components/teamsections.jsx",
-          lineNumber: 40,
+          lineNumber: 44,
           columnNumber: 23
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/teamsections.jsx",
-        lineNumber: 38,
+        lineNumber: 42,
         columnNumber: 21
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/teamsections.jsx",
-      lineNumber: 36,
+      lineNumber: 39,
       columnNumber: 19
     }, this) }, person.name, !1, {
       fileName: "app/components/teamsections.jsx",
-      lineNumber: 35,
+      lineNumber: 38,
       columnNumber: 17
     }, this)) }, void 0, !1, {
       fileName: "app/components/teamsections.jsx",
-      lineNumber: 33,
+      lineNumber: 36,
       columnNumber: 13
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/teamsections.jsx",
-    lineNumber: 22,
+    lineNumber: 25,
     columnNumber: 11
   }, this) }, void 0, !1, {
     fileName: "app/components/teamsections.jsx",
-    lineNumber: 21,
+    lineNumber: 24,
     columnNumber: 9
   }, this);
 }
@@ -1970,38 +1981,38 @@ function hero_default2() {
       children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "container mx-auto text-left text-white opacity-105", children: [
         " ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "flex items-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "w-1/2", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h1", { style: { color: "#200064" }, className: "text-5xl mb-6 font-bold", children: "WELCOME TO ORIGAMI VENTURES LIMITED" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h1", { style: { color: "#BB2000" }, className: "text-5xl mb-6 font-bold", children: "WELCOME TO ORIGAMI VENTURES LIMITED" }, void 0, !1, {
             fileName: "app/components/hero.jsx",
-            lineNumber: 14,
+            lineNumber: 15,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
             fileName: "app/components/hero.jsx",
-            lineNumber: 17,
+            lineNumber: 18,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("p", { className: "text-3xl mb-12 text-black ", children: "We Take You there ! !" }, void 0, !1, {
             fileName: "app/components/hero.jsx",
-            lineNumber: 18,
+            lineNumber: 19,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("a", { href: "/aboutus", className: "bg-red-600 text-white py-4 px-12 rounded-full hover:bg-black", children: "Read More" }, void 0, !1, {
             fileName: "app/components/hero.jsx",
-            lineNumber: 21,
+            lineNumber: 22,
             columnNumber: 15
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/hero.jsx",
-          lineNumber: 13,
+          lineNumber: 14,
           columnNumber: 13
         }, this) }, void 0, !1, {
           fileName: "app/components/hero.jsx",
-          lineNumber: 12,
+          lineNumber: 13,
           columnNumber: 11
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/hero.jsx",
-        lineNumber: 11,
+        lineNumber: 12,
         columnNumber: 9
       }, this)
     },
@@ -2009,13 +2020,13 @@ function hero_default2() {
     !1,
     {
       fileName: "app/components/hero.jsx",
-      lineNumber: 7,
+      lineNumber: 8,
       columnNumber: 7
     },
     this
   ) }, void 0, !1, {
     fileName: "app/components/hero.jsx",
-    lineNumber: 6,
+    lineNumber: 7,
     columnNumber: 1
   }, this);
 }
@@ -3284,7 +3295,7 @@ function Edge() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-IDAOXEZQ.js", imports: ["/build/_shared/chunk-ZHQLR6A3.js", "/build/_shared/chunk-M74ZA6GI.js", "/build/_shared/chunk-FCC3XGIV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-NTVODRES.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aboutus": { id: "routes/aboutus", parentId: "root", path: "aboutus", index: void 0, caseSensitive: void 0, module: "/build/routes/aboutus-MDOENE6R.js", imports: ["/build/_shared/chunk-YUPLUBKE.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog": { id: "routes/blog", parentId: "root", path: "blog", index: void 0, caseSensitive: void 0, module: "/build/routes/blog-BOO2JKF5.js", imports: ["/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/consultation": { id: "routes/consultation", parentId: "root", path: "consultation", index: void 0, caseSensitive: void 0, module: "/build/routes/consultation-UE4EPT6A.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/edge": { id: "routes/edge", parentId: "root", path: "edge", index: void 0, caseSensitive: void 0, module: "/build/routes/edge-AX5KFZEP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/hospitality": { id: "routes/hospitality", parentId: "root", path: "hospitality", index: void 0, caseSensitive: void 0, module: "/build/routes/hospitality-V6THZKMS.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-OO3H2M3V.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-YUPLUBKE.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/training": { id: "routes/training", parentId: "root", path: "training", index: void 0, caseSensitive: void 0, module: "/build/routes/training-CMQ3BKNX.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "219edd98", hmr: void 0, url: "/build/manifest-219EDD98.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-IDAOXEZQ.js", imports: ["/build/_shared/chunk-ZHQLR6A3.js", "/build/_shared/chunk-M74ZA6GI.js", "/build/_shared/chunk-FCC3XGIV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-4XONMZD5.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aboutus": { id: "routes/aboutus", parentId: "root", path: "aboutus", index: void 0, caseSensitive: void 0, module: "/build/routes/aboutus-LIMJ6D2I.js", imports: ["/build/_shared/chunk-5W6DV36X.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog": { id: "routes/blog", parentId: "root", path: "blog", index: void 0, caseSensitive: void 0, module: "/build/routes/blog-BOO2JKF5.js", imports: ["/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/consultation": { id: "routes/consultation", parentId: "root", path: "consultation", index: void 0, caseSensitive: void 0, module: "/build/routes/consultation-UE4EPT6A.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/edge": { id: "routes/edge", parentId: "root", path: "edge", index: void 0, caseSensitive: void 0, module: "/build/routes/edge-AX5KFZEP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/hospitality": { id: "routes/hospitality", parentId: "root", path: "hospitality", index: void 0, caseSensitive: void 0, module: "/build/routes/hospitality-V6THZKMS.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-VGK4J37E.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-5W6DV36X.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/training": { id: "routes/training", parentId: "root", path: "training", index: void 0, caseSensitive: void 0, module: "/build/routes/training-CMQ3BKNX.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "012a1a0b", hmr: void 0, url: "/build/manifest-012A1A0B.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_react_stream_exports }, routes = {

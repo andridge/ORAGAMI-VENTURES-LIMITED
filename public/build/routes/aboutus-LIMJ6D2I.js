@@ -1,6 +1,6 @@
 import {
   teamsections_default
-} from "/build/_shared/chunk-YUPLUBKE.js";
+} from "/build/_shared/chunk-5W6DV36X.js";
 import {
   header_default
 } from "/build/_shared/chunk-UDQA3A3L.js";
@@ -33,4 +33,4 @@ function Aboutus() {
 export {
   Aboutus as default
 };
-//# sourceMappingURL=/build/routes/aboutus-MDOENE6R.js.map
+//# sourceMappingURL=/build/routes/aboutus-LIMJ6D2I.js.map

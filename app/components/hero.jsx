@@ -1,6 +1,7 @@
 import BannerImage from "../img/banner-home.jpeg"
 import CompanyImage from "../img/favicon copy.jpeg"
 import Homescreen from "../img/hero.jpeg"
+import Logo from "../img/logo.png"
 export default function (){
     return (
 <div className="h-screen bg-gray-50 flex items-center">
@@ -11,7 +12,7 @@ export default function (){
         <div className="container mx-auto text-left text-white opacity-105"> {/* Change text color to black */}
           <div className="flex items-center">
             <div className="w-1/2">
-            <h1 style={{ color:'#200064' }}  className="text-5xl mb-6 font-bold">
+            <h1 style={{ color:'#BB2000' }}  className="text-5xl mb-6 font-bold">
               WELCOME TO ORIGAMI VENTURES LIMITED
               </h1>
               <br></br>
