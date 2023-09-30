@@ -14687,7 +14687,7 @@ var require_edge = __commonJS({
 });
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-3QDIKWJE.css";
+var tailwind_default = "/build/_assets/tailwind-XS6LELKC.css";
 
 // node_modules/@vercel/analytics/dist/react/index.js
 var import_react = __toESM(require_react(), 1);
@@ -15195,4 +15195,4 @@ react-dom/cjs/react-dom-server.browser.development.js:
    * @license MIT
    *)
 */
-//# sourceMappingURL=/build/root-4XONMZD5.js.map
+//# sourceMappingURL=/build/root-GYTOR3HY.js.map

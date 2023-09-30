@@ -144,7 +144,7 @@ __export(root_exports, {
 });
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-3QDIKWJE.css";
+var tailwind_default = "/build/_assets/tailwind-XS6LELKC.css";
 
 // app/root.jsx
 var import_react2 = require("@remix-run/react"), import_react3 = require("@vercel/analytics/react"), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), { MetaFunction } = require("@vercel/remix"), meta = () => ({
@@ -3211,7 +3211,7 @@ function blog_section_default() {
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { className: "mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_react_twitter_embed.TwitterTweetEmbed, { tweetId: "1690982594865741827" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_react_twitter_embed.TwitterTweetEmbed, { tweetId: "1707344841334521956" }, void 0, !1, {
         fileName: "app/components/blog-section.jsx",
         lineNumber: 18,
         columnNumber: 5
@@ -3220,7 +3220,7 @@ function blog_section_default() {
         lineNumber: 17,
         columnNumber: 5
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_react_twitter_embed.TwitterTweetEmbed, { tweetId: "1690970414611132416" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_react_twitter_embed.TwitterTweetEmbed, { tweetId: "1707288473160311265" }, void 0, !1, {
         fileName: "app/components/blog-section.jsx",
         lineNumber: 21,
         columnNumber: 5
@@ -3229,7 +3229,7 @@ function blog_section_default() {
         lineNumber: 20,
         columnNumber: 5
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_react_twitter_embed.TwitterTweetEmbed, { tweetId: "1691001319488618496" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_react_twitter_embed.TwitterTweetEmbed, { tweetId: "1707311076679856407" }, void 0, !1, {
         fileName: "app/components/blog-section.jsx",
         lineNumber: 24,
         columnNumber: 5
@@ -3295,7 +3295,7 @@ function Edge() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-IDAOXEZQ.js", imports: ["/build/_shared/chunk-ZHQLR6A3.js", "/build/_shared/chunk-M74ZA6GI.js", "/build/_shared/chunk-FCC3XGIV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-4XONMZD5.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aboutus": { id: "routes/aboutus", parentId: "root", path: "aboutus", index: void 0, caseSensitive: void 0, module: "/build/routes/aboutus-LIMJ6D2I.js", imports: ["/build/_shared/chunk-5W6DV36X.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog": { id: "routes/blog", parentId: "root", path: "blog", index: void 0, caseSensitive: void 0, module: "/build/routes/blog-BOO2JKF5.js", imports: ["/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/consultation": { id: "routes/consultation", parentId: "root", path: "consultation", index: void 0, caseSensitive: void 0, module: "/build/routes/consultation-UE4EPT6A.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/edge": { id: "routes/edge", parentId: "root", path: "edge", index: void 0, caseSensitive: void 0, module: "/build/routes/edge-AX5KFZEP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/hospitality": { id: "routes/hospitality", parentId: "root", path: "hospitality", index: void 0, caseSensitive: void 0, module: "/build/routes/hospitality-V6THZKMS.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-VGK4J37E.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-5W6DV36X.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/training": { id: "routes/training", parentId: "root", path: "training", index: void 0, caseSensitive: void 0, module: "/build/routes/training-CMQ3BKNX.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "012a1a0b", hmr: void 0, url: "/build/manifest-012A1A0B.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-IDAOXEZQ.js", imports: ["/build/_shared/chunk-ZHQLR6A3.js", "/build/_shared/chunk-M74ZA6GI.js", "/build/_shared/chunk-FCC3XGIV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-GYTOR3HY.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aboutus": { id: "routes/aboutus", parentId: "root", path: "aboutus", index: void 0, caseSensitive: void 0, module: "/build/routes/aboutus-LIMJ6D2I.js", imports: ["/build/_shared/chunk-5W6DV36X.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog": { id: "routes/blog", parentId: "root", path: "blog", index: void 0, caseSensitive: void 0, module: "/build/routes/blog-NZQLYLFR.js", imports: ["/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/consultation": { id: "routes/consultation", parentId: "root", path: "consultation", index: void 0, caseSensitive: void 0, module: "/build/routes/consultation-UE4EPT6A.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/edge": { id: "routes/edge", parentId: "root", path: "edge", index: void 0, caseSensitive: void 0, module: "/build/routes/edge-AX5KFZEP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/hospitality": { id: "routes/hospitality", parentId: "root", path: "hospitality", index: void 0, caseSensitive: void 0, module: "/build/routes/hospitality-V6THZKMS.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-VGK4J37E.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-5W6DV36X.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/training": { id: "routes/training", parentId: "root", path: "training", index: void 0, caseSensitive: void 0, module: "/build/routes/training-CMQ3BKNX.js", imports: ["/build/_shared/chunk-S75WHIHW.js", "/build/_shared/chunk-UDQA3A3L.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "a6bc549f", hmr: void 0, url: "/build/manifest-A6BC549F.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_react_stream_exports }, routes = {

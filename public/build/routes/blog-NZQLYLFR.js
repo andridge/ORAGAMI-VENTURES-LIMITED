@@ -177,7 +177,7 @@ function blog_section_default() {
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(TwitterTweetEmbed, { tweetId: "1690982594865741827" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(TwitterTweetEmbed, { tweetId: "1707344841334521956" }, void 0, false, {
         fileName: "app/components/blog-section.jsx",
         lineNumber: 18,
         columnNumber: 5
@@ -186,7 +186,7 @@ function blog_section_default() {
         lineNumber: 17,
         columnNumber: 5
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(TwitterTweetEmbed, { tweetId: "1690970414611132416" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(TwitterTweetEmbed, { tweetId: "1707288473160311265" }, void 0, false, {
         fileName: "app/components/blog-section.jsx",
         lineNumber: 21,
         columnNumber: 5
@@ -195,7 +195,7 @@ function blog_section_default() {
         lineNumber: 20,
         columnNumber: 5
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(TwitterTweetEmbed, { tweetId: "1691001319488618496" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(TwitterTweetEmbed, { tweetId: "1707311076679856407" }, void 0, false, {
         fileName: "app/components/blog-section.jsx",
         lineNumber: 24,
         columnNumber: 5
@@ -252,4 +252,4 @@ scriptjs/dist/script.js:
     * (c) Dustin Diaz 2014 | License MIT
     *)
 */
-//# sourceMappingURL=/build/routes/blog-BOO2JKF5.js.map
+//# sourceMappingURL=/build/routes/blog-NZQLYLFR.js.map
