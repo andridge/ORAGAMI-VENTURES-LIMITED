@@ -1,5 +1,5 @@
 import kentwood from "../img/Kentwood.jpeg";
-import meggawatt from "../img/meggawatt.jpeg";
+import megawatt from "../img/meggawatt.jpeg";
 import infinity from "../img/infinity.jpeg";
 export default function (){
     return (
@@ -58,10 +58,10 @@ export default function (){
           </div>
           <div class="mb-12 md:mb-0">
             <div class="mb-6 flex justify-center">
-              <img src={meggawatt}
+              <img src={megawatt}
                 class="w-32 rounded-full shadow-lg dark:shadow-black/20" />
             </div>
-            <h5 class="mb-2 text-lg font-bold">Meggawatt restaurant</h5>
+            <h5 class="mb-2 text-lg font-bold">Megawatt restaurant</h5>
             <h6 class="mb-4 font-medium text-primary dark:text-primary-400">
               Kenya,Nairobi
             </h6>

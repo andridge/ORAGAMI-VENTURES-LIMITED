@@ -4,10 +4,10 @@ import Homescreen from "../img/hero.jpeg"
 import Logo from "../img/logo.png"
 export default function (){
     return (
-<div className="h-screen bg-gray-50 flex items-center">
+<div className="h-screen flex items-center">
       <section
         className="bg-cover bg-center py-32 w-full h-full"
-        style={{ backgroundImage: `url(${Homescreen})` }} // Use the imported image as the background
+       
       >
         <div className="container mx-auto text-left text-white opacity-105"> {/* Change text color to black */}
           <div className="flex items-center">
@@ -16,7 +16,7 @@ export default function (){
               WELCOME TO ORIGAMI VENTURES LIMITED
               </h1>
               <br></br>
-              <p className="text-3xl mb-12 text-black ">
+              <p className="text-3xl mb-12 text ">
              We Take You there ! !
               </p>
               <a href="/aboutus" className="bg-red-600 text-white py-4 px-12 rounded-full hover:bg-black">

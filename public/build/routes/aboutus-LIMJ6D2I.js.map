@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/routes/aboutus.jsx"],
-  "sourcesContent": ["import Header from \"../components/header\";\nimport Contact from \"../components/contact\";\nimport Teamsections from \"../components/teamsections\";\nexport default function Aboutus (){\nreturn(\n    <div style={{ fontFamily: \"system-ui, sans-serif\", lineHeight: \"1.4\" }}>\n    <Header/>\n    <Teamsections/>\n\n    </div>\n);\n}"],
-  "mappings": ";;;;;;;;;;;;;AAMI;AAHW,SAAR,UAA2B;AAClC,SACI,mDAAC,SAAI,OAAO,EAAE,YAAY,yBAAyB,YAAY,MAAM,GACrE;AAAA,uDAAC,oBAAD;AAAA;AAAA;AAAA;AAAA,WAAO;AAAA,IACP,mDAAC,0BAAD;AAAA;AAAA;AAAA;AAAA,WAAa;AAAA,OAFb;AAAA;AAAA;AAAA;AAAA,SAIA;AAEJ;",
-  "names": []
-}

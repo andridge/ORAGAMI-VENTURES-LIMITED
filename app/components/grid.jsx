@@ -11,7 +11,7 @@ export default function () {
         
         <div className="grid grid-cols-2 gap-2">
               
-            <Link to="/hospitality">
+            <Link to="/simba">
             <div className="relative group">
                
                     <img className="w-full h-auto transition-opacity group-hover:opacity-75" src={Simba} alt="Simba" />
@@ -21,7 +21,7 @@ export default function () {
                 </div>
             </div>
             </Link>
-            <Link to="/hospitality">
+            <Link to="/ndovu">
             <div className="relative group">
                
                     <img className="w-full h-auto transition-opacity group-hover:opacity-75" src={Ndovu} alt="Ndovu" />
@@ -31,7 +31,7 @@ export default function () {
                 </div>
             </div>
             </Link>
-            <Link to="/hospitality">
+            <Link to="/flamingo">
             <div className="relative group">
                
                     <img className="w-full h-auto transition-opacity group-hover:opacity-75" src={Flamingo} alt="Flamingo" />
@@ -41,7 +41,7 @@ export default function () {
                 </div>
             </div>
             </Link>
-            <Link to="/hospitality">
+            <Link to="/chui">
             <div className="relative group">
                
                     <img className="w-full h-auto transition-opacity group-hover:opacity-75" src={Chui} alt="Chui" />

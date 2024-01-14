@@ -45,7 +45,7 @@ export default function (){
     return(
 
         <div className="w-full 4xl:container 2xl:mx-auto">
-      <div style={{ backgroundColor: '#BB2000' }} className=" shadow-lg py-5 px-7">
+      <div style={{ backgroundColor: 'transparent' }} className="">
 
           <nav className="flex justify-between">
           
@@ -64,18 +64,53 @@ export default function (){
 
               </li>
               </Link>
-              <Link to="/hospitality" onClick={() => handleTabClick('Services')}>
-              <li
-                onClick={() => handleTabClick('Hospitality')}
-                className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-                  selectedTab === 'Hospitality'
-                    ? 'text-white bg-black'
-                    : 'text-gray-600 border border-white bg-gray-50'
-                } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
-              >
-            Hospitality
-              </li>
-              </Link>
+              <div className="relative inline-block text-left">
+
+    <li
+      onClick={() => handleTabClick('Hospitality')}
+      className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
+        selectedTab === 'Hospitality'
+          ? 'text-white bg-black'
+          : 'text-gray-600 border border-white bg-gray-50'
+      } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
+    >
+      Hospitality
+    </li>
+
+ <div className={`${selectedTab === 'Hospitality' ? 'block' : 'hidden'} origin-top-left absolute left-0 mt-8 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5`}>
+    <ul className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+      <li>
+        <Link to="/simba" onClick={() => handleTabClick('Simba')}>
+          <button className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" role="menuitem">
+            Simba
+          </button>
+        </Link>
+      </li>
+      <li>
+        <Link to="/chui" onClick={() => handleTabClick('Chui')}>
+          <button className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" role="menuitem">
+            Chui
+          </button>
+        </Link>
+      </li>
+      <li>
+        <Link to="/flamingo" onClick={() => handleTabClick('Flamingo')}>
+          <button className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" role="menuitem">
+            Flamingo
+          </button>
+        </Link>
+      </li>
+      <li>
+        <Link to="/ndovu" onClick={() => handleTabClick('Ndovu')}>
+          <button className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" role="menuitem">
+            Ndovu
+          </button>
+        </Link>
+      </li>
+    </ul>
+ </div>
+</div>
+
               <Link to="/training" onClick={() => handleTabClick('Services')}>
               <li
                 onClick={() => handleTabClick('Training')}
@@ -140,7 +175,7 @@ export default function (){
               {/* SVG path content for your logo */}
              
             </svg>
-            <h2 className="font-bold text-2xl leading-6 text-black">
+            <h2 className="font-bold text-2xl leading-6 text-white">
             ORIGAMI VENTURES LIMITED
             </h2>
           </div>
