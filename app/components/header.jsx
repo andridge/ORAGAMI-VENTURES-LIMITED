@@ -226,7 +226,7 @@ export default function (){
 
               </li>
               </Link>
-              <Link to="/hospitality" onClick={() => handleTabClick('Services')}>
+              
               <li
                 onClick={() => handleTabClick('Hospitality')}
                 className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
@@ -238,7 +238,38 @@ export default function (){
                Hospitality
               
               </li>
-              </Link>
+              <div className={`${selectedTab === 'Hospitality' ? 'block' : 'hidden'} origin-top-left absolute left-0 mt-8 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5`}>
+    <ul className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+      <li>
+        <Link to="/simba" onClick={() => handleTabClick('Simba')}>
+          <button className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" role="menuitem">
+            Simba
+          </button>
+        </Link>
+      </li>
+      <li>
+        <Link to="/chui" onClick={() => handleTabClick('Chui')}>
+          <button className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" role="menuitem">
+            Chui
+          </button>
+        </Link>
+      </li>
+      <li>
+        <Link to="/flamingo" onClick={() => handleTabClick('Flamingo')}>
+          <button className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" role="menuitem">
+            Flamingo
+          </button>
+        </Link>
+      </li>
+      <li>
+        <Link to="/ndovu" onClick={() => handleTabClick('Ndovu')}>
+          <button className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" role="menuitem">
+            Ndovu
+          </button>
+        </Link>
+      </li>
+    </ul>
+ </div>
               <Link to="/training" onClick={() => handleTabClick('Services')}>
               <li
                 onClick={() => handleTabClick('Hospitality')}
