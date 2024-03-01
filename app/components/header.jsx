@@ -2,6 +2,7 @@ import React, { useState, Fragment } from 'react'
 import { Link } from 'react-router-dom';
 import {useLocation } from 'react-router-dom';
 import {useEffect } from 'react';
+import logo from "../img/logo2.jpg"
 export default function (){
   
   const location = useLocation();
@@ -44,21 +45,29 @@ export default function (){
   
     return(
 
-        <div className="w-full 4xl:container 2xl:mx-auto">
+        <div className="w-full 4xl:container 2xl:mx-auto ">
       <div style={{ backgroundColor: 'transparent' }} className="">
 
           <nav className="flex justify-between">
-          
+          <div className="flex items-center justify-center flex-auto">
+  <img
+    className="cursor-pointer"
+    src={logo}// Replace with the actual path to your logo
+    alt="Logo"
+    width="70%"
+    height="58"
+  />
+</div>
             {/* For medium and plus sized devices */}
-            <ul className="hidden md:flex flex-auto space-x-5">
+            <ul className="hidden md:flex flex justify-end space-x-5">
             <Link to="/" onClick={() => handleTabClick('Services')}>
               <li
                 onClick={() => handleTabClick('Home')}
                 className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
                   selectedTab === 'Home'
-                    ? 'text-white bg-black'
-                    : 'text-gray-600 border border-white bg-gray-50'
-                } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
+                  ? 'text-red bg-transparent'
+                  : 'text-red-600 '
+              } cursor-pointer px-3 py-2.5 font-normal text-s leading-3  rounded`}
               >
                 Home
 
@@ -70,9 +79,9 @@ export default function (){
       onClick={() => handleTabClick('Hospitality')}
       className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
         selectedTab === 'Hospitality'
-          ? 'text-white bg-black'
-          : 'text-gray-600 border border-white bg-gray-50'
-      } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
+          ? 'text-red bg-transparent'
+          : 'text-red-600 '
+      } cursor-pointer px-3 py-2.5 font-normal text-s leading-3  rounded`}
     >
       Hospitality
     </li>
@@ -116,9 +125,9 @@ export default function (){
                 onClick={() => handleTabClick('Training')}
                 className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
                   selectedTab === 'Training'
-                    ? 'text-white bg-black'
-                    : 'text-gray-600 border border-white bg-gray-50'
-                } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
+                  ? 'text-red bg-transparent'
+                  : 'text-red-600  '
+              } cursor-pointer px-3 py-2.5 font-normal text-s leading-3  rounded`}
               >
             Training
               </li>
@@ -128,9 +137,9 @@ export default function (){
                 onClick={() => handleTabClick('Consultation')}
                 className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
                   selectedTab === 'Consultation'
-                    ? 'text-white bg-black'
-                    : 'text-gray-600 border border-white bg-gray-50'
-                } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
+                  ? 'text-red bg-transparent'
+                  : 'text-red-600 '
+              } cursor-pointer px-3 py-2.5 font-normal text-s leading-3  rounded`}
               >
                 Consultation
               </li>
@@ -140,9 +149,9 @@ export default function (){
                 onClick={() => handleTabClick('Blog')}
                 className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
                   selectedTab === 'Blog'
-                    ? 'text-white bg-black'
-                    : 'text-gray-600 border border-white bg-gray-50'
-                } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
+                  ? 'text-red bg-transparent'
+                  : 'text-red-600 '
+              } cursor-pointer px-3 py-2.5 font-normal text-s leading-3  rounded`}
               >
                 Blog
                 
@@ -153,32 +162,15 @@ export default function (){
                 onClick={() => handleTabClick('About Us')}
                 className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
                   selectedTab === 'About Us'
-                    ? 'text-white bg-black'
-                    : 'text-gray-600 border border-white bg-gray-50'
-                } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
+                  ? 'text-red bg-transparent'
+                  : 'text-red-600 '
+              } cursor-pointer px-3 py-2.5 font-normal text-s leading-3  rounded`}
               >
                 About Us
                 
               </li>
               </Link>
             </ul>
-
-            <div className="flex items-center justify-center flex-auto">
-            <svg
-              className="cursor-pointer"
-              width="34"
-              height="34"
-              viewBox="0 0 34 34"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              {/* SVG path content for your logo */}
-             
-            </svg>
-            <h2 className="font-bold text-2xl leading-6 text-white">
-            ORIGAMI VENTURES LIMITED
-            </h2>
-          </div>
           </nav>
           {/* for smaller devices */}
           <div className="block md:hidden w-full mt-5">

@@ -162,7 +162,7 @@ export default function(){
 
 
             <h5 className="text-lg mt-0 mb-2 text-yellow-600 text-center">
-            Origami Ventures is committed to your success, tailoring our approach to meet your unique goals with top-notch professionalism.
+            We commit to your success, tailoring our approach to meet your unique goals with top-notch professionalism.
             </h5>
           </div>
 

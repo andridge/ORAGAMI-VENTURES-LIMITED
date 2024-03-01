@@ -8,7 +8,8 @@ import Contact from "../components/contact";
 import Testimony from "../components/testimony";
 import Sir from "../components/sir";
 import Copyright from "../components/copyright";
-import Homescreen from "../img/z.jpg"
+import Homescreen from "../img/background.jpg"
+
 export default function Index() {
   return (
     <div>
@@ -23,20 +24,20 @@ export default function Index() {
     }}>
      <Footer/>
      <Header/>
-
      <Hero/>
-
      </div>
-     <div style={{ backgroundColor: 'white' }}>
-    <Body/>
+
+     <Body/>
      <Grid/>
+     <br></br>
+     <br></br>
      <Testimony/>
      <br></br>
      <Sir/>
      <Contact/>
    
      <Copyright/>
-     </div>
+
     
     </div>
      

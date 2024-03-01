@@ -144,7 +144,7 @@ __export(root_exports, {
 });
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-HXHJJTUI.css";
+var tailwind_default = "/build/_assets/tailwind-XP6K5SIV.css";
 
 // app/root.jsx
 var import_react2 = require("@remix-run/react"), import_react3 = require("@vercel/analytics/react"), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), { MetaFunction } = require("@vercel/remix"), meta = () => ({
@@ -355,7 +355,13 @@ function consultation_section_default() {
 }
 
 // app/components/header.jsx
-var import_react6 = require("react"), import_react_router_dom = require("react-router-dom"), import_react_router_dom2 = require("react-router-dom"), import_react7 = require("react"), import_jsx_dev_runtime4 = require("react/jsx-dev-runtime");
+var import_react6 = require("react"), import_react_router_dom = require("react-router-dom"), import_react_router_dom2 = require("react-router-dom"), import_react7 = require("react");
+
+// app/img/logo2.jpg
+var logo2_default = "/build/_assets/logo2-GDOYBK3W.jpg";
+
+// app/components/header.jsx
+var import_jsx_dev_runtime4 = require("react/jsx-dev-runtime");
 function header_default() {
   let location = (0, import_react_router_dom2.useLocation)(), [selectedTab, setSelectedTab] = (0, import_react6.useState)("Home"), [isDropdownOpen, setIsDropdownOpen] = (0, import_react6.useState)(!1), handleTabClick = (tab) => {
     setSelectedTab(tab);
@@ -384,27 +390,49 @@ function header_default() {
         setSelectedTab("Home");
         break;
     }
-  }, [location]), /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "w-full 4xl:container 2xl:mx-auto", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { style: { backgroundColor: "transparent" }, className: "", children: [
+  }, [location]), /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "w-full 4xl:container 2xl:mx-auto ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { style: { backgroundColor: "transparent" }, className: "", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("nav", { className: "flex justify-between", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("ul", { className: "hidden md:flex flex-auto space-x-5", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "flex items-center justify-center flex-auto", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
+        "img",
+        {
+          className: "cursor-pointer",
+          src: logo2_default,
+          alt: "Logo",
+          width: "70%",
+          height: "58"
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/components/header.jsx",
+          lineNumber: 53,
+          columnNumber: 3
+        },
+        this
+      ) }, void 0, !1, {
+        fileName: "app/components/header.jsx",
+        lineNumber: 52,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("ul", { className: "hidden md:flex flex justify-end space-x-5", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
           "li",
           {
             onClick: () => handleTabClick("Home"),
-            className: `focus:outline-none focus:ring-2 focus:ring-offset-2 ${selectedTab === "Home" ? "text-white bg-black" : "text-gray-600 border border-white bg-gray-50"} cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`,
+            className: `focus:outline-none focus:ring-2 focus:ring-offset-2 ${selectedTab === "Home" ? "text-red bg-transparent" : "text-red-600 "} cursor-pointer px-3 py-2.5 font-normal text-s leading-3  rounded`,
             children: "Home"
           },
           void 0,
           !1,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 55,
+            lineNumber: 64,
             columnNumber: 15
           },
           this
         ) }, void 0, !1, {
           fileName: "app/components/header.jsx",
-          lineNumber: 54,
+          lineNumber: 63,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "relative inline-block text-left", children: [
@@ -412,14 +440,14 @@ function header_default() {
             "li",
             {
               onClick: () => handleTabClick("Hospitality"),
-              className: `focus:outline-none focus:ring-2 focus:ring-offset-2 ${selectedTab === "Hospitality" ? "text-white bg-black" : "text-gray-600 border border-white bg-gray-50"} cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`,
+              className: `focus:outline-none focus:ring-2 focus:ring-offset-2 ${selectedTab === "Hospitality" ? "text-red bg-transparent" : "text-red-600 "} cursor-pointer px-3 py-2.5 font-normal text-s leading-3  rounded`,
               children: "Hospitality"
             },
             void 0,
             !1,
             {
               fileName: "app/components/header.jsx",
-              lineNumber: 69,
+              lineNumber: 78,
               columnNumber: 5
             },
             this
@@ -427,188 +455,158 @@ function header_default() {
           /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: `${selectedTab === "Hospitality" ? "block" : "hidden"} origin-top-left absolute left-0 mt-8 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("ul", { className: "py-1", role: "menu", "aria-orientation": "vertical", "aria-labelledby": "options-menu", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/simba", onClick: () => handleTabClick("Simba"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("button", { className: "block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900", role: "menuitem", children: "Simba" }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 84,
+              lineNumber: 93,
               columnNumber: 11
             }, this) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 83,
+              lineNumber: 92,
               columnNumber: 9
             }, this) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 82,
+              lineNumber: 91,
               columnNumber: 7
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/chui", onClick: () => handleTabClick("Chui"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("button", { className: "block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900", role: "menuitem", children: "Chui" }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 91,
+              lineNumber: 100,
               columnNumber: 11
             }, this) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 90,
+              lineNumber: 99,
               columnNumber: 9
             }, this) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 89,
+              lineNumber: 98,
               columnNumber: 7
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/flamingo", onClick: () => handleTabClick("Flamingo"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("button", { className: "block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900", role: "menuitem", children: "Flamingo" }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 98,
+              lineNumber: 107,
               columnNumber: 11
             }, this) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 97,
+              lineNumber: 106,
               columnNumber: 9
             }, this) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 96,
+              lineNumber: 105,
               columnNumber: 7
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/ndovu", onClick: () => handleTabClick("Ndovu"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("button", { className: "block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900", role: "menuitem", children: "Ndovu" }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 105,
+              lineNumber: 114,
               columnNumber: 11
             }, this) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 104,
+              lineNumber: 113,
               columnNumber: 9
             }, this) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 103,
+              lineNumber: 112,
               columnNumber: 7
             }, this)
           ] }, void 0, !0, {
             fileName: "app/components/header.jsx",
-            lineNumber: 81,
+            lineNumber: 90,
             columnNumber: 5
           }, this) }, void 0, !1, {
             fileName: "app/components/header.jsx",
-            lineNumber: 80,
+            lineNumber: 89,
             columnNumber: 2
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/header.jsx",
-          lineNumber: 67,
+          lineNumber: 76,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/training", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
           "li",
           {
             onClick: () => handleTabClick("Training"),
-            className: `focus:outline-none focus:ring-2 focus:ring-offset-2 ${selectedTab === "Training" ? "text-white bg-black" : "text-gray-600 border border-white bg-gray-50"} cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`,
+            className: `focus:outline-none focus:ring-2 focus:ring-offset-2 ${selectedTab === "Training" ? "text-red bg-transparent" : "text-red-600  "} cursor-pointer px-3 py-2.5 font-normal text-s leading-3  rounded`,
             children: "Training"
           },
           void 0,
           !1,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 115,
+            lineNumber: 124,
             columnNumber: 15
           },
           this
         ) }, void 0, !1, {
           fileName: "app/components/header.jsx",
-          lineNumber: 114,
+          lineNumber: 123,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/consultation", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
           "li",
           {
             onClick: () => handleTabClick("Consultation"),
-            className: `focus:outline-none focus:ring-2 focus:ring-offset-2 ${selectedTab === "Consultation" ? "text-white bg-black" : "text-gray-600 border border-white bg-gray-50"} cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`,
+            className: `focus:outline-none focus:ring-2 focus:ring-offset-2 ${selectedTab === "Consultation" ? "text-red bg-transparent" : "text-red-600 "} cursor-pointer px-3 py-2.5 font-normal text-s leading-3  rounded`,
             children: "Consultation"
           },
           void 0,
           !1,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 127,
+            lineNumber: 136,
             columnNumber: 15
           },
           this
         ) }, void 0, !1, {
           fileName: "app/components/header.jsx",
-          lineNumber: 126,
+          lineNumber: 135,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/blog", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
           "li",
           {
             onClick: () => handleTabClick("Blog"),
-            className: `focus:outline-none focus:ring-2 focus:ring-offset-2 ${selectedTab === "Blog" ? "text-white bg-black" : "text-gray-600 border border-white bg-gray-50"} cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`,
+            className: `focus:outline-none focus:ring-2 focus:ring-offset-2 ${selectedTab === "Blog" ? "text-red bg-transparent" : "text-red-600 "} cursor-pointer px-3 py-2.5 font-normal text-s leading-3  rounded`,
             children: "Blog"
           },
           void 0,
           !1,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 139,
+            lineNumber: 148,
             columnNumber: 15
           },
           this
         ) }, void 0, !1, {
           fileName: "app/components/header.jsx",
-          lineNumber: 138,
+          lineNumber: 147,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/aboutus", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
           "li",
           {
             onClick: () => handleTabClick("About Us"),
-            className: `focus:outline-none focus:ring-2 focus:ring-offset-2 ${selectedTab === "About Us" ? "text-white bg-black" : "text-gray-600 border border-white bg-gray-50"} cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`,
+            className: `focus:outline-none focus:ring-2 focus:ring-offset-2 ${selectedTab === "About Us" ? "text-red bg-transparent" : "text-red-600 "} cursor-pointer px-3 py-2.5 font-normal text-s leading-3  rounded`,
             children: "About Us"
           },
           void 0,
           !1,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 152,
+            lineNumber: 161,
             columnNumber: 15
           },
           this
         ) }, void 0, !1, {
           fileName: "app/components/header.jsx",
-          lineNumber: 151,
+          lineNumber: 160,
           columnNumber: 15
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/header.jsx",
-        lineNumber: 53,
-        columnNumber: 13
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "flex items-center justify-center flex-auto", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
-          "svg",
-          {
-            className: "cursor-pointer",
-            width: "34",
-            height: "34",
-            viewBox: "0 0 34 34",
-            fill: "none",
-            xmlns: "http://www.w3.org/2000/svg"
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/components/header.jsx",
-            lineNumber: 167,
-            columnNumber: 13
-          },
-          this
-        ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("h2", { className: "font-bold text-2xl leading-6 text-white", children: "ORIGAMI VENTURES LIMITED" }, void 0, !1, {
-          fileName: "app/components/header.jsx",
-          lineNumber: 178,
-          columnNumber: 13
-        }, this)
-      ] }, void 0, !0, {
-        fileName: "app/components/header.jsx",
-        lineNumber: 166,
+        lineNumber: 62,
         columnNumber: 13
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/header.jsx",
-      lineNumber: 50,
+      lineNumber: 51,
       columnNumber: 11
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "block md:hidden w-full mt-5", children: [
@@ -635,7 +633,7 @@ function header_default() {
                 !0,
                 {
                   fileName: "app/components/header.jsx",
-                  lineNumber: 190,
+                  lineNumber: 182,
                   columnNumber: 17
                 },
                 this
@@ -651,14 +649,14 @@ function header_default() {
                 !1,
                 {
                   fileName: "app/components/header.jsx",
-                  lineNumber: 198,
+                  lineNumber: 190,
                   columnNumber: 17
                 },
                 this
               )
             ] }, void 0, !0, {
               fileName: "app/components/header.jsx",
-              lineNumber: 189,
+              lineNumber: 181,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -676,7 +674,7 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 207,
+                lineNumber: 199,
                 columnNumber: 15
               },
               this
@@ -687,7 +685,7 @@ function header_default() {
         !0,
         {
           fileName: "app/components/header.jsx",
-          lineNumber: 185,
+          lineNumber: 177,
           columnNumber: 13
         },
         this
@@ -709,13 +707,13 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 225,
+                lineNumber: 217,
                 columnNumber: 15
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 224,
+              lineNumber: 216,
               columnNumber: 17
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/hospitality", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -729,13 +727,13 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 238,
+                lineNumber: 230,
                 columnNumber: 15
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 237,
+              lineNumber: 229,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/training", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -749,13 +747,13 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 251,
+                lineNumber: 243,
                 columnNumber: 15
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 250,
+              lineNumber: 242,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/consultation", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -769,13 +767,13 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 264,
+                lineNumber: 256,
                 columnNumber: 15
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 263,
+              lineNumber: 255,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/blog", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -789,13 +787,13 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 277,
+                lineNumber: 269,
                 columnNumber: 15
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 276,
+              lineNumber: 268,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/aboutus", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -809,13 +807,13 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 290,
+                lineNumber: 282,
                 columnNumber: 15
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 289,
+              lineNumber: 281,
               columnNumber: 15
             }, this)
           ]
@@ -824,27 +822,27 @@ function header_default() {
         !0,
         {
           fileName: "app/components/header.jsx",
-          lineNumber: 220,
+          lineNumber: 212,
           columnNumber: 15
         },
         this
       ) }, void 0, !1, {
         fileName: "app/components/header.jsx",
-        lineNumber: 219,
+        lineNumber: 211,
         columnNumber: 13
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/header.jsx",
-      lineNumber: 184,
+      lineNumber: 176,
       columnNumber: 11
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/header.jsx",
-    lineNumber: 48,
+    lineNumber: 49,
     columnNumber: 7
   }, this) }, void 0, !1, {
     fileName: "app/components/header.jsx",
-    lineNumber: 47,
+    lineNumber: 48,
     columnNumber: 9
   }, this);
 }
@@ -853,7 +851,7 @@ function header_default() {
 var import_react8 = require("react"), import_solid2 = require("@heroicons/react/20/solid"), import_react9 = require("@headlessui/react"), import_jsx_dev_runtime5 = require("react/jsx-dev-runtime");
 function footer_default() {
   let [agreed, setAgreed] = (0, import_react8.useState)(!1);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("footer", { className: "relative bg-blueGray-200 pt-8 pb-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "container mx-auto", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h5", { className: "text-lg mt-0 mb-2 text-yellow-600 text-center", children: "Origami Ventures is committed to your success, tailoring our approach to meet your unique goals with top-notch professionalism." }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("footer", { className: "relative bg-blueGray-200 pt-8 pb-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "container mx-auto", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h5", { className: "text-lg mt-0 mb-2 text-yellow-600 text-center", children: "We commit to your success, tailoring our approach to meet your unique goals with top-notch professionalism." }, void 0, !1, {
     fileName: "app/components/footer.jsx",
     lineNumber: 164,
     columnNumber: 13
@@ -1516,95 +1514,105 @@ function contact_default() {
 }
 
 // app/img/dir2.jpg
-var dir2_default = "/build/_assets/dir2-A4EWXRVJ.jpg";
+var dir2_default = "/build/_assets/dir2-KXCQUIYJ.jpg";
 
 // app/img/dir1.jpg
-var dir1_default = "/build/_assets/dir1-KC2S3JMT.jpg";
+var dir1_default = "/build/_assets/dir1-6HKC4SKF.jpg";
 
 // app/img/dir3.jpg
-var dir3_default = "/build/_assets/dir3-TJRLD6DD.jpg";
+var dir3_default = "/build/_assets/dir3-UNMOGLQY.jpg";
 
 // app/components/teamsections.jsx
 var import_jsx_dev_runtime12 = require("react/jsx-dev-runtime");
 function teamsections_default() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "bg-white py-24 sm:py-32", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "max-w-2xl", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("h2", { className: "text-3xl font-bold tracking-tight text-red-600 ", children: "Meet our leadership" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "bg-white py-24 sm:py-32 ml-10", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("ul", { role: "list", children: [
+    {
+      name: "Jovita Ateya",
+      role: "Co-Founder",
+      imageUrl: dir2_default,
+      enclosingMessage: "As a seasoned hospitality consultant, I bring a diverse skill set and extensive experience across hotel, golf club, and restaurant management. My expertise lies in enhancing guest experiences, optimizing operational efficiency, and driving revenue growth for hospitality establishments. With a visionary leadership approach, I am dedicated to cultivating a culture of excellence within organizations. I am passionate about implementing innovative strategies to elevate the reputation and success of my clients businesses."
+    },
+    {
+      name: "Nosiku Small",
+      role: "Co-Founder",
+      imageUrl: dir1_default,
+      enclosingMessage: "As an accomplished hospitality consultant, I excel in developing and executing dynamic marketing strategies to boost sales and revenue while aligning with sustainable business practices. Leveraging data insights, I tailor individualized solutions for clients, incorporating research and development efforts to drive innovation and profitability. Additionally, I specialize in training and integrating new team members for seamless operations and long-term success."
+    },
+    {
+      name: "Esau Odeny",
+      role: "Co-Founder",
+      imageUrl: dir3_default,
+      enclosingMessage: "As a hospitality consultant, I bring extensive experience and a proven track record of success to the table. With over 17 years in the industry, I have honed my skills in customer-centric service delivery, effective communication, and leadership. My commitment to exceeding client expectations and fostering strong team dynamics has consistently led to tangible results for organizations. I am eager to leverage my expertise in a challenging and rewarding environment that values innovation and excellence, ultimately driving both personal and organizational growth while ensuring unparalleled customer satisfaction."
+    }
+  ].map((person) => /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "flex items-center gap-x-6 mb-6", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "flex-shrink-0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
+      "img",
+      {
+        style: { objectFit: "cover" },
+        className: "h-80 w-66 rounded-full",
+        src: person.imageUrl,
+        alt: `${person.name}'s Image`
+      },
+      void 0,
+      !1,
+      {
         fileName: "app/components/teamsections.jsx",
-        lineNumber: 27,
-        columnNumber: 15
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { className: "mt-6 text-lg leading-8 text-black", children: "Origami Ventures Ltd was founded in 2022. Our training team consists of experienced hospitality trainers who possess in-depth knowledge and practical expertise in various aspects of hotel operations, customer service, and organizational excellence. They are skilled at creating dynamic and engaging learning environments, ensuring that participants gain valuable insights and skills aligned with Origami Ventures' vision and mission." }, void 0, !1, {
-        fileName: "app/components/teamsections.jsx",
-        lineNumber: 28,
-        columnNumber: 15
-      }, this)
-    ] }, void 0, !0, {
+        lineNumber: 34,
+        columnNumber: 17
+      },
+      this
+    ) }, void 0, !1, {
       fileName: "app/components/teamsections.jsx",
-      lineNumber: 26,
-      columnNumber: 13
+      lineNumber: 33,
+      columnNumber: 15
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("ul", { role: "list", className: "grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2", children: [
-      {
-        name: "Jovita Ateya",
-        role: "Co-Founder",
-        imageUrl: dir2_default
-      },
-      {
-        name: "Nosiku Small",
-        role: "Co-Founder",
-        imageUrl: dir1_default
-      },
-      {
-        name: "Esau Odeny",
-        role: "Co-Founder",
-        imageUrl: dir3_default
-      }
-    ].map((person) => /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "flex items-center gap-x-6", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("img", { style: {
-        objectFit: "cover"
-      }, className: "h-20 w-16 rounded-full", src: person.imageUrl, alt: `${person.name}'s Image` }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "flex flex-col", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("h3", { className: "text-base text-xl font-bold leading-7 tracking-tight text-red-900", children: person.name }, void 0, !1, {
         fileName: "app/components/teamsections.jsx",
-        lineNumber: 40,
-        columnNumber: 21
+        lineNumber: 43,
+        columnNumber: 19
+      }, this) }, void 0, !1, {
+        fileName: "app/components/teamsections.jsx",
+        lineNumber: 42,
+        columnNumber: 17
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("h3", { className: "text-base font-semibold leading-7 tracking-tight text-gray-900", children: person.name }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "flex flex-col items-start p-4 rounded-md bg-gray-200", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("h4", { className: "text-xl font-semibold leading-6 text-red-900", children: person.role }, void 0, !1, {
           fileName: "app/components/teamsections.jsx",
-          lineNumber: 43,
-          columnNumber: 23
+          lineNumber: 47,
+          columnNumber: 3
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { className: "text-sm font-semibold leading-6 text-indigo-600", children: person.role }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { className: "text-xl leading-5 text-black-600", children: person.enclosingMessage }, void 0, !1, {
           fileName: "app/components/teamsections.jsx",
-          lineNumber: 44,
-          columnNumber: 23
+          lineNumber: 48,
+          columnNumber: 3
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/teamsections.jsx",
-        lineNumber: 42,
-        columnNumber: 21
+        lineNumber: 46,
+        columnNumber: 17
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/teamsections.jsx",
-      lineNumber: 39,
-      columnNumber: 19
-    }, this) }, person.name, !1, {
-      fileName: "app/components/teamsections.jsx",
-      lineNumber: 38,
-      columnNumber: 17
-    }, this)) }, void 0, !1, {
-      fileName: "app/components/teamsections.jsx",
-      lineNumber: 36,
-      columnNumber: 13
+      lineNumber: 41,
+      columnNumber: 15
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/teamsections.jsx",
-    lineNumber: 25,
+    lineNumber: 32,
+    columnNumber: 13
+  }, this) }, person.name, !1, {
+    fileName: "app/components/teamsections.jsx",
+    lineNumber: 31,
     columnNumber: 11
+  }, this)) }, void 0, !1, {
+    fileName: "app/components/teamsections.jsx",
+    lineNumber: 29,
+    columnNumber: 7
   }, this) }, void 0, !1, {
     fileName: "app/components/teamsections.jsx",
-    lineNumber: 24,
-    columnNumber: 9
+    lineNumber: 28,
+    columnNumber: 5
   }, this);
 }
 
@@ -1643,57 +1651,44 @@ __export(routes_exports, {
 // app/components/hero.jsx
 var import_jsx_dev_runtime14 = require("react/jsx-dev-runtime");
 function hero_default() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "h-screen flex items-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
-    "section",
-    {
-      className: "bg-cover bg-center py-32 w-full h-full",
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "container mx-auto text-left text-white opacity-105", children: [
-        " ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex items-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "w-1/2", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h1", { style: { color: "#BB2000" }, className: "text-5xl mb-6 font-bold", children: "WELCOME TO ORIGAMI VENTURES LIMITED" }, void 0, !1, {
-            fileName: "app/components/hero.jsx",
-            lineNumber: 15,
-            columnNumber: 13
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
-            fileName: "app/components/hero.jsx",
-            lineNumber: 18,
-            columnNumber: 15
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { className: "text-3xl mb-12 text ", children: "We Take You there ! !" }, void 0, !1, {
-            fileName: "app/components/hero.jsx",
-            lineNumber: 19,
-            columnNumber: 15
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("a", { href: "/aboutus", className: "bg-red-600 text-white py-4 px-12 rounded-full hover:bg-black", children: "Read More" }, void 0, !1, {
-            fileName: "app/components/hero.jsx",
-            lineNumber: 22,
-            columnNumber: 15
-          }, this)
-        ] }, void 0, !0, {
-          fileName: "app/components/hero.jsx",
-          lineNumber: 14,
-          columnNumber: 13
-        }, this) }, void 0, !1, {
-          fileName: "app/components/hero.jsx",
-          lineNumber: 13,
-          columnNumber: 11
-        }, this)
-      ] }, void 0, !0, {
-        fileName: "app/components/hero.jsx",
-        lineNumber: 12,
-        columnNumber: 9
-      }, this)
-    },
-    void 0,
-    !1,
-    {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "h-screen flex items-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("section", { className: "bg-cover bg-center py-32 w-full h-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "container mx-auto text-center text-white opacity-105", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex items-center justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "w-1/2", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h1", { style: { color: "#BB2000" }, className: "text-5xl mb-6 font-bold", children: "WELCOME TO ORIGAMI VENTURES LIMITED" }, void 0, !1, {
       fileName: "app/components/hero.jsx",
-      lineNumber: 8,
-      columnNumber: 7
-    },
-    this
-  ) }, void 0, !1, {
+      lineNumber: 12,
+      columnNumber: 11
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
+      fileName: "app/components/hero.jsx",
+      lineNumber: 15,
+      columnNumber: 11
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { className: "text-3xl mb-12 text", children: "We Take You there ! !" }, void 0, !1, {
+      fileName: "app/components/hero.jsx",
+      lineNumber: 16,
+      columnNumber: 11
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("a", { href: "/aboutus", className: "bg-red-600 text-white py-4 px-12 rounded-full hover:bg-black", children: "Read More" }, void 0, !1, {
+      fileName: "app/components/hero.jsx",
+      lineNumber: 19,
+      columnNumber: 11
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/components/hero.jsx",
+    lineNumber: 11,
+    columnNumber: 9
+  }, this) }, void 0, !1, {
+    fileName: "app/components/hero.jsx",
+    lineNumber: 10,
+    columnNumber: 7
+  }, this) }, void 0, !1, {
+    fileName: "app/components/hero.jsx",
+    lineNumber: 9,
+    columnNumber: 5
+  }, this) }, void 0, !1, {
+    fileName: "app/components/hero.jsx",
+    lineNumber: 8,
+    columnNumber: 3
+  }, this) }, void 0, !1, {
     fileName: "app/components/hero.jsx",
     lineNumber: 7,
     columnNumber: 1
@@ -1701,7 +1696,7 @@ function hero_default() {
 }
 
 // app/img/body.jpeg
-var body_default = "/build/_assets/body-J3RKTHMK.jpeg";
+var body_default = "/build/_assets/body-LWOCLDPC.jpeg";
 
 // app/components/body.jsx
 var import_jsx_dev_runtime15 = require("react/jsx-dev-runtime");
@@ -1968,133 +1963,92 @@ function body_default2() {
 // app/components/grid.jsx
 var import_react13 = require("@remix-run/react");
 
-// app/img/simba.jpeg
-var simba_default = "/build/_assets/simba-3VBZ6TLK.jpeg";
+// app/img/1.png
+var __default = "/build/_assets/1-XFXDOUJ3.png";
 
-// app/img/ndovu.jpeg
-var ndovu_default = "/build/_assets/ndovu-7I2EB5PP.jpeg";
+// app/img/2.png
+var __default2 = "/build/_assets/2-ODC7UGIL.png";
 
-// app/img/flamingo.jpeg
-var flamingo_default2 = "/build/_assets/flamingo-VZQWPZFO.jpeg";
+// app/img/4.png
+var __default3 = "/build/_assets/4-F2VQRVW5.png";
 
-// app/img/chui.jpeg
-var chui_default = "/build/_assets/chui-C6S747WR.jpeg";
+// app/img/3.png
+var __default4 = "/build/_assets/3-7TLHGAUQ.png";
 
 // app/components/grid.jsx
-var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime");
+var import_react14 = require("react"), import_jsx_dev_runtime16 = require("react/jsx-dev-runtime");
 function grid_default() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h2", { class: " text-red-600 text-center mb-12 text-3xl font-bold", children: "Hospitality" }, void 0, !1, {
+  let images = [__default, __default2, __default3, __default4], titles = ["Simba", "Ndovu", "Flamingo", "Chui"], descriptions = [
+    "A comprehensive solution that is effective operational and innovative.",
+    "Offering guidance to optimize overall organizational success and growth .",
+    "An adaptable solution blending operations, innovation and growth .",
+    "Training, research, and development refine expertise,growth and innovation."
+  ];
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "flex items-center justify-center w-300px h-120 px-4 overflow-hidden", children: images.map((image, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "max-w-sm w-full lg:max-w-full lg:flex", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "h-72 lg:h-auto lg:w-72 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden", style: { backgroundImage: `url('${image}')` }, title: `Image ${index}` }, void 0, !1, {
       fileName: "app/components/grid.jsx",
-      lineNumber: 10,
-      columnNumber: 9
+      lineNumber: 22,
+      columnNumber: 11
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "grid grid-cols-2 gap-2", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_react13.Link, { to: "/simba", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "relative group", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("img", { className: "w-full h-auto transition-opacity group-hover:opacity-75", src: simba_default, alt: "Simba" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "mb-8", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("p", { className: "text-sm text-gray-600 flex items-center", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("svg", { className: "fill-current text-gray-500 w-3 h-3 mr-2", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 20 20", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("path", { d: "M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" }, void 0, !1, {
+            fileName: "app/components/grid.jsx",
+            lineNumber: 28,
+            columnNumber: 19
+          }, this) }, void 0, !1, {
+            fileName: "app/components/grid.jsx",
+            lineNumber: 27,
+            columnNumber: 17
+          }, this),
+          "Members only"
+        ] }, void 0, !0, {
           fileName: "app/components/grid.jsx",
-          lineNumber: 17,
-          columnNumber: 21
+          lineNumber: 26,
+          columnNumber: 15
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 group-hover:text-2xl", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("span", { children: "Simba Package" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "text-gray-900 font-bold text-xl mb-2", children: titles[index] }, void 0, !1, {
           fileName: "app/components/grid.jsx",
-          lineNumber: 20,
-          columnNumber: 21
-        }, this) }, void 0, !1, {
-          fileName: "app/components/grid.jsx",
-          lineNumber: 19,
-          columnNumber: 17
-        }, this)
-      ] }, void 0, !0, {
-        fileName: "app/components/grid.jsx",
-        lineNumber: 15,
-        columnNumber: 13
-      }, this) }, void 0, !1, {
-        fileName: "app/components/grid.jsx",
-        lineNumber: 14,
-        columnNumber: 13
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_react13.Link, { to: "/ndovu", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "relative group", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("img", { className: "w-full h-auto transition-opacity group-hover:opacity-75", src: ndovu_default, alt: "Ndovu" }, void 0, !1, {
-          fileName: "app/components/grid.jsx",
-          lineNumber: 27,
-          columnNumber: 21
+          lineNumber: 32,
+          columnNumber: 15
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 group-hover:text-xl", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("span", { children: "Ndovu Package" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("p", { className: "text-gray-700 text-base", children: descriptions[index] }, void 0, !1, {
           fileName: "app/components/grid.jsx",
-          lineNumber: 30,
-          columnNumber: 21
-        }, this) }, void 0, !1, {
-          fileName: "app/components/grid.jsx",
-          lineNumber: 29,
-          columnNumber: 17
+          lineNumber: 33,
+          columnNumber: 15
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/grid.jsx",
         lineNumber: 25,
         columnNumber: 13
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "flex items-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "text-xl", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_react13.Link, { to: `/${titles[index].toLowerCase().replace(/\s+/g, "-")}`, className: "text-red-900 leading-none", children: "Apply option" }, void 0, !1, {
+        fileName: "app/components/grid.jsx",
+        lineNumber: 37,
+        columnNumber: 15
       }, this) }, void 0, !1, {
         fileName: "app/components/grid.jsx",
-        lineNumber: 24,
-        columnNumber: 13
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_react13.Link, { to: "/flamingo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "relative group", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("img", { className: "w-full h-auto transition-opacity group-hover:opacity-75", src: flamingo_default2, alt: "Flamingo" }, void 0, !1, {
-          fileName: "app/components/grid.jsx",
-          lineNumber: 37,
-          columnNumber: 21
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 group-hover:text-xl", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("span", { children: "Flamingo Package" }, void 0, !1, {
-          fileName: "app/components/grid.jsx",
-          lineNumber: 40,
-          columnNumber: 21
-        }, this) }, void 0, !1, {
-          fileName: "app/components/grid.jsx",
-          lineNumber: 39,
-          columnNumber: 17
-        }, this)
-      ] }, void 0, !0, {
+        lineNumber: 36,
+        columnNumber: 15
+      }, this) }, void 0, !1, {
         fileName: "app/components/grid.jsx",
         lineNumber: 35,
-        columnNumber: 13
-      }, this) }, void 0, !1, {
-        fileName: "app/components/grid.jsx",
-        lineNumber: 34,
-        columnNumber: 13
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_react13.Link, { to: "/chui", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "relative group", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("img", { className: "w-full h-auto transition-opacity group-hover:opacity-75", src: chui_default, alt: "Chui" }, void 0, !1, {
-          fileName: "app/components/grid.jsx",
-          lineNumber: 47,
-          columnNumber: 21
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 group-hover:text-xl", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("span", { children: "Chui Package" }, void 0, !1, {
-          fileName: "app/components/grid.jsx",
-          lineNumber: 50,
-          columnNumber: 21
-        }, this) }, void 0, !1, {
-          fileName: "app/components/grid.jsx",
-          lineNumber: 49,
-          columnNumber: 17
-        }, this)
-      ] }, void 0, !0, {
-        fileName: "app/components/grid.jsx",
-        lineNumber: 45,
-        columnNumber: 13
-      }, this) }, void 0, !1, {
-        fileName: "app/components/grid.jsx",
-        lineNumber: 44,
         columnNumber: 13
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/grid.jsx",
-      lineNumber: 12,
-      columnNumber: 9
+      lineNumber: 24,
+      columnNumber: 11
     }, this)
-  ] }, void 0, !0, {
+  ] }, index, !0, {
     fileName: "app/components/grid.jsx",
-    lineNumber: 9,
+    lineNumber: 21,
     columnNumber: 9
+  }, this)) }, void 0, !1, {
+    fileName: "app/components/grid.jsx",
+    lineNumber: 19,
+    columnNumber: 5
   }, this);
 }
 
@@ -2685,7 +2639,7 @@ function sir_default() {
         lineNumber: 8,
         columnNumber: 25
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("p", { className: "mb-4 text-base text-neutral-600 dark:text-neutral-200", children: "Equiping employees with Valuable Skills and Knowledge" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("p", { className: "mb-4 text-base text-neutral-600 dark:text-neutral-200", children: "Equiping Employees With Valuable Skills and Knowledge" }, void 0, !1, {
         fileName: "app/components/sir.jsx",
         lineNumber: 9,
         columnNumber: 25
@@ -2710,7 +2664,7 @@ function sir_default() {
         lineNumber: 20,
         columnNumber: 25
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("p", { className: "mb-4 text-base text-neutral-600 dark:text-neutral-200", children: "With supporting text below as a natural lead-in to additional content." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("p", { className: "mb-4 text-base text-neutral-600 dark:text-neutral-200", children: "From Simple Business Concepts to Complex Business Models, our firm will make sure that you Get the Right Answers." }, void 0, !1, {
         fileName: "app/components/sir.jsx",
         lineNumber: 21,
         columnNumber: 25
@@ -2776,15 +2730,15 @@ function copyright_default() {
   }, this);
 }
 
-// app/img/z.jpg
-var z_default = "/build/_assets/z-6FNKU3LP.jpg";
+// app/img/background.jpg
+var background_default = "/build/_assets/background-MDYPBWT7.jpg";
 
 // app/routes/index.jsx
 var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime");
 function Index() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { style: {
-      backgroundImage: `url(${z_default})`,
+      backgroundImage: `url(${background_default})`,
       fontFamily: "system-ui, sans-serif",
       lineHeight: "1.4",
       backgroundSize: "cover",
@@ -2793,12 +2747,12 @@ function Index() {
     }, children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(footer_default, {}, void 0, !1, {
         fileName: "app/routes/index.jsx",
-        lineNumber: 24,
+        lineNumber: 25,
         columnNumber: 6
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(header_default, {}, void 0, !1, {
         fileName: "app/routes/index.jsx",
-        lineNumber: 25,
+        lineNumber: 26,
         columnNumber: 6
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(hero_default, {}, void 0, !1, {
@@ -2808,53 +2762,57 @@ function Index() {
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/index.jsx",
-      lineNumber: 15,
+      lineNumber: 16,
       columnNumber: 5
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { style: { backgroundColor: "white" }, children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(body_default2, {}, void 0, !1, {
-        fileName: "app/routes/index.jsx",
-        lineNumber: 31,
-        columnNumber: 5
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(grid_default, {}, void 0, !1, {
-        fileName: "app/routes/index.jsx",
-        lineNumber: 32,
-        columnNumber: 6
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(testimony_default, {}, void 0, !1, {
-        fileName: "app/routes/index.jsx",
-        lineNumber: 33,
-        columnNumber: 6
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("br", {}, void 0, !1, {
-        fileName: "app/routes/index.jsx",
-        lineNumber: 34,
-        columnNumber: 6
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(sir_default, {}, void 0, !1, {
-        fileName: "app/routes/index.jsx",
-        lineNumber: 35,
-        columnNumber: 6
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(contact_default, {}, void 0, !1, {
-        fileName: "app/routes/index.jsx",
-        lineNumber: 36,
-        columnNumber: 6
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(copyright_default, {}, void 0, !1, {
-        fileName: "app/routes/index.jsx",
-        lineNumber: 38,
-        columnNumber: 6
-      }, this)
-    ] }, void 0, !0, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(body_default2, {}, void 0, !1, {
       fileName: "app/routes/index.jsx",
       lineNumber: 30,
+      columnNumber: 6
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(grid_default, {}, void 0, !1, {
+      fileName: "app/routes/index.jsx",
+      lineNumber: 31,
+      columnNumber: 6
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("br", {}, void 0, !1, {
+      fileName: "app/routes/index.jsx",
+      lineNumber: 32,
+      columnNumber: 6
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("br", {}, void 0, !1, {
+      fileName: "app/routes/index.jsx",
+      lineNumber: 33,
+      columnNumber: 6
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(testimony_default, {}, void 0, !1, {
+      fileName: "app/routes/index.jsx",
+      lineNumber: 34,
+      columnNumber: 6
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("br", {}, void 0, !1, {
+      fileName: "app/routes/index.jsx",
+      lineNumber: 35,
+      columnNumber: 6
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(sir_default, {}, void 0, !1, {
+      fileName: "app/routes/index.jsx",
+      lineNumber: 36,
+      columnNumber: 6
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(contact_default, {}, void 0, !1, {
+      fileName: "app/routes/index.jsx",
+      lineNumber: 37,
+      columnNumber: 6
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(copyright_default, {}, void 0, !1, {
+      fileName: "app/routes/index.jsx",
+      lineNumber: 39,
       columnNumber: 6
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/index.jsx",
-    lineNumber: 14,
+    lineNumber: 15,
     columnNumber: 5
   }, this);
 }
@@ -2862,18 +2820,18 @@ function Index() {
 // app/routes/ndovu.jsx
 var ndovu_exports = {};
 __export(ndovu_exports, {
-  default: () => ndovu_default2
+  default: () => ndovu_default
 });
 
 // app/components/Ndovu.jsx
-var import_solid5 = require("@heroicons/react/20/solid"), import_react14 = require("react"), import_react15 = require("@headlessui/react"), import_jsx_dev_runtime21 = require("react/jsx-dev-runtime"), includedFeatures4 = [
+var import_solid5 = require("@heroicons/react/20/solid"), import_react15 = require("react"), import_react16 = require("@headlessui/react"), import_jsx_dev_runtime21 = require("react/jsx-dev-runtime"), includedFeatures4 = [
   "Inventory management",
   "Training, research and development",
   "Financial support",
   "Strategic positioning"
 ];
 function Ndovu_default() {
-  let [open, setOpen] = (0, import_react14.useState)(!0), cancelButtonRef = (0, import_react14.useRef)(null);
+  let [open, setOpen] = (0, import_react15.useState)(!0), cancelButtonRef = (0, import_react15.useRef)(null);
   return /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: "bg-white py-24 sm:py-32", children: /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: "mx-auto max-w-7xl px-6 lg:px-8", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: "mx-auto max-w-2xl sm:text-center", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("h2", { className: "text-3xl font-bold tracking-tight text-red-600 sm:text-4xl", children: "NDOVU" }, void 0, !1, {
@@ -3008,7 +2966,7 @@ function Ndovu_default() {
 
 // app/routes/ndovu.jsx
 var import_jsx_dev_runtime22 = require("react/jsx-dev-runtime");
-function ndovu_default2() {
+function ndovu_default() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)("div", { style: { fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }, children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(footer_default, {}, void 0, !1, {
       fileName: "app/routes/ndovu.jsx",
@@ -3035,11 +2993,11 @@ function ndovu_default2() {
 // app/routes/simba.jsx
 var simba_exports = {};
 __export(simba_exports, {
-  default: () => simba_default2
+  default: () => simba_default
 });
 
 // app/components/Simba.jsx
-var import_solid6 = require("@heroicons/react/20/solid"), import_react16 = require("react"), import_react17 = require("@headlessui/react"), import_jsx_dev_runtime23 = require("react/jsx-dev-runtime"), includedFeatures5 = [
+var import_solid6 = require("@heroicons/react/20/solid"), import_react17 = require("react"), import_react18 = require("@headlessui/react"), import_jsx_dev_runtime23 = require("react/jsx-dev-runtime"), includedFeatures5 = [
   "On-site visits",
   "Inventory management",
   "Training, research and development",
@@ -3048,7 +3006,7 @@ var import_solid6 = require("@heroicons/react/20/solid"), import_react16 = requi
   "Strategic positioning"
 ];
 function Simba_default() {
-  let [open, setOpen] = (0, import_react16.useState)(!0), cancelButtonRef = (0, import_react16.useRef)(null);
+  let [open, setOpen] = (0, import_react17.useState)(!0), cancelButtonRef = (0, import_react17.useRef)(null);
   return /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { className: "bg-white py-24 sm:py-32", children: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { className: "mx-auto max-w-7xl px-6 lg:px-8", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { className: "mx-auto max-w-2xl sm:text-center", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("h2", { className: "text-3xl font-bold tracking-tight text-red-600 sm:text-4xl", children: "SIMBA " }, void 0, !1, {
@@ -3183,7 +3141,7 @@ function Simba_default() {
 
 // app/routes/simba.jsx
 var import_jsx_dev_runtime24 = require("react/jsx-dev-runtime");
-function simba_default2() {
+function simba_default() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)("div", { style: { fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }, children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(footer_default, {}, void 0, !1, {
       fileName: "app/routes/simba.jsx",
@@ -3214,66 +3172,90 @@ __export(blog_exports, {
 });
 
 // app/components/blog-section.jsx
-var import_react_twitter_embed = require("react-twitter-embed"), import_jsx_dev_runtime25 = require("react/jsx-dev-runtime");
+var import_react_twitter_embed = require("react-twitter-embed"), import_react19 = require("react"), import_jsx_dev_runtime25 = require("react/jsx-dev-runtime");
 function blog_section_default() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { className: "bg-white py-24 sm:py-32", children: /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { className: "mx-auto max-w-7xl px-6 lg:px-8", children: [
+  let [isLoading, setIsLoading] = (0, import_react19.useState)(!0);
+  return (0, import_react19.useEffect)(() => {
+    let delay = setTimeout(() => {
+      setIsLoading(!1);
+    }, 2e3);
+    return () => clearTimeout(delay);
+  }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { className: "bg-white py-24 sm:py-32", children: /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { className: "mx-auto max-w-7xl px-6 lg:px-8", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { className: "mx-auto max-w-2xl lg:mx-0", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("h2", { className: "text-3xl font-bold tracking-tight text-red-600 sm:text-4xl", children: "From the blog" }, void 0, !1, {
         fileName: "app/components/blog-section.jsx",
-        lineNumber: 9,
+        lineNumber: 21,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("p", { className: "mt-2 text-lg leading-8 text-gray-600", children: "Learn how to grow your business with our expert consultancy advice." }, void 0, !1, {
         fileName: "app/components/blog-section.jsx",
-        lineNumber: 10,
+        lineNumber: 22,
         columnNumber: 11
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/blog-section.jsx",
-      lineNumber: 8,
+      lineNumber: 20,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { className: "mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(import_react_twitter_embed.TwitterTweetEmbed, { tweetId: "1707344841334521956" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { className: "mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3", children: isLoading ? (
+      // Display a simple loading animation with three dots
+      /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { className: "flex items-center justify-center h-32", children: /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("span", { className: "animate-ping text-3xl text-red-600", children: "Loading..." }, void 0, !1, {
         fileName: "app/components/blog-section.jsx",
-        lineNumber: 18,
-        columnNumber: 5
+        lineNumber: 30,
+        columnNumber: 15
       }, this) }, void 0, !1, {
         fileName: "app/components/blog-section.jsx",
-        lineNumber: 17,
-        columnNumber: 5
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(import_react_twitter_embed.TwitterTweetEmbed, { tweetId: "1707288473160311265" }, void 0, !1, {
-        fileName: "app/components/blog-section.jsx",
-        lineNumber: 21,
-        columnNumber: 5
-      }, this) }, void 0, !1, {
-        fileName: "app/components/blog-section.jsx",
-        lineNumber: 20,
-        columnNumber: 5
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(import_react_twitter_embed.TwitterTweetEmbed, { tweetId: "1707311076679856407" }, void 0, !1, {
-        fileName: "app/components/blog-section.jsx",
-        lineNumber: 24,
-        columnNumber: 5
-      }, this) }, void 0, !1, {
-        fileName: "app/components/blog-section.jsx",
-        lineNumber: 23,
-        columnNumber: 5
+        lineNumber: 29,
+        columnNumber: 13
       }, this)
-    ] }, void 0, !0, {
+    ) : (
+      // Display tweets once they are loaded
+      /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(import_jsx_dev_runtime25.Fragment, { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(import_react_twitter_embed.TwitterTweetEmbed, { tweetId: "1707344841334521956" }, void 0, !1, {
+          fileName: "app/components/blog-section.jsx",
+          lineNumber: 36,
+          columnNumber: 17
+        }, this) }, void 0, !1, {
+          fileName: "app/components/blog-section.jsx",
+          lineNumber: 35,
+          columnNumber: 15
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(import_react_twitter_embed.TwitterTweetEmbed, { tweetId: "1707288473160311265" }, void 0, !1, {
+          fileName: "app/components/blog-section.jsx",
+          lineNumber: 39,
+          columnNumber: 17
+        }, this) }, void 0, !1, {
+          fileName: "app/components/blog-section.jsx",
+          lineNumber: 38,
+          columnNumber: 15
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(import_react_twitter_embed.TwitterTweetEmbed, { tweetId: "1707311076679856407" }, void 0, !1, {
+          fileName: "app/components/blog-section.jsx",
+          lineNumber: 42,
+          columnNumber: 17
+        }, this) }, void 0, !1, {
+          fileName: "app/components/blog-section.jsx",
+          lineNumber: 41,
+          columnNumber: 15
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/components/blog-section.jsx",
+        lineNumber: 34,
+        columnNumber: 13
+      }, this)
+    ) }, void 0, !1, {
       fileName: "app/components/blog-section.jsx",
-      lineNumber: 14,
+      lineNumber: 26,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/blog-section.jsx",
-    lineNumber: 6,
+    lineNumber: 19,
     columnNumber: 7
   }, this) }, void 0, !1, {
     fileName: "app/components/blog-section.jsx",
-    lineNumber: 5,
-    columnNumber: 9
+    lineNumber: 18,
+    columnNumber: 7
   }, this);
 }
 
@@ -3306,86 +3288,108 @@ function Blog() {
 // app/routes/chui.jsx
 var chui_exports = {};
 __export(chui_exports, {
-  default: () => chui_default2
+  default: () => chui_default
 });
 
 // app/components/Chui.jsx
-var import_solid7 = require("@heroicons/react/20/solid"), import_react18 = require("react"), import_react19 = require("@headlessui/react"), import_jsx_dev_runtime27 = require("react/jsx-dev-runtime"), includedFeatures6 = [
-  "Mix match Services"
+var import_solid7 = require("@heroicons/react/20/solid"), import_react20 = require("react"), import_react21 = require("@headlessui/react"), import_jsx_dev_runtime27 = require("react/jsx-dev-runtime"), includedFeatures6 = [
+  "On-site visits",
+  "Inventory management",
+  "Training, research and development",
+  "Team building",
+  "Financial support",
+  "Strategic positioning"
 ];
-function Chui_default() {
-  let [open, setOpen] = (0, import_react18.useState)(!0), cancelButtonRef = (0, import_react18.useRef)(null);
+function Membership() {
+  let [open, setOpen] = (0, import_react20.useState)(!0), [selectedService, setSelectedService] = (0, import_react20.useState)(""), cancelButtonRef = (0, import_react20.useRef)(null), handleServiceToggle = (service) => {
+    setSelectedService(service);
+  };
   return /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("div", { className: "bg-white py-24 sm:py-32", children: /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("div", { className: "mx-auto max-w-7xl px-6 lg:px-8", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("div", { className: "mx-auto max-w-2xl sm:text-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("h2", { className: "text-3xl font-bold tracking-tight text-red-600 sm:text-4xl", children: "CHUI" }, void 0, !1, {
       fileName: "app/components/Chui.jsx",
-      lineNumber: 16,
+      lineNumber: 28,
       columnNumber: 11
     }, this) }, void 0, !1, {
       fileName: "app/components/Chui.jsx",
-      lineNumber: 15,
+      lineNumber: 27,
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("div", { className: "mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("div", { className: "p-8 sm:p-10 lg:flex-auto", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("h3", { className: "text-2xl font-bold tracking-tight text-red-600", children: "Membership" }, void 0, !1, {
           fileName: "app/components/Chui.jsx",
-          lineNumber: 21,
+          lineNumber: 32,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("p", { className: "mt-6 text-base leading-7 text-black", children: "An adaptable solution blending operations, innovation, and growth for businesses to ensure effectiveness and success in the business." }, void 0, !1, {
           fileName: "app/components/Chui.jsx",
-          lineNumber: 22,
+          lineNumber: 33,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("div", { className: "mt-10 flex items-center gap-x-4", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("h4", { className: "flex-none text-sm font-semibold leading-6 text-red-600", children: "What\u2019s included" }, void 0, !1, {
             fileName: "app/components/Chui.jsx",
-            lineNumber: 26,
+            lineNumber: 37,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("div", { className: "h-px flex-auto bg-gray-100" }, void 0, !1, {
             fileName: "app/components/Chui.jsx",
-            lineNumber: 27,
+            lineNumber: 38,
             columnNumber: 15
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/Chui.jsx",
-          lineNumber: 25,
+          lineNumber: 36,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(
-          "ul",
-          {
-            role: "list",
-            className: "mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-black sm:grid-cols-2 sm:gap-6",
-            children: includedFeatures6.map((feature) => /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("li", { className: "flex gap-x-3", children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(import_solid7.CheckIcon, { className: "h-6 w-5 flex-none text-red-600", "aria-hidden": "true" }, void 0, !1, {
-                fileName: "app/components/Chui.jsx",
-                lineNumber: 35,
-                columnNumber: 19
-              }, this),
-              feature
-            ] }, feature, !0, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("ul", { role: "list", className: "mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-black sm:grid-cols-2 sm:gap-6", children: includedFeatures6.map((feature) => /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("li", { className: "flex gap-x-3 items-center", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(
+            "input",
+            {
+              type: "radio",
+              id: feature,
+              name: "selectedService",
+              checked: selectedService === feature,
+              onChange: () => handleServiceToggle(feature),
+              className: "h-5 w-5 text-red-600"
+            },
+            void 0,
+            !1,
+            {
               fileName: "app/components/Chui.jsx",
-              lineNumber: 34,
-              columnNumber: 17
-            }, this))
-          },
-          void 0,
-          !1,
-          {
+              lineNumber: 43,
+              columnNumber: 19
+            },
+            this
+          ),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("label", { htmlFor: feature, className: "cursor-pointer", children: feature }, void 0, !1, {
             fileName: "app/components/Chui.jsx",
-            lineNumber: 29,
-            columnNumber: 13
-          },
-          this
-        )
+            lineNumber: 51,
+            columnNumber: 19
+          }, this)
+        ] }, feature, !0, {
+          fileName: "app/components/Chui.jsx",
+          lineNumber: 42,
+          columnNumber: 17
+        }, this)) }, void 0, !1, {
+          fileName: "app/components/Chui.jsx",
+          lineNumber: 40,
+          columnNumber: 13
+        }, this)
       ] }, void 0, !0, {
         fileName: "app/components/Chui.jsx",
-        lineNumber: 20,
+        lineNumber: 31,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("div", { className: "flex justify-center items-center p-2 lg:flex lg:justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("div", { className: "rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16 lg:w-full lg:max-w-md lg:flex-shrink-0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("div", { className: "mx-auto max-w-xs px-8", children: /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("p", { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("div", { className: "flex justify-center items-center p-2 lg:flex lg:justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("div", { className: "rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16 lg:w-full lg:max-w-md lg:flex-shrink-0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("div", { className: "mx-auto max-w-xs px-8", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("p", { children: [
+          "Selected Service: ",
+          selectedService
+        ] }, void 0, !0, {
+          fileName: "app/components/Chui.jsx",
+          lineNumber: 61,
+          columnNumber: 17
+        }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(
           "a",
           {
@@ -3397,52 +3401,48 @@ function Chui_default() {
           !1,
           {
             fileName: "app/components/Chui.jsx",
-            lineNumber: 55,
+            lineNumber: 64,
             columnNumber: 17
           },
           this
         ),
         /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("p", { className: "mt-6 text-xs leading-5 text-gray-600", children: "Invoices and receipts available for easy company reimbursement" }, void 0, !1, {
           fileName: "app/components/Chui.jsx",
-          lineNumber: 61,
+          lineNumber: 70,
           columnNumber: 17
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/Chui.jsx",
-        lineNumber: 49,
-        columnNumber: 17
+        lineNumber: 60,
+        columnNumber: 15
       }, this) }, void 0, !1, {
         fileName: "app/components/Chui.jsx",
-        lineNumber: 43,
-        columnNumber: 16
-      }, this) }, void 0, !1, {
-        fileName: "app/components/Chui.jsx",
-        lineNumber: 42,
+        lineNumber: 59,
         columnNumber: 13
       }, this) }, void 0, !1, {
         fileName: "app/components/Chui.jsx",
-        lineNumber: 41,
+        lineNumber: 58,
         columnNumber: 11
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/Chui.jsx",
-      lineNumber: 19,
+      lineNumber: 30,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/Chui.jsx",
-    lineNumber: 14,
+    lineNumber: 26,
     columnNumber: 7
   }, this) }, void 0, !1, {
     fileName: "app/components/Chui.jsx",
-    lineNumber: 13,
-    columnNumber: 9
+    lineNumber: 25,
+    columnNumber: 5
   }, this);
 }
 
 // app/routes/chui.jsx
 var import_jsx_dev_runtime28 = require("react/jsx-dev-runtime");
-function chui_default2() {
+function chui_default() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)("div", { style: { fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }, children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(footer_default, {}, void 0, !1, {
       fileName: "app/routes/chui.jsx",
@@ -3454,7 +3454,7 @@ function chui_default2() {
       lineNumber: 8,
       columnNumber: 18
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(Chui_default, { id: "Chui" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(Membership, { id: "Chui" }, void 0, !1, {
       fileName: "app/routes/chui.jsx",
       lineNumber: 9,
       columnNumber: 6
@@ -3486,7 +3486,7 @@ function Edge() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-IDAOXEZQ.js", imports: ["/build/_shared/chunk-ZHQLR6A3.js", "/build/_shared/chunk-M74ZA6GI.js", "/build/_shared/chunk-FCC3XGIV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-SUVPGF26.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aboutus": { id: "routes/aboutus", parentId: "root", path: "aboutus", index: void 0, caseSensitive: void 0, module: "/build/routes/aboutus-BBIL5QJ2.js", imports: ["/build/_shared/chunk-5W6DV36X.js", "/build/_shared/chunk-NDXE4BPZ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog": { id: "routes/blog", parentId: "root", path: "blog", index: void 0, caseSensitive: void 0, module: "/build/routes/blog-HAVMHYG6.js", imports: ["/build/_shared/chunk-NDXE4BPZ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/chui": { id: "routes/chui", parentId: "root", path: "chui", index: void 0, caseSensitive: void 0, module: "/build/routes/chui-ICRY6CBP.js", imports: ["/build/_shared/chunk-NDXE4BPZ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/consultation": { id: "routes/consultation", parentId: "root", path: "consultation", index: void 0, caseSensitive: void 0, module: "/build/routes/consultation-UWNFY6ID.js", imports: ["/build/_shared/chunk-NDXE4BPZ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/edge": { id: "routes/edge", parentId: "root", path: "edge", index: void 0, caseSensitive: void 0, module: "/build/routes/edge-AX5KFZEP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/flamingo": { id: "routes/flamingo", parentId: "root", path: "flamingo", index: void 0, caseSensitive: void 0, module: "/build/routes/flamingo-VK2DQRBJ.js", imports: ["/build/_shared/chunk-NDXE4BPZ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-TZ62IXY7.js", imports: ["/build/_shared/chunk-5W6DV36X.js", "/build/_shared/chunk-NDXE4BPZ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ndovu": { id: "routes/ndovu", parentId: "root", path: "ndovu", index: void 0, caseSensitive: void 0, module: "/build/routes/ndovu-AI7G7MIZ.js", imports: ["/build/_shared/chunk-NDXE4BPZ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/simba": { id: "routes/simba", parentId: "root", path: "simba", index: void 0, caseSensitive: void 0, module: "/build/routes/simba-LBZMDMNG.js", imports: ["/build/_shared/chunk-NDXE4BPZ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/training": { id: "routes/training", parentId: "root", path: "training", index: void 0, caseSensitive: void 0, module: "/build/routes/training-VJXHLNAV.js", imports: ["/build/_shared/chunk-NDXE4BPZ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "be219b2e", hmr: void 0, url: "/build/manifest-BE219B2E.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-IDAOXEZQ.js", imports: ["/build/_shared/chunk-ZHQLR6A3.js", "/build/_shared/chunk-M74ZA6GI.js", "/build/_shared/chunk-FCC3XGIV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-RGRBHQDU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aboutus": { id: "routes/aboutus", parentId: "root", path: "aboutus", index: void 0, caseSensitive: void 0, module: "/build/routes/aboutus-WP7SXQV5.js", imports: ["/build/_shared/chunk-FSC4NDS7.js", "/build/_shared/chunk-44CZ3UE4.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog": { id: "routes/blog", parentId: "root", path: "blog", index: void 0, caseSensitive: void 0, module: "/build/routes/blog-TU4YWR24.js", imports: ["/build/_shared/chunk-44CZ3UE4.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/chui": { id: "routes/chui", parentId: "root", path: "chui", index: void 0, caseSensitive: void 0, module: "/build/routes/chui-JEYZ2XHS.js", imports: ["/build/_shared/chunk-44CZ3UE4.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/consultation": { id: "routes/consultation", parentId: "root", path: "consultation", index: void 0, caseSensitive: void 0, module: "/build/routes/consultation-J4PWRQY7.js", imports: ["/build/_shared/chunk-44CZ3UE4.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/edge": { id: "routes/edge", parentId: "root", path: "edge", index: void 0, caseSensitive: void 0, module: "/build/routes/edge-AX5KFZEP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/flamingo": { id: "routes/flamingo", parentId: "root", path: "flamingo", index: void 0, caseSensitive: void 0, module: "/build/routes/flamingo-PD25RNNN.js", imports: ["/build/_shared/chunk-44CZ3UE4.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-NNSXDJNY.js", imports: ["/build/_shared/chunk-FSC4NDS7.js", "/build/_shared/chunk-44CZ3UE4.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ndovu": { id: "routes/ndovu", parentId: "root", path: "ndovu", index: void 0, caseSensitive: void 0, module: "/build/routes/ndovu-LABR6PBO.js", imports: ["/build/_shared/chunk-44CZ3UE4.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/simba": { id: "routes/simba", parentId: "root", path: "simba", index: void 0, caseSensitive: void 0, module: "/build/routes/simba-NJR2Q7FZ.js", imports: ["/build/_shared/chunk-44CZ3UE4.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/training": { id: "routes/training", parentId: "root", path: "training", index: void 0, caseSensitive: void 0, module: "/build/routes/training-GYEUJECL.js", imports: ["/build/_shared/chunk-44CZ3UE4.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "9a5b301a", hmr: void 0, url: "/build/manifest-9A5B301A.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_react_stream_exports }, routes = {
