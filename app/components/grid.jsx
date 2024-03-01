@@ -16,7 +16,7 @@ export default function () {
   ];
   
   return (
-    <div className="flex items-center justify-center w-300px h-120 px-4 overflow-hidden">
+    <div className="flex overflow-x-auto items-center justify-center w-full h-120 px-4">
       {images.map((image, index) => (
         <div key={index} className="max-w-sm w-full lg:max-w-full lg:flex">
           <div className="h-72 lg:h-auto lg:w-72 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style={{ backgroundImage: `url('${image}')` }} title={`Image ${index}`}>

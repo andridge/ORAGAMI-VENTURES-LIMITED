@@ -354,7 +354,7 @@ function grid_default() {
     "An adaptable solution blending operations, innovation and growth .",
     "Training, research, and development refine expertise,growth and innovation."
   ];
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "flex items-center justify-center w-300px h-120 px-4 overflow-hidden", children: images.map((image, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "max-w-sm w-full lg:max-w-full lg:flex", children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "flex overflow-x-auto items-center justify-center w-full h-120 px-4", children: images.map((image, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "max-w-sm w-full lg:max-w-full lg:flex", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "h-72 lg:h-auto lg:w-72 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden", style: { backgroundImage: `url('${image}')` }, title: `Image ${index}` }, void 0, false, {
       fileName: "app/components/grid.jsx",
       lineNumber: 22,
@@ -1190,4 +1190,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-NNSXDJNY.js.map
+//# sourceMappingURL=/build/routes/index-F4WTXXSI.js.map
