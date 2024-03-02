@@ -1108,55 +1108,54 @@ var background_default = "/build/_assets/background-MDYPBWT7.jpg";
 var import_jsx_dev_runtime7 = __toESM(require_jsx_dev_runtime());
 function Index() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { style: {
-      backgroundImage: `url(${background_default})`,
-      fontFamily: "system-ui, sans-serif",
-      lineHeight: "1.4",
-      backgroundSize: "cover",
-      backgroundRepeat: "no-repeat",
-      backgroundposition: "center center"
-    }, children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(footer_default, {}, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(
+      "div",
+      {
+        style: {
+          backgroundImage: `url(${background_default})`,
+          fontFamily: "system-ui, sans-serif",
+          lineHeight: "1.4",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center center",
+          width: "100%",
+          // Set width to 100% of the viewport width
+          height: "100vh"
+          // Set height to 100% of the viewport height
+        },
+        children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(footer_default, {}, void 0, false, {
+            fileName: "app/routes/index.jsx",
+            lineNumber: 28,
+            columnNumber: 6
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(header_default, {}, void 0, false, {
+            fileName: "app/routes/index.jsx",
+            lineNumber: 29,
+            columnNumber: 6
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(hero_default, {}, void 0, false, {
+            fileName: "app/routes/index.jsx",
+            lineNumber: 30,
+            columnNumber: 6
+          }, this)
+        ]
+      },
+      void 0,
+      true,
+      {
         fileName: "app/routes/index.jsx",
-        lineNumber: 25,
-        columnNumber: 6
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(header_default, {}, void 0, false, {
-        fileName: "app/routes/index.jsx",
-        lineNumber: 26,
-        columnNumber: 6
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(hero_default, {}, void 0, false, {
-        fileName: "app/routes/index.jsx",
-        lineNumber: 27,
-        columnNumber: 6
-      }, this)
-    ] }, void 0, true, {
-      fileName: "app/routes/index.jsx",
-      lineNumber: 16,
-      columnNumber: 5
-    }, this),
+        lineNumber: 16,
+        columnNumber: 5
+      },
+      this
+    ),
     /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(body_default2, {}, void 0, false, {
-      fileName: "app/routes/index.jsx",
-      lineNumber: 30,
-      columnNumber: 6
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(grid_default, {}, void 0, false, {
-      fileName: "app/routes/index.jsx",
-      lineNumber: 31,
-      columnNumber: 6
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("br", {}, void 0, false, {
-      fileName: "app/routes/index.jsx",
-      lineNumber: 32,
-      columnNumber: 6
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("br", {}, void 0, false, {
       fileName: "app/routes/index.jsx",
       lineNumber: 33,
       columnNumber: 6
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(testimony_default, {}, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(grid_default, {}, void 0, false, {
       fileName: "app/routes/index.jsx",
       lineNumber: 34,
       columnNumber: 6
@@ -1166,19 +1165,34 @@ function Index() {
       lineNumber: 35,
       columnNumber: 6
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(sir_default, {}, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("br", {}, void 0, false, {
       fileName: "app/routes/index.jsx",
       lineNumber: 36,
       columnNumber: 6
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(contact_default, {}, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(testimony_default, {}, void 0, false, {
       fileName: "app/routes/index.jsx",
       lineNumber: 37,
       columnNumber: 6
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(copyright_default, {}, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("br", {}, void 0, false, {
+      fileName: "app/routes/index.jsx",
+      lineNumber: 38,
+      columnNumber: 6
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(sir_default, {}, void 0, false, {
       fileName: "app/routes/index.jsx",
       lineNumber: 39,
+      columnNumber: 6
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(contact_default, {}, void 0, false, {
+      fileName: "app/routes/index.jsx",
+      lineNumber: 40,
+      columnNumber: 6
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(copyright_default, {}, void 0, false, {
+      fileName: "app/routes/index.jsx",
+      lineNumber: 42,
       columnNumber: 6
     }, this)
   ] }, void 0, true, {
@@ -1190,4 +1204,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-ODIQOLCP.js.map
+//# sourceMappingURL=/build/routes/index-BCGVFPBH.js.map

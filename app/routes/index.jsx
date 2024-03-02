@@ -13,15 +13,18 @@ import Homescreen from "../img/background.jpg"
 export default function Index() {
   return (
     <div>
-    <div style={{ 
-      backgroundImage: `url(${Homescreen})`, 
-      fontFamily: "system-ui, sans-serif", 
-      lineHeight: "1.4",
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat',
-      backgroundposition: 'center center',
-
-    }}>
+    <div
+  style={{
+    backgroundImage: `url(${Homescreen})`,
+    fontFamily: "system-ui, sans-serif",
+    lineHeight: "1.4",
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center center',
+    width: '100%', // Set width to 100% of the viewport width
+    height: '100vh', // Set height to 100% of the viewport height
+  }}
+>
      <Footer/>
      <Header/>
      <Hero/>
