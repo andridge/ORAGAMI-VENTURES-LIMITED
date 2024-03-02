@@ -331,10 +331,10 @@ function body_default2() {
 }
 
 // app/img/1.png
-var __default = "/build/_assets/1-XFXDOUJ3.png";
+var __default = "/build/_assets/1-AUGGQDDC.png";
 
 // app/img/2.png
-var __default2 = "/build/_assets/2-ODC7UGIL.png";
+var __default2 = "/build/_assets/2-26BNSTVB.png";
 
 // app/img/4.png
 var __default3 = "/build/_assets/4-F2VQRVW5.png";
@@ -1190,4 +1190,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-D6XNTH76.js.map
+//# sourceMappingURL=/build/routes/index-ODIQOLCP.js.map
