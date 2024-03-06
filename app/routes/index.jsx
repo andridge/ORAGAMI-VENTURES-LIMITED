@@ -23,6 +23,8 @@ export default function Index() {
     backgroundPosition: 'center center',
     width: '100%', // Set width to 100% of the viewport width
     height: '100vh', // Set height to 100% of the viewport height
+    minHeight: '100vh',
+    position:'relative'
   }}
 >
      <Footer/>
