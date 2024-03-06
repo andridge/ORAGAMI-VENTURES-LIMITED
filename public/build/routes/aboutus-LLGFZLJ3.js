@@ -4,7 +4,7 @@ import {
 import {
   footer_default,
   header_default
-} from "/build/_shared/chunk-WHJEUALU.js";
+} from "/build/_shared/chunk-MEKP4LGO.js";
 import "/build/_shared/chunk-M74ZA6GI.js";
 import {
   __toESM,
@@ -39,4 +39,4 @@ function Aboutus() {
 export {
   Aboutus as default
 };
-//# sourceMappingURL=/build/routes/aboutus-L4PGXGOG.js.map
+//# sourceMappingURL=/build/routes/aboutus-LLGFZLJ3.js.map

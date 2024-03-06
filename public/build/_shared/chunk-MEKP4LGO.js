@@ -146,28 +146,28 @@ function header_default() {
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/flamingo", onClick: () => handleTabClick("Flamingo"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { className: "block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900", role: "menuitem", children: "Flamingo" }, void 0, false, {
               fileName: "app/components/header.jsx",
-              lineNumber: 107,
+              lineNumber: 108,
               columnNumber: 11
             }, this) }, void 0, false, {
               fileName: "app/components/header.jsx",
-              lineNumber: 106,
+              lineNumber: 107,
               columnNumber: 9
             }, this) }, void 0, false, {
               fileName: "app/components/header.jsx",
-              lineNumber: 105,
+              lineNumber: 106,
               columnNumber: 7
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/ndovu", onClick: () => handleTabClick("Ndovu"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { className: "block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900", role: "menuitem", children: "Ndovu" }, void 0, false, {
               fileName: "app/components/header.jsx",
-              lineNumber: 114,
+              lineNumber: 115,
               columnNumber: 11
             }, this) }, void 0, false, {
               fileName: "app/components/header.jsx",
-              lineNumber: 113,
+              lineNumber: 114,
               columnNumber: 9
             }, this) }, void 0, false, {
               fileName: "app/components/header.jsx",
-              lineNumber: 112,
+              lineNumber: 113,
               columnNumber: 7
             }, this)
           ] }, void 0, true, {
@@ -195,13 +195,13 @@ function header_default() {
           false,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 124,
+            lineNumber: 125,
             columnNumber: 15
           },
           this
         ) }, void 0, false, {
           fileName: "app/components/header.jsx",
-          lineNumber: 123,
+          lineNumber: 124,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/consultation", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -215,13 +215,13 @@ function header_default() {
           false,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 136,
+            lineNumber: 137,
             columnNumber: 15
           },
           this
         ) }, void 0, false, {
           fileName: "app/components/header.jsx",
-          lineNumber: 135,
+          lineNumber: 136,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/blog", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -235,13 +235,13 @@ function header_default() {
           false,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 148,
+            lineNumber: 149,
             columnNumber: 15
           },
           this
         ) }, void 0, false, {
           fileName: "app/components/header.jsx",
-          lineNumber: 147,
+          lineNumber: 148,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/aboutus", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -255,13 +255,13 @@ function header_default() {
           false,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 161,
+            lineNumber: 162,
             columnNumber: 15
           },
           this
         ) }, void 0, false, {
           fileName: "app/components/header.jsx",
-          lineNumber: 160,
+          lineNumber: 161,
           columnNumber: 15
         }, this)
       ] }, void 0, true, {
@@ -296,7 +296,7 @@ function header_default() {
                 true,
                 {
                   fileName: "app/components/header.jsx",
-                  lineNumber: 182,
+                  lineNumber: 183,
                   columnNumber: 17
                 },
                 this
@@ -312,14 +312,14 @@ function header_default() {
                 false,
                 {
                   fileName: "app/components/header.jsx",
-                  lineNumber: 190,
+                  lineNumber: 191,
                   columnNumber: 17
                 },
                 this
               )
             ] }, void 0, true, {
               fileName: "app/components/header.jsx",
-              lineNumber: 181,
+              lineNumber: 182,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -337,7 +337,7 @@ function header_default() {
               false,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 199,
+                lineNumber: 200,
                 columnNumber: 15
               },
               this
@@ -348,7 +348,7 @@ function header_default() {
         true,
         {
           fileName: "app/components/header.jsx",
-          lineNumber: 177,
+          lineNumber: 178,
           columnNumber: 13
         },
         this
@@ -370,13 +370,13 @@ function header_default() {
               false,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 217,
+                lineNumber: 218,
                 columnNumber: 15
               },
               this
             ) }, void 0, false, {
               fileName: "app/components/header.jsx",
-              lineNumber: 216,
+              lineNumber: 217,
               columnNumber: 17
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -390,7 +390,7 @@ function header_default() {
               false,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 230,
+                lineNumber: 231,
                 columnNumber: 15
               },
               this
@@ -398,63 +398,63 @@ function header_default() {
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: `${selectedTab === "Hospitality" ? "block" : "hidden"} origin-top-left absolute left-0 mt-8 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("ul", { className: "py-1", role: "menu", "aria-orientation": "vertical", "aria-labelledby": "options-menu", children: [
               /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/simba", onClick: () => handleTabClick("Simba"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { className: "block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900", role: "menuitem", children: "Simba" }, void 0, false, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 245,
+                lineNumber: 246,
                 columnNumber: 11
               }, this) }, void 0, false, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 244,
+                lineNumber: 245,
                 columnNumber: 9
               }, this) }, void 0, false, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 243,
+                lineNumber: 244,
                 columnNumber: 7
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/chui", onClick: () => handleTabClick("Chui"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { className: "block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900", role: "menuitem", children: "Chui" }, void 0, false, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 252,
+                lineNumber: 253,
                 columnNumber: 11
               }, this) }, void 0, false, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 251,
+                lineNumber: 252,
                 columnNumber: 9
               }, this) }, void 0, false, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 250,
+                lineNumber: 251,
                 columnNumber: 7
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/flamingo", onClick: () => handleTabClick("Flamingo"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { className: "block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900", role: "menuitem", children: "Flamingo" }, void 0, false, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 259,
+                lineNumber: 260,
                 columnNumber: 11
               }, this) }, void 0, false, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 258,
+                lineNumber: 259,
                 columnNumber: 9
               }, this) }, void 0, false, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 257,
+                lineNumber: 258,
                 columnNumber: 7
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/ndovu", onClick: () => handleTabClick("Ndovu"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { className: "block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900", role: "menuitem", children: "Ndovu" }, void 0, false, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 266,
+                lineNumber: 267,
                 columnNumber: 11
               }, this) }, void 0, false, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 265,
+                lineNumber: 266,
                 columnNumber: 9
               }, this) }, void 0, false, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 264,
+                lineNumber: 265,
                 columnNumber: 7
               }, this)
             ] }, void 0, true, {
               fileName: "app/components/header.jsx",
-              lineNumber: 242,
+              lineNumber: 243,
               columnNumber: 5
             }, this) }, void 0, false, {
               fileName: "app/components/header.jsx",
-              lineNumber: 241,
+              lineNumber: 242,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/training", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -468,13 +468,13 @@ function header_default() {
               false,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 274,
+                lineNumber: 275,
                 columnNumber: 15
               },
               this
             ) }, void 0, false, {
               fileName: "app/components/header.jsx",
-              lineNumber: 273,
+              lineNumber: 274,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/consultation", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -488,13 +488,13 @@ function header_default() {
               false,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 287,
+                lineNumber: 288,
                 columnNumber: 15
               },
               this
             ) }, void 0, false, {
               fileName: "app/components/header.jsx",
-              lineNumber: 286,
+              lineNumber: 287,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/blog", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -508,13 +508,13 @@ function header_default() {
               false,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 300,
+                lineNumber: 301,
                 columnNumber: 15
               },
               this
             ) }, void 0, false, {
               fileName: "app/components/header.jsx",
-              lineNumber: 299,
+              lineNumber: 300,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/aboutus", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -528,13 +528,13 @@ function header_default() {
               false,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 313,
+                lineNumber: 314,
                 columnNumber: 15
               },
               this
             ) }, void 0, false, {
               fileName: "app/components/header.jsx",
-              lineNumber: 312,
+              lineNumber: 313,
               columnNumber: 15
             }, this)
           ]
@@ -543,18 +543,18 @@ function header_default() {
         true,
         {
           fileName: "app/components/header.jsx",
-          lineNumber: 212,
+          lineNumber: 213,
           columnNumber: 15
         },
         this
       ) }, void 0, false, {
         fileName: "app/components/header.jsx",
-        lineNumber: 211,
+        lineNumber: 212,
         columnNumber: 13
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/header.jsx",
-      lineNumber: 176,
+      lineNumber: 177,
       columnNumber: 11
     }, this)
   ] }, void 0, true, {
@@ -620,4 +620,4 @@ export {
   header_default,
   footer_default
 };
-//# sourceMappingURL=/build/_shared/chunk-WHJEUALU.js.map
+//# sourceMappingURL=/build/_shared/chunk-MEKP4LGO.js.map

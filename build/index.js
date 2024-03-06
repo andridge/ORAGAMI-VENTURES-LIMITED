@@ -481,28 +481,28 @@ function header_default() {
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/flamingo", onClick: () => handleTabClick("Flamingo"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("button", { className: "block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900", role: "menuitem", children: "Flamingo" }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 107,
+              lineNumber: 108,
               columnNumber: 11
             }, this) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 106,
+              lineNumber: 107,
               columnNumber: 9
             }, this) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 105,
+              lineNumber: 106,
               columnNumber: 7
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/ndovu", onClick: () => handleTabClick("Ndovu"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("button", { className: "block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900", role: "menuitem", children: "Ndovu" }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 114,
+              lineNumber: 115,
               columnNumber: 11
             }, this) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 113,
+              lineNumber: 114,
               columnNumber: 9
             }, this) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 112,
+              lineNumber: 113,
               columnNumber: 7
             }, this)
           ] }, void 0, !0, {
@@ -530,13 +530,13 @@ function header_default() {
           !1,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 124,
+            lineNumber: 125,
             columnNumber: 15
           },
           this
         ) }, void 0, !1, {
           fileName: "app/components/header.jsx",
-          lineNumber: 123,
+          lineNumber: 124,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/consultation", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -550,13 +550,13 @@ function header_default() {
           !1,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 136,
+            lineNumber: 137,
             columnNumber: 15
           },
           this
         ) }, void 0, !1, {
           fileName: "app/components/header.jsx",
-          lineNumber: 135,
+          lineNumber: 136,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/blog", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -570,13 +570,13 @@ function header_default() {
           !1,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 148,
+            lineNumber: 149,
             columnNumber: 15
           },
           this
         ) }, void 0, !1, {
           fileName: "app/components/header.jsx",
-          lineNumber: 147,
+          lineNumber: 148,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/aboutus", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -590,13 +590,13 @@ function header_default() {
           !1,
           {
             fileName: "app/components/header.jsx",
-            lineNumber: 161,
+            lineNumber: 162,
             columnNumber: 15
           },
           this
         ) }, void 0, !1, {
           fileName: "app/components/header.jsx",
-          lineNumber: 160,
+          lineNumber: 161,
           columnNumber: 15
         }, this)
       ] }, void 0, !0, {
@@ -633,7 +633,7 @@ function header_default() {
                 !0,
                 {
                   fileName: "app/components/header.jsx",
-                  lineNumber: 182,
+                  lineNumber: 183,
                   columnNumber: 17
                 },
                 this
@@ -649,14 +649,14 @@ function header_default() {
                 !1,
                 {
                   fileName: "app/components/header.jsx",
-                  lineNumber: 190,
+                  lineNumber: 191,
                   columnNumber: 17
                 },
                 this
               )
             ] }, void 0, !0, {
               fileName: "app/components/header.jsx",
-              lineNumber: 181,
+              lineNumber: 182,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -674,7 +674,7 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 199,
+                lineNumber: 200,
                 columnNumber: 15
               },
               this
@@ -685,7 +685,7 @@ function header_default() {
         !0,
         {
           fileName: "app/components/header.jsx",
-          lineNumber: 177,
+          lineNumber: 178,
           columnNumber: 13
         },
         this
@@ -707,13 +707,13 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 217,
+                lineNumber: 218,
                 columnNumber: 15
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 216,
+              lineNumber: 217,
               columnNumber: 17
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -727,7 +727,7 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 230,
+                lineNumber: 231,
                 columnNumber: 15
               },
               this
@@ -735,63 +735,63 @@ function header_default() {
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: `${selectedTab === "Hospitality" ? "block" : "hidden"} origin-top-left absolute left-0 mt-8 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("ul", { className: "py-1", role: "menu", "aria-orientation": "vertical", "aria-labelledby": "options-menu", children: [
               /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/simba", onClick: () => handleTabClick("Simba"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("button", { className: "block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900", role: "menuitem", children: "Simba" }, void 0, !1, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 245,
+                lineNumber: 246,
                 columnNumber: 11
               }, this) }, void 0, !1, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 244,
+                lineNumber: 245,
                 columnNumber: 9
               }, this) }, void 0, !1, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 243,
+                lineNumber: 244,
                 columnNumber: 7
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/chui", onClick: () => handleTabClick("Chui"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("button", { className: "block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900", role: "menuitem", children: "Chui" }, void 0, !1, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 252,
+                lineNumber: 253,
                 columnNumber: 11
               }, this) }, void 0, !1, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 251,
+                lineNumber: 252,
                 columnNumber: 9
               }, this) }, void 0, !1, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 250,
+                lineNumber: 251,
                 columnNumber: 7
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/flamingo", onClick: () => handleTabClick("Flamingo"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("button", { className: "block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900", role: "menuitem", children: "Flamingo" }, void 0, !1, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 259,
+                lineNumber: 260,
                 columnNumber: 11
               }, this) }, void 0, !1, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 258,
+                lineNumber: 259,
                 columnNumber: 9
               }, this) }, void 0, !1, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 257,
+                lineNumber: 258,
                 columnNumber: 7
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/ndovu", onClick: () => handleTabClick("Ndovu"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("button", { className: "block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900", role: "menuitem", children: "Ndovu" }, void 0, !1, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 266,
+                lineNumber: 267,
                 columnNumber: 11
               }, this) }, void 0, !1, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 265,
+                lineNumber: 266,
                 columnNumber: 9
               }, this) }, void 0, !1, {
                 fileName: "app/components/header.jsx",
-                lineNumber: 264,
+                lineNumber: 265,
                 columnNumber: 7
               }, this)
             ] }, void 0, !0, {
               fileName: "app/components/header.jsx",
-              lineNumber: 242,
+              lineNumber: 243,
               columnNumber: 5
             }, this) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 241,
+              lineNumber: 242,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/training", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -805,13 +805,13 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 274,
+                lineNumber: 275,
                 columnNumber: 15
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 273,
+              lineNumber: 274,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/consultation", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -825,13 +825,13 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 287,
+                lineNumber: 288,
                 columnNumber: 15
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 286,
+              lineNumber: 287,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/blog", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -845,13 +845,13 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 300,
+                lineNumber: 301,
                 columnNumber: 15
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 299,
+              lineNumber: 300,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react_router_dom.Link, { to: "/aboutus", onClick: () => handleTabClick("Services"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
@@ -865,13 +865,13 @@ function header_default() {
               !1,
               {
                 fileName: "app/components/header.jsx",
-                lineNumber: 313,
+                lineNumber: 314,
                 columnNumber: 15
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/header.jsx",
-              lineNumber: 312,
+              lineNumber: 313,
               columnNumber: 15
             }, this)
           ]
@@ -880,18 +880,18 @@ function header_default() {
         !0,
         {
           fileName: "app/components/header.jsx",
-          lineNumber: 212,
+          lineNumber: 213,
           columnNumber: 15
         },
         this
       ) }, void 0, !1, {
         fileName: "app/components/header.jsx",
-        lineNumber: 211,
+        lineNumber: 212,
         columnNumber: 13
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/header.jsx",
-      lineNumber: 176,
+      lineNumber: 177,
       columnNumber: 11
     }, this)
   ] }, void 0, !0, {
@@ -3560,7 +3560,7 @@ function Edge() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-IDAOXEZQ.js", imports: ["/build/_shared/chunk-ZHQLR6A3.js", "/build/_shared/chunk-M74ZA6GI.js", "/build/_shared/chunk-FCC3XGIV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-RGRBHQDU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aboutus": { id: "routes/aboutus", parentId: "root", path: "aboutus", index: void 0, caseSensitive: void 0, module: "/build/routes/aboutus-L4PGXGOG.js", imports: ["/build/_shared/chunk-FSC4NDS7.js", "/build/_shared/chunk-WHJEUALU.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog": { id: "routes/blog", parentId: "root", path: "blog", index: void 0, caseSensitive: void 0, module: "/build/routes/blog-TLY25CJQ.js", imports: ["/build/_shared/chunk-WHJEUALU.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/chui": { id: "routes/chui", parentId: "root", path: "chui", index: void 0, caseSensitive: void 0, module: "/build/routes/chui-UV7DRTYM.js", imports: ["/build/_shared/chunk-WHJEUALU.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/consultation": { id: "routes/consultation", parentId: "root", path: "consultation", index: void 0, caseSensitive: void 0, module: "/build/routes/consultation-CASFSBSU.js", imports: ["/build/_shared/chunk-WHJEUALU.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/edge": { id: "routes/edge", parentId: "root", path: "edge", index: void 0, caseSensitive: void 0, module: "/build/routes/edge-AX5KFZEP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/flamingo": { id: "routes/flamingo", parentId: "root", path: "flamingo", index: void 0, caseSensitive: void 0, module: "/build/routes/flamingo-SXOC5ZM6.js", imports: ["/build/_shared/chunk-WHJEUALU.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-STQUMGOV.js", imports: ["/build/_shared/chunk-FSC4NDS7.js", "/build/_shared/chunk-WHJEUALU.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ndovu": { id: "routes/ndovu", parentId: "root", path: "ndovu", index: void 0, caseSensitive: void 0, module: "/build/routes/ndovu-HEHUKS5M.js", imports: ["/build/_shared/chunk-WHJEUALU.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/simba": { id: "routes/simba", parentId: "root", path: "simba", index: void 0, caseSensitive: void 0, module: "/build/routes/simba-4CXCMK7A.js", imports: ["/build/_shared/chunk-WHJEUALU.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/training": { id: "routes/training", parentId: "root", path: "training", index: void 0, caseSensitive: void 0, module: "/build/routes/training-OGMJDXUP.js", imports: ["/build/_shared/chunk-WHJEUALU.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "5b984376", hmr: void 0, url: "/build/manifest-5B984376.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-IDAOXEZQ.js", imports: ["/build/_shared/chunk-ZHQLR6A3.js", "/build/_shared/chunk-M74ZA6GI.js", "/build/_shared/chunk-FCC3XGIV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-RGRBHQDU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aboutus": { id: "routes/aboutus", parentId: "root", path: "aboutus", index: void 0, caseSensitive: void 0, module: "/build/routes/aboutus-LLGFZLJ3.js", imports: ["/build/_shared/chunk-FSC4NDS7.js", "/build/_shared/chunk-MEKP4LGO.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog": { id: "routes/blog", parentId: "root", path: "blog", index: void 0, caseSensitive: void 0, module: "/build/routes/blog-Q7XCPWGD.js", imports: ["/build/_shared/chunk-MEKP4LGO.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/chui": { id: "routes/chui", parentId: "root", path: "chui", index: void 0, caseSensitive: void 0, module: "/build/routes/chui-LWXXOPR7.js", imports: ["/build/_shared/chunk-MEKP4LGO.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/consultation": { id: "routes/consultation", parentId: "root", path: "consultation", index: void 0, caseSensitive: void 0, module: "/build/routes/consultation-DRFKGOWN.js", imports: ["/build/_shared/chunk-MEKP4LGO.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/edge": { id: "routes/edge", parentId: "root", path: "edge", index: void 0, caseSensitive: void 0, module: "/build/routes/edge-AX5KFZEP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/flamingo": { id: "routes/flamingo", parentId: "root", path: "flamingo", index: void 0, caseSensitive: void 0, module: "/build/routes/flamingo-JHOVZYCW.js", imports: ["/build/_shared/chunk-MEKP4LGO.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-UKSNDSVO.js", imports: ["/build/_shared/chunk-FSC4NDS7.js", "/build/_shared/chunk-MEKP4LGO.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ndovu": { id: "routes/ndovu", parentId: "root", path: "ndovu", index: void 0, caseSensitive: void 0, module: "/build/routes/ndovu-A6BTVYW3.js", imports: ["/build/_shared/chunk-MEKP4LGO.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/simba": { id: "routes/simba", parentId: "root", path: "simba", index: void 0, caseSensitive: void 0, module: "/build/routes/simba-KNXHKWPD.js", imports: ["/build/_shared/chunk-MEKP4LGO.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/training": { id: "routes/training", parentId: "root", path: "training", index: void 0, caseSensitive: void 0, module: "/build/routes/training-LLTD2ULT.js", imports: ["/build/_shared/chunk-MEKP4LGO.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "7fc0804c", hmr: void 0, url: "/build/manifest-7FC0804C.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_react_stream_exports }, routes = {

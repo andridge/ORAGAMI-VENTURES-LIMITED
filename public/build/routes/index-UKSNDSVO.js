@@ -7,7 +7,7 @@ import {
 import {
   footer_default,
   header_default
-} from "/build/_shared/chunk-WHJEUALU.js";
+} from "/build/_shared/chunk-MEKP4LGO.js";
 import {
   Link,
   init_dist
@@ -1206,4 +1206,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-STQUMGOV.js.map
+//# sourceMappingURL=/build/routes/index-UKSNDSVO.js.map
