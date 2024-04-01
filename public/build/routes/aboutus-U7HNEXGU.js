@@ -1,10 +1,10 @@
 import {
   teamsections_default
-} from "/build/_shared/chunk-FSC4NDS7.js";
+} from "/build/_shared/chunk-H4KZGKWD.js";
 import {
   footer_default,
   header_default
-} from "/build/_shared/chunk-MEKP4LGO.js";
+} from "/build/_shared/chunk-YML6UUFQ.js";
 import "/build/_shared/chunk-M74ZA6GI.js";
 import {
   __toESM,
@@ -39,4 +39,4 @@ function Aboutus() {
 export {
   Aboutus as default
 };
-//# sourceMappingURL=/build/routes/aboutus-LLGFZLJ3.js.map
+//# sourceMappingURL=/build/routes/aboutus-U7HNEXGU.js.map

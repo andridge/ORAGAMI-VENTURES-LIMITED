@@ -1,13 +1,11 @@
 import {
   Link as Link2
 } from "/build/_shared/chunk-ZHQLR6A3.js";
-import {
-  contact_default
-} from "/build/_shared/chunk-FSC4NDS7.js";
+import "/build/_shared/chunk-H4KZGKWD.js";
 import {
   footer_default,
   header_default
-} from "/build/_shared/chunk-MEKP4LGO.js";
+} from "/build/_shared/chunk-YML6UUFQ.js";
 import {
   Link,
   init_dist
@@ -22,7 +20,7 @@ import {
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
 function hero_default() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "h-screen flex items-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", { className: "bg-cover bg-center py-32 w-full h-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "container mx-auto text-center text-white opacity-105", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex items-center justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "w-1/2", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { style: { color: "#BB2000" }, className: "text-5xl mb-6 font-bold", children: "WELCOME TO ORIGAMI VENTURES LIMITED" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { style: { color: "#0e2144" }, className: "text-5xl mb-6 font-bold", children: "WELCOME TO ORIGAMI VENTURES LIMITED" }, void 0, false, {
       fileName: "app/components/hero.jsx",
       lineNumber: 12,
       columnNumber: 11
@@ -1187,11 +1185,6 @@ function Index() {
       lineNumber: 41,
       columnNumber: 6
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(contact_default, {}, void 0, false, {
-      fileName: "app/routes/index.jsx",
-      lineNumber: 42,
-      columnNumber: 6
-    }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(copyright_default, {}, void 0, false, {
       fileName: "app/routes/index.jsx",
       lineNumber: 44,
@@ -1206,4 +1199,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-UKSNDSVO.js.map
+//# sourceMappingURL=/build/routes/index-GIVSCK7V.js.map

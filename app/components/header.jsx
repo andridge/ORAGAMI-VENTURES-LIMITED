@@ -76,17 +76,17 @@ export default function (){
               <div className="relative inline-block text-left">
 
     <li
-      onClick={() => handleTabClick('Hospitality')}
+      onClick={() => handleTabClick('Services')}
       className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-        selectedTab === 'Hospitality'
+        selectedTab === 'Services'
           ? 'text-red bg-transparent'
           : 'text-red-600 '
       } cursor-pointer px-3 py-2.5 font-normal text-s leading-3  rounded`}
     >
-      Hospitality
+      Services
     </li>
 
- <div className={`${selectedTab === 'Hospitality' ? 'block' : 'hidden'} origin-top-left absolute left-0 mt-8 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5`}>
+ <div className={`${selectedTab === 'Services' ? 'block' : 'hidden'} origin-top-left absolute left-0 mt-8 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5`}>
     <ul className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
       <li>
         <Link to="/simba" onClick={() => handleTabClick('Simba')}>
@@ -121,30 +121,7 @@ export default function (){
  </div>
 </div>
 
-              <Link to="/training" onClick={() => handleTabClick('Services')}>
-              <li
-                onClick={() => handleTabClick('Training')}
-                className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-                  selectedTab === 'Training'
-                  ? 'text-red bg-transparent'
-                  : 'text-red-600  '
-              } cursor-pointer px-3 py-2.5 font-normal text-s leading-3  rounded`}
-              >
-            Training
-              </li>
-              </Link>
-              <Link to="/consultation" onClick={() => handleTabClick('Services')}>
-              <li
-                onClick={() => handleTabClick('Consultation')}
-                className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-                  selectedTab === 'Consultation'
-                  ? 'text-red bg-transparent'
-                  : 'text-red-600 '
-              } cursor-pointer px-3 py-2.5 font-normal text-s leading-3  rounded`}
-              >
-                Consultation
-              </li>
-              </Link>
+              
               <Link to="/blog" onClick={() => handleTabClick('Services')}>
               <li
                 onClick={() => handleTabClick('Blog')}
@@ -229,14 +206,14 @@ export default function (){
               </Link>
               
               <li
-                onClick={() => handleTabClick('Hospitality')}
+                onClick={() => handleTabClick('Services')}
                 className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
                   selectedTab === 'Hospitality'
                     ? 'text-white bg-black'
                     : 'text-gray-600 border border-white bg-gray-50'
                 } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
               >
-               Hospitality
+               Services
               
               </li>
               <div className={`${selectedTab === 'Hospitality' ? 'block' : 'hidden'} origin-top-left absolute left-0 mt-8 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5`}>
@@ -271,32 +248,7 @@ export default function (){
       </li>
     </ul>
  </div>
-              <Link to="/training" onClick={() => handleTabClick('Services')}>
-              <li
-                onClick={() => handleTabClick('Hospitality')}
-                className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-                  selectedTab === 'Hospitality'
-                    ? 'text-white bg-black'
-                    : 'text-gray-600 border border-white bg-gray-50'
-                } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
-              >
-               Training
               
-              </li>
-              </Link>
-              <Link to="/consultation" onClick={() => handleTabClick('Services')}>
-              <li
-                onClick={() => handleTabClick('Hospitality')}
-                className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-                  selectedTab === 'Hospitality'
-                    ? 'text-white bg-black'
-                    : 'text-gray-600 border border-white bg-gray-50'
-                } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
-              >
-               Consultation
-              
-              </li>
-              </Link>
               <Link to="/blog" onClick={() => handleTabClick('Services')}>
               <li
                 onClick={() => handleTabClick('Blog')}

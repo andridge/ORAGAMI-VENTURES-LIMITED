@@ -1,7 +1,7 @@
 import {
   footer_default,
   header_default
-} from "/build/_shared/chunk-MEKP4LGO.js";
+} from "/build/_shared/chunk-YML6UUFQ.js";
 import "/build/_shared/chunk-M74ZA6GI.js";
 import {
   __commonJS,
@@ -284,4 +284,4 @@ scriptjs/dist/script.js:
     * (c) Dustin Diaz 2014 | License MIT
     *)
 */
-//# sourceMappingURL=/build/routes/blog-Q7XCPWGD.js.map
+//# sourceMappingURL=/build/routes/blog-M4CR7THU.js.map

@@ -1,7 +1,7 @@
 import {
   footer_default,
   header_default
-} from "/build/_shared/chunk-MEKP4LGO.js";
+} from "/build/_shared/chunk-YML6UUFQ.js";
 import "/build/_shared/chunk-M74ZA6GI.js";
 import {
   __toESM,
@@ -191,4 +191,4 @@ function chui_default() {
 export {
   chui_default as default
 };
-//# sourceMappingURL=/build/routes/chui-LWXXOPR7.js.map
+//# sourceMappingURL=/build/routes/chui-XKDHEWKG.js.map

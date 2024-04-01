@@ -9,7 +9,7 @@ export default function (){
     <div className="container mx-auto text-center text-white opacity-105">
       <div className="flex items-center justify-center">
         <div className="w-1/2">
-          <h1 style={{ color: '#BB2000' }} className="text-5xl mb-6 font-bold">
+          <h1 style={{ color: '#0e2144' }} className="text-5xl mb-6 font-bold">
             WELCOME TO ORIGAMI VENTURES LIMITED
           </h1>
           <br />

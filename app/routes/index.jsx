@@ -39,7 +39,7 @@ export default function Index() {
      <Testimony/>
      <br></br>
      <Sir/>
-     <Contact/>
+     
    
      <Copyright/>
 

@@ -2,7 +2,7 @@ import {
   CheckIcon_default,
   footer_default,
   header_default
-} from "/build/_shared/chunk-MEKP4LGO.js";
+} from "/build/_shared/chunk-YML6UUFQ.js";
 import "/build/_shared/chunk-M74ZA6GI.js";
 import {
   __toESM,
@@ -184,4 +184,4 @@ function simba_default() {
 export {
   simba_default as default
 };
-//# sourceMappingURL=/build/routes/simba-KNXHKWPD.js.map
+//# sourceMappingURL=/build/routes/simba-5UTRFQUM.js.map
