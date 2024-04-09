@@ -335,7 +335,7 @@ var __default = "/build/_assets/1-AUGGQDDC.png";
 var __default2 = "/build/_assets/2-26BNSTVB.png";
 
 // app/img/4.png
-var __default3 = "/build/_assets/4-F2VQRVW5.png";
+var __default3 = "/build/_assets/4-CPIXCSR6.png";
 
 // app/img/3.png
 var __default4 = "/build/_assets/3-7TLHGAUQ.png";
@@ -3591,4 +3591,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-57MFFEX3.js.map
+//# sourceMappingURL=/build/routes/index-26KTESDM.js.map
