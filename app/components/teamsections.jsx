@@ -1,5 +1,5 @@
 import Jovita from "../img/dir2.jpg";
-import Nosiku from "../img/dir1.jpg";
+import Nosiku from "../img/DIR001.jpg";
 import Esau from "../img/dir3.jpg";
 
 export default function () {
