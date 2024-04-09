@@ -148,6 +148,19 @@ export default function (){
                 
               </li>
               </Link>
+              <Link to="/leadership" onClick={() => handleTabClick('Services')}>
+              <li
+                onClick={() => handleTabClick('Leadership')}
+                className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
+                  selectedTab === 'Leadership'
+                  ? 'text-red bg-transparent'
+                  : 'text-red-600 '
+              } cursor-pointer px-3 py-2.5 font-normal text-s leading-3  rounded`}
+              >
+                Leadership
+                
+              </li>
+              </Link>
             </ul>
           </nav>
           {/* for smaller devices */}
@@ -272,6 +285,19 @@ export default function (){
                 } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
               >
                 About Us
+                
+              </li>
+              </Link>
+              <Link to="/leadership" onClick={() => handleTabClick('Services')}>
+              <li
+                onClick={() => handleTabClick('Leadership')}
+                className={`focus:outline-none focus:ring-2 focus:ring-offset-2 ${
+                  selectedTab === 'Leadership'
+                    ? 'text-white bg-black'
+                    : 'text-gray-600 border border-white bg-gray-50'
+                } cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded`}
+              >
+                Leadership
                 
               </li>
               </Link>
