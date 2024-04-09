@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/components/copyright.jsx"],
+  "sourcesContent": ["export default function(){\n    return (\n        <div className=\"flex flex-wrap items-center md:justify-between justify-center\">\n        <div className=\"w-full md:w-4/12 px-4 mx-auto text-center\">\n          <div className=\"text-sm text-blueGray-500 font-semibold py-1\">\n            Copyright \u00A9 <span id=\"get-current-year\">2023</span>\n            <a href=\"https://www.creative-tim.com/product/notus-js\" className=\"text-blueGray-500 hover:text-gray-800\" target=\"_blank\"> by </a>\n            <a href=\"https://www.creative-tim.com?ref=njs-profile\" className=\"text-blueGray-500 hover:text-blueGray-800\">OPENSEASONS</a>.\n          </div>\n        </div>\n      </div>\n    )\n}"],
+  "mappings": ";;;;;;AAKwB;AALT,SAAR,oBAAkB;AACrB,SACI,mDAAC,SAAI,WAAU,iEACf,6DAAC,SAAI,WAAU,6CACb,6DAAC,SAAI,WAAU,gDAA+C;AAAA;AAAA,IAChD,mDAAC,UAAK,IAAG,oBAAmB,oBAA5B;AAAA;AAAA;AAAA;AAAA,WAAgC;AAAA,IAC5C,mDAAC,OAAE,MAAK,iDAAgD,WAAU,yCAAwC,QAAO,UAAS,oBAA1H;AAAA;AAAA;AAAA;AAAA,WAA8H;AAAA,IAC9H,mDAAC,OAAE,MAAK,gDAA+C,WAAU,6CAA4C,2BAA7G;AAAA;AAAA;AAAA;AAAA,WAAwH;AAAA,IAAI;AAAA,OAH9H;AAAA;AAAA;AAAA;AAAA,SAIA,KALF;AAAA;AAAA;AAAA;AAAA,SAMA,KAPA;AAAA;AAAA;AAAA;AAAA,SAQF;AAEN;",
+  "names": []
+}

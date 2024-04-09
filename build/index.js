@@ -852,28 +852,69 @@ function footer_default() {
   }, this);
 }
 
-// app/routes/leadership.jsx
+// app/components/copyright.jsx
 var import_jsx_dev_runtime6 = require("react/jsx-dev-runtime");
-function leadership_default() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { style: { fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }, children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(footer_default, {}, void 0, !1, {
-      fileName: "app/routes/leadership.jsx",
-      lineNumber: 8,
-      columnNumber: 4
+function copyright_default() {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "flex flex-wrap items-center md:justify-between justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "w-full md:w-4/12 px-4 mx-auto text-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "text-sm text-blueGray-500 font-semibold py-1", children: [
+    "Copyright \xA9 ",
+    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("span", { id: "get-current-year", children: "2023" }, void 0, !1, {
+      fileName: "app/components/copyright.jsx",
+      lineNumber: 6,
+      columnNumber: 25
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(header_default, {}, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("a", { href: "https://www.creative-tim.com/product/notus-js", className: "text-blueGray-500 hover:text-gray-800", target: "_blank", children: " by " }, void 0, !1, {
+      fileName: "app/components/copyright.jsx",
+      lineNumber: 7,
+      columnNumber: 13
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("a", { href: "https://www.creative-tim.com?ref=njs-profile", className: "text-blueGray-500 hover:text-blueGray-800", children: "OPENSEASONS" }, void 0, !1, {
+      fileName: "app/components/copyright.jsx",
+      lineNumber: 8,
+      columnNumber: 13
+    }, this),
+    "."
+  ] }, void 0, !0, {
+    fileName: "app/components/copyright.jsx",
+    lineNumber: 5,
+    columnNumber: 11
+  }, this) }, void 0, !1, {
+    fileName: "app/components/copyright.jsx",
+    lineNumber: 4,
+    columnNumber: 9
+  }, this) }, void 0, !1, {
+    fileName: "app/components/copyright.jsx",
+    lineNumber: 3,
+    columnNumber: 9
+  }, this);
+}
+
+// app/routes/leadership.jsx
+var import_jsx_dev_runtime7 = require("react/jsx-dev-runtime");
+function leadership_default() {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { style: { fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }, children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(footer_default, {}, void 0, !1, {
       fileName: "app/routes/leadership.jsx",
       lineNumber: 9,
       columnNumber: 4
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(teamsections_default, {}, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(header_default, {}, void 0, !1, {
       fileName: "app/routes/leadership.jsx",
       lineNumber: 10,
+      columnNumber: 4
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(teamsections_default, {}, void 0, !1, {
+      fileName: "app/routes/leadership.jsx",
+      lineNumber: 11,
+      columnNumber: 5
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(copyright_default, {}, void 0, !1, {
+      fileName: "app/routes/leadership.jsx",
+      lineNumber: 12,
       columnNumber: 5
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/leadership.jsx",
-    lineNumber: 7,
+    lineNumber: 8,
     columnNumber: 5
   }, this);
 }
@@ -885,20 +926,20 @@ __export(flamingo_exports, {
 });
 
 // app/components/Flamingo.jsx
-var import_solid2 = require("@heroicons/react/20/solid"), import_react8 = require("react"), import_react9 = require("@headlessui/react"), import_jsx_dev_runtime7 = require("react/jsx-dev-runtime"), includedFeatures = [
+var import_solid2 = require("@heroicons/react/20/solid"), import_react8 = require("react"), import_react9 = require("@headlessui/react"), import_jsx_dev_runtime8 = require("react/jsx-dev-runtime"), includedFeatures = [
   "Training, research and development",
   "Strategic positioning"
 ];
 function Flamingo_default() {
   let [open, setOpen] = (0, import_react8.useState)(!0), cancelButtonRef = (0, import_react8.useRef)(null);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "bg-white py-24 sm:py-32", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "mx-auto max-w-7xl px-6 lg:px-8", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "mx-auto max-w-2xl sm:text-center", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h2", { className: "text-3xl font-bold tracking-tight text-red-600 sm:text-4xl", children: "FLAMIGO" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "bg-white py-24 sm:py-32", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "mx-auto max-w-7xl px-6 lg:px-8", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "mx-auto max-w-2xl sm:text-center", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h2", { className: "text-3xl font-bold tracking-tight text-red-600 sm:text-4xl", children: "FLAMIGO" }, void 0, !1, {
         fileName: "app/components/Flamingo.jsx",
         lineNumber: 17,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { className: "mt-6 text-lg leading-8 text-black", children: "We encompass travel and catering" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("p", { className: "mt-6 text-lg leading-8 text-black", children: "We encompass travel and catering" }, void 0, !1, {
         fileName: "app/components/Flamingo.jsx",
         lineNumber: 18,
         columnNumber: 11
@@ -908,25 +949,25 @@ function Flamingo_default() {
       lineNumber: 16,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "p-8 sm:p-10 lg:flex-auto", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h3", { className: "text-2xl font-bold tracking-tight text-red-600", children: "Membership" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "p-8 sm:p-10 lg:flex-auto", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h3", { className: "text-2xl font-bold tracking-tight text-red-600", children: "Membership" }, void 0, !1, {
           fileName: "app/components/Flamingo.jsx",
           lineNumber: 24,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { className: "mt-6 text-base leading-7 text-black", children: "Training, research, and development refine expertise and innovation." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("p", { className: "mt-6 text-base leading-7 text-black", children: "Training, research, and development refine expertise and innovation." }, void 0, !1, {
           fileName: "app/components/Flamingo.jsx",
           lineNumber: 25,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "mt-10 flex items-center gap-x-4", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h4", { className: "flex-none text-sm font-semibold leading-6 text-red-600", children: "What\u2019s included" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "mt-10 flex items-center gap-x-4", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h4", { className: "flex-none text-sm font-semibold leading-6 text-red-600", children: "What\u2019s included" }, void 0, !1, {
             fileName: "app/components/Flamingo.jsx",
             lineNumber: 29,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "h-px flex-auto bg-gray-100" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "h-px flex-auto bg-gray-100" }, void 0, !1, {
             fileName: "app/components/Flamingo.jsx",
             lineNumber: 30,
             columnNumber: 15
@@ -936,13 +977,13 @@ function Flamingo_default() {
           lineNumber: 28,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
           "ul",
           {
             role: "list",
             className: "mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-black sm:grid-cols-2 sm:gap-6",
-            children: includedFeatures.map((feature) => /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("li", { className: "flex gap-x-3", children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_solid2.CheckIcon, { className: "h-6 w-5 flex-none text-red-600", "aria-hidden": "true" }, void 0, !1, {
+            children: includedFeatures.map((feature) => /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("li", { className: "flex gap-x-3", children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(import_solid2.CheckIcon, { className: "h-6 w-5 flex-none text-red-600", "aria-hidden": "true" }, void 0, !1, {
                 fileName: "app/components/Flamingo.jsx",
                 lineNumber: 38,
                 columnNumber: 19
@@ -968,8 +1009,8 @@ function Flamingo_default() {
         lineNumber: 23,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "flex justify-center items-center p-2 lg:flex lg:justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16 lg:w-full lg:max-w-md lg:flex-shrink-0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "mx-auto max-w-xs px-8", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "flex justify-center items-center p-2 lg:flex lg:justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16 lg:w-full lg:max-w-md lg:flex-shrink-0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "mx-auto max-w-xs px-8", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("p", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
           "a",
           {
             href: "mailto:venturesorigami@gmail.com",
@@ -985,7 +1026,7 @@ function Flamingo_default() {
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { className: "mt-6 text-xs leading-5 text-gray-600", children: "Invoices and receipts available for easy company reimbursement" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("p", { className: "mt-6 text-xs leading-5 text-gray-600", children: "Invoices and receipts available for easy company reimbursement" }, void 0, !1, {
           fileName: "app/components/Flamingo.jsx",
           lineNumber: 64,
           columnNumber: 17
@@ -1024,27 +1065,32 @@ function Flamingo_default() {
 }
 
 // app/routes/flamingo.jsx
-var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime9 = require("react/jsx-dev-runtime");
 function flamingo_default() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { style: { fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }, children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(footer_default, {}, void 0, !1, {
-      fileName: "app/routes/flamingo.jsx",
-      lineNumber: 7,
-      columnNumber: 18
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(header_default, {}, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { style: { fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }, children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(footer_default, {}, void 0, !1, {
       fileName: "app/routes/flamingo.jsx",
       lineNumber: 8,
       columnNumber: 18
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Flamingo_default, { id: "Flamingo" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(header_default, {}, void 0, !1, {
       fileName: "app/routes/flamingo.jsx",
       lineNumber: 9,
+      columnNumber: 18
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(Flamingo_default, { id: "Flamingo" }, void 0, !1, {
+      fileName: "app/routes/flamingo.jsx",
+      lineNumber: 10,
+      columnNumber: 1
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(copyright_default, {}, void 0, !1, {
+      fileName: "app/routes/flamingo.jsx",
+      lineNumber: 11,
       columnNumber: 1
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/flamingo.jsx",
-    lineNumber: 6,
+    lineNumber: 7,
     columnNumber: 9
   }, this);
 }
@@ -1054,199 +1100,204 @@ var aboutus_exports = {};
 __export(aboutus_exports, {
   default: () => aboutus_default
 });
-var import_jsx_dev_runtime9 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime");
 function aboutus_default() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "font-sans leading-relaxed", style: { fontFamily: "system-ui, sans-serif", lineHeight: "2.4" }, children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(footer_default, {}, void 0, !1, {
-      fileName: "app/routes/aboutus.jsx",
-      lineNumber: 6,
-      columnNumber: 9
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(header_default, {}, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "font-sans leading-relaxed", style: { fontFamily: "system-ui, sans-serif", lineHeight: "2.4" }, children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(footer_default, {}, void 0, !1, {
       fileName: "app/routes/aboutus.jsx",
       lineNumber: 7,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("section", { className: "mb-32", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "flex flex-wrap", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "mb-12 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-7/12 md:px-3 lg:px-6", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("br", {}, void 0, !1, {
-        fileName: "app/routes/aboutus.jsx",
-        lineNumber: 11,
-        columnNumber: 13
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("h2", { className: "mb-8 text-5xl font-bold text-red-600", children: "About Us" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(header_default, {}, void 0, !1, {
+      fileName: "app/routes/aboutus.jsx",
+      lineNumber: 8,
+      columnNumber: 9
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "mb-32", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "flex flex-wrap", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "mb-12 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-7/12 md:px-3 lg:px-6", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("br", {}, void 0, !1, {
         fileName: "app/routes/aboutus.jsx",
         lineNumber: 12,
-        columnNumber: 15
+        columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { children: "Origami Ventures is a privately owned hospitality management limited company. With a strong belief in effective management and excellent relationships with the business community, we strive to facilitate successful operations and profitable growth in the hospitality industry." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h2", { className: "mb-8 text-5xl font-bold text-red-600", children: "About Us" }, void 0, !1, {
         fileName: "app/routes/aboutus.jsx",
         lineNumber: 13,
         columnNumber: 15
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { className: "mb-2 text-5xl font-bold", children: "Vision" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "Origami Ventures is a privately owned hospitality management limited company. With a strong belief in effective management and excellent relationships with the business community, we strive to facilitate successful operations and profitable growth in the hospitality industry." }, void 0, !1, {
         fileName: "app/routes/aboutus.jsx",
-        lineNumber: 15,
+        lineNumber: 14,
         columnNumber: 15
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { className: "mb-8 text-neutral-500 dark:text-black", children: "Our vision is to be a holistic partner in the hospitality industry, providing comprehensive solutions and expertise that encompass all aspects of successful hospitality management." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-2 text-5xl font-bold", children: "Vision" }, void 0, !1, {
         fileName: "app/routes/aboutus.jsx",
         lineNumber: 16,
         columnNumber: 15
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { className: "mb-2 text-5xl font-bold", children: "Mission" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-8 text-neutral-500 dark:text-black", children: "Our vision is to be a holistic partner in the hospitality industry, providing comprehensive solutions and expertise that encompass all aspects of successful hospitality management." }, void 0, !1, {
         fileName: "app/routes/aboutus.jsx",
-        lineNumber: 20,
+        lineNumber: 17,
         columnNumber: 15
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { className: "mb-8 text-neutral-500 dark:text-black", children: "Our mission is guided by the principles of PEOPLE, PLANET, and PROFITS. We focus on lean management practices, continuous improvement, eco-hotels, sustainability, climate change initiatives, and helping businesses grow their unique brand. We aim to bridge the gap from classroom learning to industry application, ensuring our clients receive practical and actionable strategies." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-2 text-5xl font-bold", children: "Mission" }, void 0, !1, {
         fileName: "app/routes/aboutus.jsx",
         lineNumber: 21,
         columnNumber: 15
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { className: "mb-2 text-5xl font-bold", children: "Values" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-8 text-neutral-500 dark:text-black", children: "Our mission is guided by the principles of PEOPLE, PLANET, and PROFITS. We focus on lean management practices, continuous improvement, eco-hotels, sustainability, climate change initiatives, and helping businesses grow their unique brand. We aim to bridge the gap from classroom learning to industry application, ensuring our clients receive practical and actionable strategies." }, void 0, !1, {
         fileName: "app/routes/aboutus.jsx",
-        lineNumber: 25,
+        lineNumber: 22,
         columnNumber: 15
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { children: "At Origami Ventures, we uphold the following values:" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-2 text-5xl font-bold", children: "Values" }, void 0, !1, {
         fileName: "app/routes/aboutus.jsx",
         lineNumber: 26,
         columnNumber: 15
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("ol", { className: "list-decimal list-inside", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("li", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("span", { className: "text-red-600 font-bold", children: "Openness:" }, void 0, !1, {
-            fileName: "app/routes/aboutus.jsx",
-            lineNumber: 32,
-            columnNumber: 19
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("span", { className: "text-black", children: "We foster an environment of transparency and open communication with our clients, ensuring mutual understanding and trust." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "At Origami Ventures, we uphold the following values:" }, void 0, !1, {
+        fileName: "app/routes/aboutus.jsx",
+        lineNumber: 27,
+        columnNumber: 15
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("ol", { className: "list-decimal list-inside", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-red-600 font-bold", children: "Openness:" }, void 0, !1, {
             fileName: "app/routes/aboutus.jsx",
             lineNumber: 33,
             columnNumber: 19
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-black", children: "We foster an environment of transparency and open communication with our clients, ensuring mutual understanding and trust." }, void 0, !1, {
+            fileName: "app/routes/aboutus.jsx",
+            lineNumber: 34,
+            columnNumber: 19
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/aboutus.jsx",
-          lineNumber: 31,
+          lineNumber: 32,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("li", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("span", { className: "text-red-600 font-bold", children: "Reliability:" }, void 0, !1, {
-            fileName: "app/routes/aboutus.jsx",
-            lineNumber: 36,
-            columnNumber: 19
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("span", { className: "text-black", children: "We are committed to providing dependable and consistent services to our clients, meeting their needs with integrity and professionalism." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-red-600 font-bold", children: "Reliability:" }, void 0, !1, {
             fileName: "app/routes/aboutus.jsx",
             lineNumber: 37,
             columnNumber: 19
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-black", children: "We are committed to providing dependable and consistent services to our clients, meeting their needs with integrity and professionalism." }, void 0, !1, {
+            fileName: "app/routes/aboutus.jsx",
+            lineNumber: 38,
+            columnNumber: 19
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/aboutus.jsx",
-          lineNumber: 35,
+          lineNumber: 36,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("li", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("span", { className: "text-red-600 font-bold", children: "Integrity:" }, void 0, !1, {
-            fileName: "app/routes/aboutus.jsx",
-            lineNumber: 40,
-            columnNumber: 19
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("span", { className: "text-black", children: "We conduct our business with the utmost honesty, ethics, and respect for all stakeholders." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-red-600 font-bold", children: "Integrity:" }, void 0, !1, {
             fileName: "app/routes/aboutus.jsx",
             lineNumber: 41,
             columnNumber: 19
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-black", children: "We conduct our business with the utmost honesty, ethics, and respect for all stakeholders." }, void 0, !1, {
+            fileName: "app/routes/aboutus.jsx",
+            lineNumber: 42,
+            columnNumber: 19
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/aboutus.jsx",
-          lineNumber: 39,
+          lineNumber: 40,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("li", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("span", { className: "text-red-600 font-bold", children: "Genius:" }, void 0, !1, {
-            fileName: "app/routes/aboutus.jsx",
-            lineNumber: 44,
-            columnNumber: 19
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("span", { className: "text-black", children: "We leverage our expertise and industry knowledge to provide innovative and effective solutions, constantly pushing the boundaries of what is possible." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-red-600 font-bold", children: "Genius:" }, void 0, !1, {
             fileName: "app/routes/aboutus.jsx",
             lineNumber: 45,
             columnNumber: 19
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-black", children: "We leverage our expertise and industry knowledge to provide innovative and effective solutions, constantly pushing the boundaries of what is possible." }, void 0, !1, {
+            fileName: "app/routes/aboutus.jsx",
+            lineNumber: 46,
+            columnNumber: 19
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/aboutus.jsx",
-          lineNumber: 43,
+          lineNumber: 44,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("li", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("span", { className: "text-red-600 font-bold", children: "Adaptability:" }, void 0, !1, {
-            fileName: "app/routes/aboutus.jsx",
-            lineNumber: 48,
-            columnNumber: 19
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("span", { className: "text-black", children: "We embrace change and remain flexible in our approach, adapting to evolving industry trends and client requirements." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-red-600 font-bold", children: "Adaptability:" }, void 0, !1, {
             fileName: "app/routes/aboutus.jsx",
             lineNumber: 49,
             columnNumber: 19
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-black", children: "We embrace change and remain flexible in our approach, adapting to evolving industry trends and client requirements." }, void 0, !1, {
+            fileName: "app/routes/aboutus.jsx",
+            lineNumber: 50,
+            columnNumber: 19
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/aboutus.jsx",
-          lineNumber: 47,
+          lineNumber: 48,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("li", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("span", { className: "text-red-600 font-bold", children: "Mentorship:" }, void 0, !1, {
-            fileName: "app/routes/aboutus.jsx",
-            lineNumber: 52,
-            columnNumber: 19
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("span", { className: "text-black", children: "We believe in supporting and guiding our clients, sharing our knowledge and experience to help them achieve their goals." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-red-600 font-bold", children: "Mentorship:" }, void 0, !1, {
             fileName: "app/routes/aboutus.jsx",
             lineNumber: 53,
             columnNumber: 19
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-black", children: "We believe in supporting and guiding our clients, sharing our knowledge and experience to help them achieve their goals." }, void 0, !1, {
+            fileName: "app/routes/aboutus.jsx",
+            lineNumber: 54,
+            columnNumber: 19
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/aboutus.jsx",
-          lineNumber: 51,
+          lineNumber: 52,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("li", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("span", { className: "text-red-600 font-bold", children: "Industriousness:" }, void 0, !1, {
-            fileName: "app/routes/aboutus.jsx",
-            lineNumber: 56,
-            columnNumber: 19
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("span", { className: "text-black", children: "We demonstrate a strong work ethic and a proactive approach, ensuring that we consistently deliver exceptional results." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-red-600 font-bold", children: "Industriousness:" }, void 0, !1, {
             fileName: "app/routes/aboutus.jsx",
             lineNumber: 57,
             columnNumber: 19
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-black", children: "We demonstrate a strong work ethic and a proactive approach, ensuring that we consistently deliver exceptional results." }, void 0, !1, {
+            fileName: "app/routes/aboutus.jsx",
+            lineNumber: 58,
+            columnNumber: 19
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/aboutus.jsx",
-          lineNumber: 55,
+          lineNumber: 56,
           columnNumber: 17
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/aboutus.jsx",
-        lineNumber: 30,
+        lineNumber: 31,
         columnNumber: 15
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/aboutus.jsx",
-      lineNumber: 10,
+      lineNumber: 11,
       columnNumber: 13
     }, this) }, void 0, !1, {
       fileName: "app/routes/aboutus.jsx",
-      lineNumber: 9,
+      lineNumber: 10,
       columnNumber: 11
     }, this) }, void 0, !1, {
       fileName: "app/routes/aboutus.jsx",
-      lineNumber: 8,
+      lineNumber: 9,
+      columnNumber: 9
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(copyright_default, {}, void 0, !1, {
+      fileName: "app/routes/aboutus.jsx",
+      lineNumber: 64,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/aboutus.jsx",
-    lineNumber: 5,
+    lineNumber: 6,
     columnNumber: 7
   }, this);
 }
@@ -1258,25 +1309,25 @@ __export(routes_exports, {
 });
 
 // app/components/hero.jsx
-var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime");
 function hero_default() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "h-screen flex items-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "bg-cover bg-center py-32 w-full h-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "container mx-auto text-center text-white opacity-105", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "flex items-center justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "w-1/2", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h1", { style: { color: "#0e2144" }, className: "text-5xl mb-6 font-bold", children: "WELCOME TO ORIGAMI VENTURES LIMITED" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "h-screen flex items-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("section", { className: "bg-cover bg-center py-32 w-full h-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "container mx-auto text-center text-white opacity-105", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "flex items-center justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "w-1/2", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("h1", { style: { color: "#0e2144" }, className: "text-5xl mb-6 font-bold", children: "WELCOME TO ORIGAMI VENTURES LIMITED" }, void 0, !1, {
       fileName: "app/components/hero.jsx",
       lineNumber: 12,
       columnNumber: 11
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("br", {}, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("br", {}, void 0, !1, {
       fileName: "app/components/hero.jsx",
       lineNumber: 15,
       columnNumber: 11
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "text-3xl mb-12 text", children: "We Take You there ! !" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("p", { className: "text-3xl mb-12 text", children: "We Take You there ! !" }, void 0, !1, {
       fileName: "app/components/hero.jsx",
       lineNumber: 16,
       columnNumber: 11
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("a", { href: "/aboutus", className: "bg-red-600 text-white py-4 px-12 rounded-full hover:bg-black", children: "Read More" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("a", { href: "/aboutus", className: "bg-red-600 text-white py-4 px-12 rounded-full hover:bg-black", children: "Read More" }, void 0, !1, {
       fileName: "app/components/hero.jsx",
       lineNumber: 19,
       columnNumber: 11
@@ -1308,16 +1359,16 @@ function hero_default() {
 var body_default = "/build/_assets/body-LWOCLDPC.jpeg";
 
 // app/components/body.jsx
-var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime12 = require("react/jsx-dev-runtime");
 function body_default2() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "absolute inset-0 -z-10 overflow-hidden", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "absolute inset-0 -z-10 overflow-hidden", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
       "svg",
       {
         className: "absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]",
         "aria-hidden": "true",
         children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("defs", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("defs", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
             "pattern",
             {
               id: "e813992c-7d03-4cc4-a2bd-151760b470a0",
@@ -1326,7 +1377,7 @@ function body_default2() {
               x: "50%",
               y: -1,
               patternUnits: "userSpaceOnUse",
-              children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("path", { d: "M100 200V.5M.5 .5H200", fill: "none" }, void 0, !1, {
+              children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { d: "M100 200V.5M.5 .5H200", fill: "none" }, void 0, !1, {
                 fileName: "app/components/body.jsx",
                 lineNumber: 21,
                 columnNumber: 15
@@ -1345,7 +1396,7 @@ function body_default2() {
             lineNumber: 12,
             columnNumber: 11
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("svg", { x: "50%", y: -1, className: "overflow-visible fill-gray-50", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("svg", { x: "50%", y: -1, className: "overflow-visible fill-gray-50", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
             "path",
             {
               d: "M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z",
@@ -1364,7 +1415,7 @@ function body_default2() {
             lineNumber: 24,
             columnNumber: 11
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("rect", { width: "100%", height: "100%", strokeWidth: 0, fill: "url(#e813992c-7d03-4cc4-a2bd-151760b470a0)" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("rect", { width: "100%", height: "100%", strokeWidth: 0, fill: "url(#e813992c-7d03-4cc4-a2bd-151760b470a0)" }, void 0, !1, {
             fileName: "app/components/body.jsx",
             lineNumber: 30,
             columnNumber: 11
@@ -1384,8 +1435,8 @@ function body_default2() {
       lineNumber: 7,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "lg:pr-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "lg:max-w-lg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("h1", { className: "mt-2 text-3xl font-bold tracking-tight text-red-600 sm:text-4xl", children: "Our comprehensive range of services includes:" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "lg:pr-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "lg:max-w-lg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("h1", { className: "mt-2 text-3xl font-bold tracking-tight text-red-600 sm:text-4xl", children: "Our comprehensive range of services includes:" }, void 0, !1, {
         fileName: "app/components/body.jsx",
         lineNumber: 37,
         columnNumber: 15
@@ -1402,7 +1453,7 @@ function body_default2() {
         lineNumber: 34,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
         "img",
         {
           className: "w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]",
@@ -1422,8 +1473,8 @@ function body_default2() {
         lineNumber: 41,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "lg:pr-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "max-w-xl text-base leading-7 text-black lg:max-w-lg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("ul", { role: "list", className: "mt-8 space-y-8 text-black ", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("strong", { className: "font-semibold text-black", children: " ~ Strategic positioning and planning " }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "lg:pr-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "max-w-xl text-base leading-7 text-black lg:max-w-lg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("ul", { role: "list", className: "mt-8 space-y-8 text-black ", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("strong", { className: "font-semibold text-black", children: " ~ Strategic positioning and planning " }, void 0, !1, {
           fileName: "app/components/body.jsx",
           lineNumber: 56,
           columnNumber: 21
@@ -1436,7 +1487,7 @@ function body_default2() {
           lineNumber: 53,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("strong", { className: "font-semibold text-black", children: " ~ Training " }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("strong", { className: "font-semibold text-black", children: " ~ Training " }, void 0, !1, {
           fileName: "app/components/body.jsx",
           lineNumber: 62,
           columnNumber: 21
@@ -1449,7 +1500,7 @@ function body_default2() {
           lineNumber: 59,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("strong", { className: "font-semibold text-black", children: " ~ Finance management " }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("strong", { className: "font-semibold text-black", children: " ~ Finance management " }, void 0, !1, {
           fileName: "app/components/body.jsx",
           lineNumber: 68,
           columnNumber: 21
@@ -1462,7 +1513,7 @@ function body_default2() {
           lineNumber: 65,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("strong", { className: "font-semibold text-black", children: " ~ Human Resource advisory level " }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("strong", { className: "font-semibold text-black", children: " ~ Human Resource advisory level " }, void 0, !1, {
           fileName: "app/components/body.jsx",
           lineNumber: 74,
           columnNumber: 21
@@ -1475,7 +1526,7 @@ function body_default2() {
           lineNumber: 71,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("strong", { className: "font-semibold text-black", children: " ~ Event management " }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("strong", { className: "font-semibold text-black", children: " ~ Event management " }, void 0, !1, {
           fileName: "app/components/body.jsx",
           lineNumber: 80,
           columnNumber: 21
@@ -1488,7 +1539,7 @@ function body_default2() {
           lineNumber: 77,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("strong", { className: "font-semibold text-black", children: " ~ Pre opening " }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("strong", { className: "font-semibold text-black", children: " ~ Pre opening " }, void 0, !1, {
           fileName: "app/components/body.jsx",
           lineNumber: 86,
           columnNumber: 21
@@ -1501,7 +1552,7 @@ function body_default2() {
           lineNumber: 83,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("strong", { className: "font-semibold text-black", children: " ~ Sustainable practices and circular economy " }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("strong", { className: "font-semibold text-black", children: " ~ Sustainable practices and circular economy " }, void 0, !1, {
           fileName: "app/components/body.jsx",
           lineNumber: 92,
           columnNumber: 21
@@ -1514,7 +1565,7 @@ function body_default2() {
           lineNumber: 89,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("strong", { className: "font-semibold text-black", children: " ~ Promoting equity and diversity within the hospitality industry " }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("strong", { className: "font-semibold text-black", children: " ~ Promoting equity and diversity within the hospitality industry " }, void 0, !1, {
           fileName: "app/components/body.jsx",
           lineNumber: 98,
           columnNumber: 21
@@ -1527,7 +1578,7 @@ function body_default2() {
           lineNumber: 95,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("strong", { className: "font-semibold text-black", children: " ~ Crafting and growing unique brands for our clients through strategic positioning " }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("li", { className: "flex gap-x-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("strong", { className: "font-semibold text-black", children: " ~ Crafting and growing unique brands for our clients through strategic positioning " }, void 0, !1, {
           fileName: "app/components/body.jsx",
           lineNumber: 104,
           columnNumber: 21
@@ -1585,7 +1636,7 @@ var __default3 = "/build/_assets/4-F2VQRVW5.png";
 var __default4 = "/build/_assets/3-7TLHGAUQ.png";
 
 // app/components/grid.jsx
-var import_react11 = require("react"), import_jsx_dev_runtime12 = require("react/jsx-dev-runtime");
+var import_react11 = require("react"), import_jsx_dev_runtime13 = require("react/jsx-dev-runtime");
 function grid_default() {
   let images = [__default, __default2, __default3, __default4], titles = ["Simba", "Ndovu", "Flamingo", "Chui"], descriptions = [
     "A comprehensive solution that is effective operational and innovative.",
@@ -1593,16 +1644,16 @@ function grid_default() {
     "An adaptable solution blending operations, innovation and growth .",
     "Training, research, and development refine expertise,growth and innovation."
   ];
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "flex overflow-x-auto items-center justify-center w-full h-120 px-4", children: images.map((image, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "max-w-sm w-full lg:max-w-full lg:flex", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "h-72 lg:h-auto lg:w-72 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden", style: { backgroundImage: `url('${image}')` }, title: `Image ${index}` }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "flex overflow-x-auto items-center justify-center w-full h-120 px-4", children: images.map((image, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "max-w-sm w-full lg:max-w-full lg:flex", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "h-72 lg:h-auto lg:w-72 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden", style: { backgroundImage: `url('${image}')` }, title: `Image ${index}` }, void 0, !1, {
       fileName: "app/components/grid.jsx",
       lineNumber: 22,
       columnNumber: 11
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "mb-8", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { className: "text-sm text-gray-600 flex items-center", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("svg", { className: "fill-current text-gray-500 w-3 h-3 mr-2", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 20 20", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("path", { d: "M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "mb-8", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { className: "text-sm text-gray-600 flex items-center", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("svg", { className: "fill-current text-gray-500 w-3 h-3 mr-2", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 20 20", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("path", { d: "M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" }, void 0, !1, {
             fileName: "app/components/grid.jsx",
             lineNumber: 28,
             columnNumber: 19
@@ -1617,12 +1668,12 @@ function grid_default() {
           lineNumber: 26,
           columnNumber: 15
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "text-gray-900 font-bold text-xl mb-2", children: titles[index] }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-gray-900 font-bold text-xl mb-2", children: titles[index] }, void 0, !1, {
           fileName: "app/components/grid.jsx",
           lineNumber: 32,
           columnNumber: 15
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { className: "text-gray-700 text-base", children: descriptions[index] }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { className: "text-gray-700 text-base", children: descriptions[index] }, void 0, !1, {
           fileName: "app/components/grid.jsx",
           lineNumber: 33,
           columnNumber: 15
@@ -1632,7 +1683,7 @@ function grid_default() {
         lineNumber: 25,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "flex items-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "text-xl", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_react10.Link, { to: `/${titles[index].toLowerCase().replace(/\s+/g, "-")}`, className: "text-red-900 leading-none", children: "Apply option" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "flex items-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-xl", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(import_react10.Link, { to: `/${titles[index].toLowerCase().replace(/\s+/g, "-")}`, className: "text-red-900 leading-none", children: "Apply option" }, void 0, !1, {
         fileName: "app/components/grid.jsx",
         lineNumber: 37,
         columnNumber: 15
@@ -1671,17 +1722,17 @@ var meggawatt_default = "/build/_assets/meggawatt-45EYTBZQ.jpeg";
 var infinity_default = "/build/_assets/infinity-5A33YU2B.jpeg";
 
 // app/components/testimony.jsx
-var import_jsx_dev_runtime13 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime14 = require("react/jsx-dev-runtime");
 function testimony_default() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { class: "mb-32 text-center", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("h2", { class: "mb-12 text-3xl font-bold", children: "Testimonials" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { class: "mb-32 text-center", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h2", { class: "mb-12 text-3xl font-bold", children: "Testimonials" }, void 0, !1, {
       fileName: "app/components/testimony.jsx",
       lineNumber: 7,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { class: "grid gap-x-6 md:grid-cols-3 lg:gap-x-12", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { class: "mb-12 md:mb-0", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { class: "mb-6 flex justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { class: "grid gap-x-6 md:grid-cols-3 lg:gap-x-12", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { class: "mb-12 md:mb-0", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { class: "mb-6 flex justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
           "img",
           {
             src: Kentwood_default,
@@ -1700,19 +1751,19 @@ function testimony_default() {
           lineNumber: 11,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("h5", { class: "mb-2 text-lg font-bold", children: "Kentwood " }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h5", { class: "mb-2 text-lg font-bold", children: "Kentwood " }, void 0, !1, {
           fileName: "app/components/testimony.jsx",
           lineNumber: 15,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("h6", { class: "mb-4 font-medium text-primary dark:text-primary-400", children: "Kenya,Nairobi" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h6", { class: "mb-4 font-medium text-primary dark:text-primary-400", children: "Kenya,Nairobi" }, void 0, !1, {
           fileName: "app/components/testimony.jsx",
           lineNumber: 16,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { class: "mb-4", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { class: "mb-4", children: [
           "Origami Ventures' strategic positioning and planning services have been a game-changer for our business. Their team's insightful strategies and meticulous planning have helped us not only identify our unique market niche but also leverage it for growth. With their guidance, we've seen a significant increase in our market share and profitability. Their expertise in this area is truly unmatched.",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "inline-block w-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "inline-block w-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
             "path",
             {
               fill: "currentColor",
@@ -1736,8 +1787,8 @@ function testimony_default() {
           lineNumber: 19,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("ul", { class: "mb-0 flex justify-center", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("ul", { class: "mb-0 flex justify-center", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
             "path",
             {
               fill: "currentColor",
@@ -1760,7 +1811,7 @@ function testimony_default() {
             lineNumber: 27,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
             "path",
             {
               fill: "currentColor",
@@ -1783,7 +1834,7 @@ function testimony_default() {
             lineNumber: 33,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
             "path",
             {
               fill: "currentColor",
@@ -1806,7 +1857,7 @@ function testimony_default() {
             lineNumber: 39,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
             "path",
             {
               fill: "currentColor",
@@ -1829,7 +1880,7 @@ function testimony_default() {
             lineNumber: 45,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
             "path",
             {
               fill: "currentColor",
@@ -1862,8 +1913,8 @@ function testimony_default() {
         lineNumber: 10,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { class: "mb-12 md:mb-0", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { class: "mb-6 flex justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { class: "mb-12 md:mb-0", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { class: "mb-6 flex justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
           "img",
           {
             src: meggawatt_default,
@@ -1882,19 +1933,19 @@ function testimony_default() {
           lineNumber: 60,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("h5", { class: "mb-2 text-lg font-bold", children: "Megawatt restaurant" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h5", { class: "mb-2 text-lg font-bold", children: "Megawatt restaurant" }, void 0, !1, {
           fileName: "app/components/testimony.jsx",
           lineNumber: 64,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("h6", { class: "mb-4 font-medium text-primary dark:text-primary-400", children: "Kenya,Nairobi" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h6", { class: "mb-4 font-medium text-primary dark:text-primary-400", children: "Kenya,Nairobi" }, void 0, !1, {
           fileName: "app/components/testimony.jsx",
           lineNumber: 65,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { class: "mb-4", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { class: "mb-4", children: [
           "Origami Ventures has been instrumental in optimizing our financial management. Their attention to detail and data-driven approach have resulted in improved financial stability and profitability for our company. Their team's ability to provide clear and actionable financial insights has been a game-changer for us. We now feel more confident in our financial decisions, thanks to their expert guidance.",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "inline-block w-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "inline-block w-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
             "path",
             {
               fill: "currentColor",
@@ -1918,8 +1969,8 @@ function testimony_default() {
           lineNumber: 68,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("ul", { class: "mb-0 flex justify-center", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("ul", { class: "mb-0 flex justify-center", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
             "path",
             {
               fill: "currentColor",
@@ -1942,7 +1993,7 @@ function testimony_default() {
             lineNumber: 76,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
             "path",
             {
               fill: "currentColor",
@@ -1965,7 +2016,7 @@ function testimony_default() {
             lineNumber: 82,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
             "path",
             {
               fill: "currentColor",
@@ -1988,7 +2039,7 @@ function testimony_default() {
             lineNumber: 88,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
             "path",
             {
               fill: "currentColor",
@@ -2011,7 +2062,7 @@ function testimony_default() {
             lineNumber: 94,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
             "path",
             {
               fill: "currentColor",
@@ -2044,8 +2095,8 @@ function testimony_default() {
         lineNumber: 59,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { class: "mb-0", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { class: "mb-6 flex justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { class: "mb-0", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { class: "mb-6 flex justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
           "img",
           {
             src: infinity_default,
@@ -2064,19 +2115,19 @@ function testimony_default() {
           lineNumber: 109,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("h5", { class: "mb-2 text-lg font-bold", children: "Infinity Sport Bar DMS Urbanable" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h5", { class: "mb-2 text-lg font-bold", children: "Infinity Sport Bar DMS Urbanable" }, void 0, !1, {
           fileName: "app/components/testimony.jsx",
           lineNumber: 113,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("h6", { class: "mb-4 font-medium text-primary dark:text-primary-400", children: "United States" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h6", { class: "mb-4 font-medium text-primary dark:text-primary-400", children: "United States" }, void 0, !1, {
           fileName: "app/components/testimony.jsx",
           lineNumber: 114,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { class: "mb-4", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { class: "mb-4", children: [
           "Origami Ventures' human resource advisory services have been a lifeline for our organization. Their expert team helped us streamline our HR processes, implement best practices, and foster a positive workplace culture. Their support has not only improved employee satisfaction but also reduced turnover rates. We can't thank them enough for their invaluable guidance and expertise.",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "inline-block w-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "inline-block w-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
             "path",
             {
               fill: "currentColor",
@@ -2100,8 +2151,8 @@ function testimony_default() {
           lineNumber: 117,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("ul", { class: "mb-0 flex justify-center", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("ul", { class: "mb-0 flex justify-center", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
             "path",
             {
               fill: "currentColor",
@@ -2124,7 +2175,7 @@ function testimony_default() {
             lineNumber: 125,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
             "path",
             {
               fill: "currentColor",
@@ -2147,7 +2198,7 @@ function testimony_default() {
             lineNumber: 131,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
             "path",
             {
               fill: "currentColor",
@@ -2170,7 +2221,7 @@ function testimony_default() {
             lineNumber: 137,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
             "path",
             {
               fill: "currentColor",
@@ -2193,7 +2244,7 @@ function testimony_default() {
             lineNumber: 143,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 96 960 960", class: "w-5 text-warning", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
             "path",
             {
               fill: "currentColor",
@@ -2245,17 +2296,17 @@ var import_react_router_dom3 = require("react-router-dom");
 var hehe_default = "/build/_assets/hehe-YV32U7LD.jpg";
 
 // app/components/sir.jsx
-var import_jsx_dev_runtime14 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime15 = require("react/jsx-dev-runtime");
 function sir_default() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("section", { className: "relative z-10 overflow-hidden bg-white py-20 dark:bg-dark lg:py-[120px]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "-mx-4 flex flex-wrap lg:justify-between", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "w-full px-4 lg:w-1/2 xl:w-6/12", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "mb-12 max-w-[570px] lg:mb-0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "mb-8 flex w-full max-w-[970px]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { class: "pl-20", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "grid md:grid-cols-1 md:grid-row-4 ", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "mr-4 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-black", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "p-6", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h5", { className: "mb-2 text-xl font-medium leading-tight text-black dark:text-white", children: "TRAINING & CONSULTANCY" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("section", { className: "relative z-10 overflow-hidden bg-white py-20 dark:bg-dark lg:py-[120px]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "-mx-4 flex flex-wrap lg:justify-between", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "w-full px-4 lg:w-1/2 xl:w-6/12", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "mb-12 max-w-[570px] lg:mb-0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "mb-8 flex w-full max-w-[970px]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { class: "pl-20", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "grid md:grid-cols-1 md:grid-row-4 ", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "mr-4 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-black", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "p-6", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("h5", { className: "mb-2 text-xl font-medium leading-tight text-black dark:text-white", children: "TRAINING & CONSULTANCY" }, void 0, !1, {
           fileName: "app/components/sir.jsx",
           lineNumber: 16,
           columnNumber: 25
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { className: "mb-4 text-base text-neutral-600 dark:text-neutral-200", children: "Equiping Employees With Valuable Skills and Knowledge" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("p", { className: "mb-4 text-base text-neutral-600 dark:text-neutral-200", children: "Equiping Employees With Valuable Skills and Knowledge" }, void 0, !1, {
           fileName: "app/components/sir.jsx",
           lineNumber: 17,
           columnNumber: 25
@@ -2269,13 +2320,13 @@ function sir_default() {
         lineNumber: 14,
         columnNumber: 17
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { class: "container flex justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { class: "container flex justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
         "div",
         {
           class: "block rounded-lg bg-[hsla(0,0%,100%,0.7)] px-6 py-12 ",
-          children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { class: "mb-12 grid gap-x-6 md:grid-cols-3 lg:grid-cols-3", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { class: "mx-auto mb-12 text-center lg:mb-0", children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+          children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { class: "mb-12 grid gap-x-6 md:grid-cols-3 lg:grid-cols-3", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { class: "mx-auto mb-12 text-center lg:mb-0", children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "svg",
                 {
                   xmlns: "http://www.w3.org/2000/svg",
@@ -2284,7 +2335,7 @@ function sir_default() {
                   "stroke-width": "2",
                   stroke: "currentColor",
                   class: "mx-auto mb-6 h-8 w-8 text-primary dark:text-primary-400",
-                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                     "path",
                     {
                       "stroke-linecap": "round",
@@ -2310,7 +2361,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h6", { class: "font-medium", children: "Kenya" }, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("h6", { class: "font-medium", children: "Kenya" }, void 0, !1, {
                 fileName: "app/components/sir.jsx",
                 lineNumber: 35,
                 columnNumber: 13
@@ -2320,8 +2371,8 @@ function sir_default() {
               lineNumber: 29,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { class: "mx-auto mb-12 text-center lg:mb-0", children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { class: "mx-auto mb-12 text-center lg:mb-0", children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "svg",
                 {
                   xmlns: "http://www.w3.org/2000/svg",
@@ -2331,12 +2382,12 @@ function sir_default() {
                   stroke: "currentColor",
                   class: "mx-auto mb-6 h-8 w-8 text-primary dark:text-primary-400",
                   children: [
-                    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("path", { "stroke-linecap": "round", "stroke-linejoin": "round", d: "M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" }, void 0, !1, {
+                    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("path", { "stroke-linecap": "round", "stroke-linejoin": "round", d: "M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" }, void 0, !1, {
                       fileName: "app/components/sir.jsx",
                       lineNumber: 40,
                       columnNumber: 15
                     }, this),
-                    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+                    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                       "path",
                       {
                         "stroke-linecap": "round",
@@ -2363,7 +2414,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h6", { class: "font-medium", children: "Nairobi,Kiambu Rd" }, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("h6", { class: "font-medium", children: "Nairobi,Kiambu Rd" }, void 0, !1, {
                 fileName: "app/components/sir.jsx",
                 lineNumber: 44,
                 columnNumber: 13
@@ -2373,8 +2424,8 @@ function sir_default() {
               lineNumber: 37,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { class: "mx-auto mb-6 text-center md:mb-0", children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { class: "mx-auto mb-6 text-center md:mb-0", children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "svg",
                 {
                   xmlns: "http://www.w3.org/2000/svg",
@@ -2383,7 +2434,7 @@ function sir_default() {
                   "stroke-width": "2",
                   stroke: "currentColor",
                   class: "mx-auto mb-6 h-8 w-8 text-primary dark:text-primary-400",
-                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                     "path",
                     {
                       "stroke-linecap": "round",
@@ -2409,7 +2460,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h6", { class: "font-medium", children: "+254 701 238 728" }, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("h6", { class: "font-medium", children: "+254 701 238 728" }, void 0, !1, {
                 fileName: "app/components/sir.jsx",
                 lineNumber: 52,
                 columnNumber: 13
@@ -2446,7 +2497,7 @@ function sir_default() {
         lineNumber: 23,
         columnNumber: 17
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { class: "w-44 h-44 rounded-full overflow-hidden bg-gray-200 flex items-center justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("img", { src: hehe_default, alt: "Image", class: "w-full h-auto" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { class: "w-44 h-44 rounded-full overflow-hidden bg-gray-200 flex items-center justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("img", { src: hehe_default, alt: "Image", class: "w-full h-auto" }, void 0, !1, {
         fileName: "app/components/sir.jsx",
         lineNumber: 61,
         columnNumber: 9
@@ -2455,17 +2506,17 @@ function sir_default() {
         lineNumber: 60,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h8", { class: "font-medium", children: "Company Secretary" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("h8", { class: "font-medium", children: "Company Secretary" }, void 0, !1, {
         fileName: "app/components/sir.jsx",
         lineNumber: 64,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("br", {}, void 0, !1, {
         fileName: "app/components/sir.jsx",
         lineNumber: 65,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { children: "We are dedicated to helping our clients achieve success, focusing on their specific needs and goals while upholding the highest standards of quality and professionalism. Origami Ventures is ready to embark on a journey with you, providing expert guidance and support to maximize your potential in the dynamic and ever-evolving hospitality industry." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("p", { children: "We are dedicated to helping our clients achieve success, focusing on their specific needs and goals while upholding the highest standards of quality and professionalism. Origami Ventures is ready to embark on a journey with you, providing expert guidance and support to maximize your potential in the dynamic and ever-evolving hospitality industry." }, void 0, !1, {
         fileName: "app/components/sir.jsx",
         lineNumber: 66,
         columnNumber: 9
@@ -2491,9 +2542,9 @@ function sir_default() {
       lineNumber: 8,
       columnNumber: 13
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "w-full px-4 lg:w-1/2 xl:w-5/12", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "relative rounded-lg bg-white p-8 shadow-lg dark:bg-dark-2 sm:p-12", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("form", { action: "mailto:venturesorigami@gmail.com", method: "post", enctype: "text/plain", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "w-full px-4 lg:w-1/2 xl:w-5/12", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "relative rounded-lg bg-white p-8 shadow-lg dark:bg-dark-2 sm:p-12", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("form", { action: "mailto:venturesorigami@gmail.com", method: "post", enctype: "text/plain", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
           ContactInputBox,
           {
             type: "text",
@@ -2509,7 +2560,7 @@ function sir_default() {
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
           ContactInputBox,
           {
             type: "text",
@@ -2525,7 +2576,7 @@ function sir_default() {
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
           ContactInputBox,
           {
             type: "text",
@@ -2541,7 +2592,7 @@ function sir_default() {
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
           ContactTextArea,
           {
             row: "6",
@@ -2558,7 +2609,7 @@ function sir_default() {
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
           "button",
           {
             type: "submit",
@@ -2583,8 +2634,8 @@ function sir_default() {
         lineNumber: 80,
         columnNumber: 15
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "absolute -right-9 -top-10 z-[-1]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("span", { className: "absolute -right-9 -top-10 z-[-1]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
           "svg",
           {
             width: 100,
@@ -2592,7 +2643,7 @@ function sir_default() {
             viewBox: "0 0 100 100",
             fill: "none",
             xmlns: "http://www.w3.org/2000/svg",
-            children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+            children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
               "path",
               {
                 fillRule: "evenodd",
@@ -2623,7 +2674,7 @@ function sir_default() {
           lineNumber: 113,
           columnNumber: 19
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "absolute -right-10 top-[90px] z-[-1]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("span", { className: "absolute -right-10 top-[90px] z-[-1]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
           "svg",
           {
             width: 34,
@@ -2632,7 +2683,7 @@ function sir_default() {
             fill: "none",
             xmlns: "http://www.w3.org/2000/svg",
             children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "31.9993",
@@ -2650,7 +2701,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "31.9993",
@@ -2668,7 +2719,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "31.9993",
@@ -2686,7 +2737,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "31.9993",
@@ -2704,7 +2755,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "31.9993",
@@ -2722,7 +2773,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "31.9993",
@@ -2740,7 +2791,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "31.9993",
@@ -2758,7 +2809,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "31.9993",
@@ -2776,7 +2827,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "31.9993",
@@ -2794,7 +2845,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "31.9993",
@@ -2812,7 +2863,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "17.3333",
@@ -2830,7 +2881,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "17.3333",
@@ -2848,7 +2899,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "17.3333",
@@ -2866,7 +2917,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "17.3333",
@@ -2884,7 +2935,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "17.3333",
@@ -2902,7 +2953,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "17.3333",
@@ -2920,7 +2971,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "17.3333",
@@ -2938,7 +2989,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "17.3333",
@@ -2956,7 +3007,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "17.3333",
@@ -2974,7 +3025,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "17.3333",
@@ -2992,7 +3043,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "2.66536",
@@ -3010,7 +3061,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "2.66536",
@@ -3028,7 +3079,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "2.66536",
@@ -3046,7 +3097,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "2.66536",
@@ -3064,7 +3115,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "2.66536",
@@ -3082,7 +3133,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "2.66536",
@@ -3100,7 +3151,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "2.66536",
@@ -3118,7 +3169,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "2.66536",
@@ -3136,7 +3187,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "2.66536",
@@ -3154,7 +3205,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "2.66536",
@@ -3187,7 +3238,7 @@ function sir_default() {
           lineNumber: 129,
           columnNumber: 19
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "absolute -bottom-7 -left-7 z-[-1]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("span", { className: "absolute -bottom-7 -left-7 z-[-1]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
           "svg",
           {
             width: 107,
@@ -3196,7 +3247,7 @@ function sir_default() {
             fill: "none",
             xmlns: "http://www.w3.org/2000/svg",
             children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "104.999",
@@ -3214,7 +3265,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "104.999",
@@ -3232,7 +3283,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "104.999",
@@ -3250,7 +3301,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "104.999",
@@ -3268,7 +3319,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "104.999",
@@ -3286,7 +3337,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "104.999",
@@ -3304,7 +3355,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "104.999",
@@ -3322,7 +3373,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "104.999",
@@ -3340,7 +3391,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "104.999",
@@ -3358,7 +3409,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "104.999",
@@ -3376,7 +3427,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "90.3333",
@@ -3394,7 +3445,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "90.3333",
@@ -3412,7 +3463,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "90.3333",
@@ -3430,7 +3481,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "90.3333",
@@ -3448,7 +3499,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "90.3333",
@@ -3466,7 +3517,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "90.3333",
@@ -3484,7 +3535,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "90.3333",
@@ -3502,7 +3553,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "90.3333",
@@ -3520,7 +3571,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "90.3333",
@@ -3538,7 +3589,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "90.3333",
@@ -3556,7 +3607,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "75.6654",
@@ -3574,7 +3625,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "31.9993",
@@ -3592,7 +3643,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "75.6654",
@@ -3610,7 +3661,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "31.9993",
@@ -3628,7 +3679,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "75.6654",
@@ -3646,7 +3697,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "31.9993",
@@ -3664,7 +3715,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "75.6654",
@@ -3682,7 +3733,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "31.9993",
@@ -3700,7 +3751,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "75.6654",
@@ -3718,7 +3769,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "31.9993",
@@ -3736,7 +3787,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "75.6654",
@@ -3754,7 +3805,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "31.9993",
@@ -3772,7 +3823,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "75.6654",
@@ -3790,7 +3841,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "31.9993",
@@ -3808,7 +3859,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "75.6654",
@@ -3826,7 +3877,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "31.9993",
@@ -3844,7 +3895,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "75.6654",
@@ -3862,7 +3913,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "31.9993",
@@ -3880,7 +3931,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "75.6654",
@@ -3898,7 +3949,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "31.9993",
@@ -3916,7 +3967,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "60.9993",
@@ -3934,7 +3985,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "17.3333",
@@ -3952,7 +4003,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "60.9993",
@@ -3970,7 +4021,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "17.3333",
@@ -3988,7 +4039,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "60.9993",
@@ -4006,7 +4057,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "17.3333",
@@ -4024,7 +4075,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "60.9993",
@@ -4042,7 +4093,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "17.3333",
@@ -4060,7 +4111,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "60.9993",
@@ -4078,7 +4129,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "17.3333",
@@ -4096,7 +4147,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "60.9993",
@@ -4114,7 +4165,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "17.3333",
@@ -4132,7 +4183,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "60.9993",
@@ -4150,7 +4201,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "17.3333",
@@ -4168,7 +4219,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "60.9993",
@@ -4186,7 +4237,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "17.3333",
@@ -4204,7 +4255,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "60.9993",
@@ -4222,7 +4273,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "17.3333",
@@ -4240,7 +4291,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "60.9993",
@@ -4258,7 +4309,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "17.3333",
@@ -4276,7 +4327,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "46.3333",
@@ -4294,7 +4345,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "2.66536",
@@ -4312,7 +4363,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "46.3333",
@@ -4330,7 +4381,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "2.66536",
@@ -4348,7 +4399,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "46.3333",
@@ -4366,7 +4417,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "2.66536",
@@ -4384,7 +4435,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "46.3333",
@@ -4402,7 +4453,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "2.66536",
@@ -4420,7 +4471,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "46.3333",
@@ -4438,7 +4489,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "2.66536",
@@ -4456,7 +4507,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "46.3333",
@@ -4474,7 +4525,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "2.66536",
@@ -4492,7 +4543,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "46.3333",
@@ -4510,7 +4561,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "2.66536",
@@ -4528,7 +4579,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "46.3333",
@@ -4546,7 +4597,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "2.66536",
@@ -4564,7 +4615,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "46.3333",
@@ -4582,7 +4633,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "2.66536",
@@ -4600,7 +4651,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "46.3333",
@@ -4618,7 +4669,7 @@ function sir_default() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 "circle",
                 {
                   cx: "2.66536",
@@ -4679,7 +4730,7 @@ function sir_default() {
     columnNumber: 9
   }, this);
 }
-var ContactTextArea = ({ row, placeholder, name, defaultValue }) => /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(import_jsx_dev_runtime14.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "mb-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+var ContactTextArea = ({ row, placeholder, name, defaultValue }) => /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_jsx_dev_runtime15.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "mb-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
   "textarea",
   {
     rows: row,
@@ -4704,7 +4755,7 @@ var ContactTextArea = ({ row, placeholder, name, defaultValue }) => /* @__PURE__
   fileName: "app/components/sir.jsx",
   lineNumber: 932,
   columnNumber: 5
-}, this), ContactInputBox = ({ type, placeholder, name }) => /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(import_jsx_dev_runtime14.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "mb-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+}, this), ContactInputBox = ({ type, placeholder, name }) => /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_jsx_dev_runtime15.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "mb-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
   "input",
   {
     type,
@@ -4729,42 +4780,6 @@ var ContactTextArea = ({ row, placeholder, name, defaultValue }) => /* @__PURE__
   lineNumber: 948,
   columnNumber: 5
 }, this);
-
-// app/components/copyright.jsx
-var import_jsx_dev_runtime15 = require("react/jsx-dev-runtime");
-function copyright_default() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "flex flex-wrap items-center md:justify-between justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "w-full md:w-4/12 px-4 mx-auto text-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "text-sm text-blueGray-500 font-semibold py-1", children: [
-    "Copyright \xA9 ",
-    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("span", { id: "get-current-year", children: "2023" }, void 0, !1, {
-      fileName: "app/components/copyright.jsx",
-      lineNumber: 6,
-      columnNumber: 25
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("a", { href: "https://www.creative-tim.com/product/notus-js", className: "text-blueGray-500 hover:text-gray-800", target: "_blank", children: " by " }, void 0, !1, {
-      fileName: "app/components/copyright.jsx",
-      lineNumber: 7,
-      columnNumber: 13
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("a", { href: "https://www.creative-tim.com?ref=njs-profile", className: "text-blueGray-500 hover:text-blueGray-800", children: "OPENSEASONS" }, void 0, !1, {
-      fileName: "app/components/copyright.jsx",
-      lineNumber: 8,
-      columnNumber: 13
-    }, this),
-    "."
-  ] }, void 0, !0, {
-    fileName: "app/components/copyright.jsx",
-    lineNumber: 5,
-    columnNumber: 11
-  }, this) }, void 0, !1, {
-    fileName: "app/components/copyright.jsx",
-    lineNumber: 4,
-    columnNumber: 9
-  }, this) }, void 0, !1, {
-    fileName: "app/components/copyright.jsx",
-    lineNumber: 3,
-    columnNumber: 9
-  }, this);
-}
 
 // app/img/background.jpg
 var background_default = "/build/_assets/background-MDYPBWT7.jpg";
@@ -5017,22 +5032,27 @@ function ndovu_default() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { style: { fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }, children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(footer_default, {}, void 0, !1, {
       fileName: "app/routes/ndovu.jsx",
-      lineNumber: 7,
+      lineNumber: 8,
       columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(header_default, {}, void 0, !1, {
       fileName: "app/routes/ndovu.jsx",
-      lineNumber: 8,
+      lineNumber: 9,
       columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(Ndovu_default, { id: "Ndovu" }, void 0, !1, {
       fileName: "app/routes/ndovu.jsx",
-      lineNumber: 9,
+      lineNumber: 10,
+      columnNumber: 1
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(copyright_default, {}, void 0, !1, {
+      fileName: "app/routes/ndovu.jsx",
+      lineNumber: 11,
       columnNumber: 1
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/ndovu.jsx",
-    lineNumber: 6,
+    lineNumber: 7,
     columnNumber: 9
   }, this);
 }
@@ -5192,22 +5212,27 @@ function simba_default() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { style: { fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }, children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(footer_default, {}, void 0, !1, {
       fileName: "app/routes/simba.jsx",
-      lineNumber: 7,
+      lineNumber: 8,
       columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(header_default, {}, void 0, !1, {
       fileName: "app/routes/simba.jsx",
-      lineNumber: 8,
+      lineNumber: 9,
       columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(Simba_default, { id: "Simba" }, void 0, !1, {
       fileName: "app/routes/simba.jsx",
-      lineNumber: 9,
+      lineNumber: 10,
+      columnNumber: 9
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(copyright_default, {}, void 0, !1, {
+      fileName: "app/routes/simba.jsx",
+      lineNumber: 11,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/simba.jsx",
-    lineNumber: 6,
+    lineNumber: 7,
     columnNumber: 9
   }, this);
 }
@@ -5312,22 +5337,27 @@ function Blog() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)("div", { style: { fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }, children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(footer_default, {}, void 0, !1, {
       fileName: "app/routes/blog.jsx",
-      lineNumber: 7,
+      lineNumber: 8,
       columnNumber: 5
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(header_default, {}, void 0, !1, {
       fileName: "app/routes/blog.jsx",
-      lineNumber: 8,
+      lineNumber: 9,
       columnNumber: 5
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(blog_section_default, {}, void 0, !1, {
       fileName: "app/routes/blog.jsx",
-      lineNumber: 9,
+      lineNumber: 10,
+      columnNumber: 5
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(copyright_default, {}, void 0, !1, {
+      fileName: "app/routes/blog.jsx",
+      lineNumber: 11,
       columnNumber: 5
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/blog.jsx",
-    lineNumber: 6,
+    lineNumber: 7,
     columnNumber: 5
   }, this);
 }
@@ -5493,22 +5523,27 @@ function chui_default() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)("div", { style: { fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }, children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(footer_default, {}, void 0, !1, {
       fileName: "app/routes/chui.jsx",
-      lineNumber: 7,
+      lineNumber: 8,
       columnNumber: 18
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(header_default, {}, void 0, !1, {
       fileName: "app/routes/chui.jsx",
-      lineNumber: 8,
+      lineNumber: 9,
       columnNumber: 18
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(Membership, { id: "Chui" }, void 0, !1, {
       fileName: "app/routes/chui.jsx",
-      lineNumber: 9,
+      lineNumber: 10,
+      columnNumber: 6
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(copyright_default, {}, void 0, !1, {
+      fileName: "app/routes/chui.jsx",
+      lineNumber: 11,
       columnNumber: 6
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/chui.jsx",
-    lineNumber: 6,
+    lineNumber: 7,
     columnNumber: 9
   }, this);
 }
@@ -5521,11 +5556,18 @@ __export(edge_exports, {
 });
 var import_jsx_dev_runtime25 = require("react/jsx-dev-runtime"), config = { runtime: "edge" };
 function Edge() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { style: { fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("h1", { children: "Welcome to Remix@Edge" }, void 0, !1, {
-    fileName: "app/routes/edge.jsx",
-    lineNumber: 6,
-    columnNumber: 7
-  }, this) }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { style: { fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }, children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("h1", { children: "Welcome to Remix@Edge" }, void 0, !1, {
+      fileName: "app/routes/edge.jsx",
+      lineNumber: 6,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(copyright_default, {}, void 0, !1, {
+      fileName: "app/routes/edge.jsx",
+      lineNumber: 7,
+      columnNumber: 7
+    }, this)
+  ] }, void 0, !0, {
     fileName: "app/routes/edge.jsx",
     lineNumber: 5,
     columnNumber: 5
@@ -5533,7 +5575,7 @@ function Edge() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-IDAOXEZQ.js", imports: ["/build/_shared/chunk-ZHQLR6A3.js", "/build/_shared/chunk-M74ZA6GI.js", "/build/_shared/chunk-FCC3XGIV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-NL4HCVGZ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aboutus": { id: "routes/aboutus", parentId: "root", path: "aboutus", index: void 0, caseSensitive: void 0, module: "/build/routes/aboutus-VLOG4IFC.js", imports: ["/build/_shared/chunk-W7GGVX26.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog": { id: "routes/blog", parentId: "root", path: "blog", index: void 0, caseSensitive: void 0, module: "/build/routes/blog-U3CLRRFA.js", imports: ["/build/_shared/chunk-W7GGVX26.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/chui": { id: "routes/chui", parentId: "root", path: "chui", index: void 0, caseSensitive: void 0, module: "/build/routes/chui-DAWBK6WH.js", imports: ["/build/_shared/chunk-W7GGVX26.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/edge": { id: "routes/edge", parentId: "root", path: "edge", index: void 0, caseSensitive: void 0, module: "/build/routes/edge-AX5KFZEP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/flamingo": { id: "routes/flamingo", parentId: "root", path: "flamingo", index: void 0, caseSensitive: void 0, module: "/build/routes/flamingo-MIRK4RHA.js", imports: ["/build/_shared/chunk-W7GGVX26.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-7XMKDT4P.js", imports: ["/build/_shared/chunk-H4KZGKWD.js", "/build/_shared/chunk-W7GGVX26.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/leadership": { id: "routes/leadership", parentId: "root", path: "leadership", index: void 0, caseSensitive: void 0, module: "/build/routes/leadership-D4UH27FD.js", imports: ["/build/_shared/chunk-H4KZGKWD.js", "/build/_shared/chunk-W7GGVX26.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ndovu": { id: "routes/ndovu", parentId: "root", path: "ndovu", index: void 0, caseSensitive: void 0, module: "/build/routes/ndovu-ALT4YWPE.js", imports: ["/build/_shared/chunk-W7GGVX26.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/simba": { id: "routes/simba", parentId: "root", path: "simba", index: void 0, caseSensitive: void 0, module: "/build/routes/simba-TX2IZEMH.js", imports: ["/build/_shared/chunk-W7GGVX26.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "0431943a", hmr: void 0, url: "/build/manifest-0431943A.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-IDAOXEZQ.js", imports: ["/build/_shared/chunk-ZHQLR6A3.js", "/build/_shared/chunk-M74ZA6GI.js", "/build/_shared/chunk-FCC3XGIV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-NL4HCVGZ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/aboutus": { id: "routes/aboutus", parentId: "root", path: "aboutus", index: void 0, caseSensitive: void 0, module: "/build/routes/aboutus-WF7LMHC2.js", imports: ["/build/_shared/chunk-W7GGVX26.js", "/build/_shared/chunk-YVAXZYNN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog": { id: "routes/blog", parentId: "root", path: "blog", index: void 0, caseSensitive: void 0, module: "/build/routes/blog-KAGCP776.js", imports: ["/build/_shared/chunk-W7GGVX26.js", "/build/_shared/chunk-YVAXZYNN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/chui": { id: "routes/chui", parentId: "root", path: "chui", index: void 0, caseSensitive: void 0, module: "/build/routes/chui-ED2QTJFK.js", imports: ["/build/_shared/chunk-W7GGVX26.js", "/build/_shared/chunk-YVAXZYNN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/edge": { id: "routes/edge", parentId: "root", path: "edge", index: void 0, caseSensitive: void 0, module: "/build/routes/edge-R6OWUQLK.js", imports: ["/build/_shared/chunk-YVAXZYNN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/flamingo": { id: "routes/flamingo", parentId: "root", path: "flamingo", index: void 0, caseSensitive: void 0, module: "/build/routes/flamingo-RRCR43HC.js", imports: ["/build/_shared/chunk-W7GGVX26.js", "/build/_shared/chunk-YVAXZYNN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-PW23TLAD.js", imports: ["/build/_shared/chunk-H4KZGKWD.js", "/build/_shared/chunk-W7GGVX26.js", "/build/_shared/chunk-YVAXZYNN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/leadership": { id: "routes/leadership", parentId: "root", path: "leadership", index: void 0, caseSensitive: void 0, module: "/build/routes/leadership-XGBWPNPB.js", imports: ["/build/_shared/chunk-H4KZGKWD.js", "/build/_shared/chunk-W7GGVX26.js", "/build/_shared/chunk-YVAXZYNN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ndovu": { id: "routes/ndovu", parentId: "root", path: "ndovu", index: void 0, caseSensitive: void 0, module: "/build/routes/ndovu-OTACPP5P.js", imports: ["/build/_shared/chunk-W7GGVX26.js", "/build/_shared/chunk-YVAXZYNN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/simba": { id: "routes/simba", parentId: "root", path: "simba", index: void 0, caseSensitive: void 0, module: "/build/routes/simba-VQWXWDXV.js", imports: ["/build/_shared/chunk-W7GGVX26.js", "/build/_shared/chunk-YVAXZYNN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "d3a3494f", hmr: void 0, url: "/build/manifest-D3A3494F.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_react_stream_exports }, routes = {

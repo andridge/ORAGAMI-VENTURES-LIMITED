@@ -1,5 +1,6 @@
 import Header from "../components/header";
 import Footer from "../components/footer";
+import Copyright from "../components/copyright";
 export default function () {
     return (
       <div className="font-sans leading-relaxed" style={{ fontFamily: "system-ui, sans-serif", lineHeight: "2.4" }}>
@@ -60,7 +61,9 @@ export default function () {
             </div>
           </div>
         </section>
+        <Copyright/>
       </div>
+      
     );
   }
   

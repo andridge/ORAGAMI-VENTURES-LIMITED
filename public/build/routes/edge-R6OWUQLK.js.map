@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/edge.jsx"],
+  "sourcesContent": ["export const config = { runtime: \"edge\" };\nimport Copyright from \"../components/copyright\";\nexport default function Edge() {\n  return (\n    <div style={{ fontFamily: \"system-ui, sans-serif\", lineHeight: \"1.4\" }}>\n      <h1>Welcome to Remix@Edge</h1>\n      <Copyright/>\n    </div>\n  );\n}\n"],
+  "mappings": ";;;;;;;;;AAKM;AAHS,SAAR,OAAwB;AAC7B,SACE,mDAAC,SAAI,OAAO,EAAE,YAAY,yBAAyB,YAAY,MAAM,GACnE;AAAA,uDAAC,QAAG,qCAAJ;AAAA;AAAA;AAAA;AAAA,WAAyB;AAAA,IACzB,mDAAC,uBAAD;AAAA;AAAA;AAAA;AAAA,WAAU;AAAA,OAFZ;AAAA;AAAA;AAAA;AAAA,SAGA;AAEJ;",
+  "names": []
+}
